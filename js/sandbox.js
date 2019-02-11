@@ -35,9 +35,35 @@ $(".box").on("mouseenter", function() {
 });
 
 
-  
- $('a[title]').qtip();
+
+ $('path').qtip({
+  content: {
+   text: 'foo!' // Tell qTip2 to look inside this attr for its content
+  },
+  position: {
+    my: 'top left',
+    at: 'bottom right'
+  }
+});
+
+ $('polygon').qtip({
+  content: {
+    attr: 'data-tooltip' // Tell qTip2 to look inside this attr for its content
+  },
+  position: {
+    my: 'top left',
+    at: 'bottom right'
+  }
+});
 
 
+$("[data-fancybox]").fancybox({
+    iframe : {
+        css : {
+            width  : '800px',
+            height : '600px'
+        }
+    }
+});
 
 })(jQuery);
