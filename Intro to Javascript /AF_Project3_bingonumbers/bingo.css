@@ -1,0 +1,53 @@
+body {
+	background-color: white;
+	color: #764e64;
+	font-size: 25px;
+	/* font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; */
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-weight:lighter;
+
+}
+
+#wrapper {
+	margin:0 auto;
+	width:300px;
+}
+
+h1, th {
+	
+	font-weight:lighter;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+table {
+	border-collapse: collapse;
+	margin:0 auto;
+	background-color:#FEEDEE;
+}
+
+th, td {
+	padding: 10px;
+	border: 2px #FFCCCC solid;
+	text-align: center;
+	width: 20%;
+}
+
+#free, .pickedBG {
+	background-color: #764e64;
+	color:#FEEDEE;
+}
+
+.winningBG {
+	background-image: url(images/redFlash.gif);
+}
+
+.shadow {
+	text-shadow: 0px 1px 1px #D8D8D8;
+}
+
+p {
+	font-size:80%;
+}

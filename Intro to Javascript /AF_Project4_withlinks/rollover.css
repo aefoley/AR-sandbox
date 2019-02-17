@@ -1,0 +1,48 @@
+body {
+	background-color: #FFF;
+}
+
+img {
+	border-width: 0;
+}
+
+a {
+	text-decoration:none;
+	font:2em/1em Helvetica,sans-serif;
+	color:orange;
+}
+
+#arrow {
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+img#arrow, img#arrowImg {
+	float:left;
+	display:block;
+	width:200px;
+	height:50px;
+	margin-left:50px;
+	margin-top:10px;
+	clear:both;
+
+}
+
+#button1, #button2, #return {
+	float:left;
+	display:block;
+	width:200px;
+	height:50px;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+.centered {
+	text-align: center;
+}
+
+#adBanner {
+	width: 400px;
+	height: 75px;
+}

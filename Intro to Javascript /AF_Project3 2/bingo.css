@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+	color: #797745;
+	font-size: 25px;
+	/* font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; */
+	font-family: Helvetica, "Trebuchet MS", sans-serif;
+	font-weight:lighter;
+}
+
+#wrapper {
+	margin:0 auto;
+	width:300px;
+}
+
+h1, th {
+	
+	font-weight:lighter;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+table {
+	border-collapse: collapse;
+	background-color:#F5F4DB;
+	width: 1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+th, td {
+	padding: 10px;
+	border: 2px solid #E0DED0;
+	text-align: center;
+	width: 20%;
+	height: 100px;
+}
+
+#free, .pickedBG {
+	background-color: #663;
+	color:#F7F5E3;
+}
+
+.winningBG {
+	background-image: url(images/redFlash.gif);
+}
+
+.shadow {
+	text-shadow: 0px 1px 1px #D8D8D8;
+}
+
+p {
+	font-size:80%;
+}
