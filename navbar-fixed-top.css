@@ -8,3 +8,7 @@ img {
    // visibility:hidden;
 }
 
+
+.fancybox-container {
+  z-index:9000 !important;
+}
