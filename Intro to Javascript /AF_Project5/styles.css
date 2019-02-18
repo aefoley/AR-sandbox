@@ -1,0 +1,35 @@
+body {
+	background-color: #FFF;
+}
+
+img {
+	border-width: 0;
+}
+
+
+.centered {
+	text-align: center;
+}
+
+#adBanner {
+	margin-top:50px;
+	width:500px;
+	height: 175px;
+	-moz-box-shadow: 3px 3px 4px #CCC;
+	-webkit-box-shadow: 3px 3px 4px #CCC;
+	box-shadow: 3px 3px 4px #CCC;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#CCCCCC')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#CCCCCC');
+	border-top-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #E5E5E5;
+	border-left-color: #E5E5E5;
+	
+	
+}
+
+img a {text-decoration:none;}

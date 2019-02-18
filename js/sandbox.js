@@ -1,3 +1,47 @@
+// Treehouse quiz js
+
+
+var qAndA = [
+
+  ['What is the big dog\'s name?', 'Frankie'],
+  ['What is the little dog\'s name?', 'Prince'],
+  ['What is the house number?', '227']
+]
+
+//prompt for the first, 
+// store in a var, 
+//and compare to the second
+//if matches, save to correct var
+//if doesn't match, save to incorrect var
+//after all three, print message with num of var
+
+function print(message) {
+  var outputDiv =  document.getElementById('output');
+  outputDiv.innerHTML = message;                                         
+}
+
+function printScore(theArr) {
+  var correct = 0;
+  var incorrect = 0;
+  for (i = 0; i < 3; i++ ){
+  var question = theArr[i][0];
+  var answer = theArr[i][1];
+  var response = prompt(question);
+  
+    if (response === answer ){
+      correct = correct += 1;
+
+      }  else {
+        incorrect = incorrect += 1;
+      }
+  }
+  var results = "Congratulations. You have gotten through this grueling 3 item quiz.  You have " + correct + " items correct and " + incorrect + " items incorrect";
+  print(results);
+}
+
+printScore(qAndA);
+
+
 
   
 
@@ -10,8 +54,6 @@
   	 tl = new TimelineLite();
      tl2 = new TimelineLite();
      btn = $('.btn');
-
-
 
   	
     //using a timeline
@@ -55,6 +97,7 @@ $(".box").on("mouseenter", function() {
     at: 'bottom right'
   }
 });
+
 
 
 $("[data-fancybox]").fancybox({
