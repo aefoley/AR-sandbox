@@ -1,0 +1,66 @@
+/* ============= variables */
+@darkergreen :RGB(0, 153, 62)
+
+
+body {
+  padding-top: 70px;
+}
+.btn-red {
+  background-color: #B7412A;
+  font-size: 1em;
+  font-weight: 200;
+  padding: 15px;
+  color: #fac477;
+  transition: 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+.btn-red:hover {
+  color: #f69915;
+}
+.btn-white {
+  font-size: 1em;
+  font-weight: 200;
+  border: 1px solid #fac477;
+  padding: 15px;
+  color: #fac477;
+  transition: 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+.btn-white:hover {
+  color: #f69915;
+}
+.yellow {
+  color: #fac477;
+}
+ul#quiz {
+  list-style-type: none;
+  padding-left: 0;
+  font-weight: 200;
+  font-size: 1.8em;
+  color: #666666;
+}
+ul#quiz .background {
+  width: 1140px;
+  height: 622px;
+  background-repeat: no-repeat;
+}
+ul#quiz li:nth-child(1) {
+  background-image: url('../img/game-intro.jpg');
+  background-repeat: no-repeat;
+}
+ul#quiz li:nth-child(2) {
+  background-image: url('../img/game-card1.jpg');
+  background-repeat: no-repeat;
+}
+div.card {
+  padding-top: 422px;
+}
+div.card .choices {
+  background-image: url(../img/filler.png);
+  background-repeat: repeat;
+  height: 200px;
+  padding: 40px;
+}
+/*# sourceMappingURL=ev-game.css.map */

@@ -1,14 +1,21 @@
 body {
-  min-height: 2000px;
   padding-top: 70px;
 }
 
-
-img {
-   // visibility:hidden;
+.btn-red {
+  background-color:#B7412A;
+  font-size:2em;
+  font-weight:200;
+  padding:15px;
+  color:#fac477;
 }
 
+.yellow {
+  color:#fac477;
+}
 
-.fancybox-container {
-  z-index:9000 !important;
+div.card {
+  width:1140px;
+  height:620px;
+  
 }
