@@ -31,6 +31,13 @@ body {
 .btn-white:hover {
   color: #f69915;
 }
+.btn-choice {
+  border-radius: 10px;
+  border: 1px solid #fac477;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: 25px;
+}
 .yellow {
   color: #fac477;
 }
@@ -54,13 +61,29 @@ ul#quiz li:nth-child(2) {
   background-image: url('../img/game-card1.jpg');
   background-repeat: no-repeat;
 }
+ul#quiz li:nth-child(3) {
+  background-image: url('../img/game-card1a.jpg');
+  background-repeat: no-repeat;
+}
+ul#quiz li:nth-child(4) {
+  background-image: url('../img/game-card2.jpg');
+  background-repeat: no-repeat;
+}
+ul#quiz li:nth-child(5) {
+  background-image: url('../img/game-card2a.jpg');
+  background-repeat: no-repeat;
+}
+ul#quiz li:nth-child(6) {
+  background-image: url('../img/game-card-wrong.jpg');
+  background-repeat: no-repeat;
+}
 div.card {
-  padding-top: 422px;
+  padding-top: 450px;
 }
 div.card .choices {
   background-image: url(../img/filler.png);
   background-repeat: repeat;
-  height: 200px;
+  height: 172px;
   padding: 40px;
 }
 /*# sourceMappingURL=ev-game.css.map */

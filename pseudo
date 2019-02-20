@@ -1,0 +1,55 @@
+
+var list items array
+
+var correct = 0
+var incorrect = 0
+
+Show intro
+hide others
+
+	Click next
+
+show card one
+	click correct answer								
+		hide card one
+		show card 1a
+		increment correct
+			click next
+			show card 2
+	click incorrect answer
+		show card nope
+		increment incorrect
+			click next
+			show card 2
+
+card 2
+	click correct answer 
+		hide card 2
+		show card 2a
+		increment correct
+			click next
+			show card 3
+	click incorrect answer
+		show card nope
+		increment incorrect
+			click next
+			show card 3
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Outside div for background - add class for background image?
+Question div/message div
+message div
+button div
+
+json array thingie with multiple items for
+background,
+question
+answer
+click to send response
+if response === answer, go to next.
+
+if not, present nope.
+
+if nope, go to next.
