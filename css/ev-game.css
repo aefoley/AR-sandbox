@@ -5,6 +5,23 @@
 body {
   padding-top: 70px;
 }
+#quiz {
+  width: 500px;
+  height: 500px;
+  border: 1px solid aqua;
+}
+.color1 {
+  background-color: #636192;
+}
+.color2 {
+  background-color: pink;
+}
+.color3 {
+  background-color: #cffbfe;
+}
+.color4 {
+  background-color: #FED866;
+}
 .btn-red {
   background-color: #B7412A;
   font-size: 1em;
