@@ -9,17 +9,24 @@ body {
   width: 500px;
   height: 500px;
   border: 1px solid aqua;
+  padding: 300px 50px 50px 50px;
+  display: block;
+  margin: 0 auto;
 }
-.color1 {
+.color0 {
+  /* purple */
   background-color: #636192;
 }
-.color2 {
+.color1 {
+  /* pink */
   background-color: pink;
 }
-.color3 {
+.color2 {
+  /* blue */
   background-color: #cffbfe;
 }
-.color4 {
+.color3 {
+  /* gold */
   background-color: #FED866;
 }
 .btn-red {
