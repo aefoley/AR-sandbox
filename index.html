@@ -37,8 +37,12 @@
       <div class="col-sm-12">
         <h1 id="quiz-name"> EV Quiz</h1>
         <div id="quiz" class="color0">
-          <div class="message">
-            <div class="printout"></div>
+          <div class="choices">
+            <div class="printout">Test yourself! How much do you know about electric vehicles (EVs)?</div>
+            <div class="questionbox"></div>
+            <div class="answerbox">
+         
+            </div>
               <button class="btn-lg btn-warning" id="next">Next <span class="glyphicon glyphicon-play"></span></button>
           </div>
         </div>
@@ -84,35 +88,45 @@
   var stopper = (allQuestions.length)+1;
   console.log('stopper: ' + stopper);
 
+
   console.log("start counter :" + counter);
   console.log("start i: " + i);
 
   $('#next').click(function () {
-    // the modulus (%) operator resets the counter to 0
-    // when it reaches the length of the array
+      // the modulus (%) operator resets the counter to 0
+      // when it reaches the length of the array
+      counter = (counter + 1) % allQuestions.length; //increments
+      i = (i + 1) % allQuestions.length;
 
 
-    
-    counter = (counter + 1) % allQuestions.length; // sdfgdfgfg increments
-    i = (i + 1) % allQuestions.length;
-    console.log("counter:" + counter);
-    console.log("i:" + i);
+      // ------------- seeing where we are
+      console.log("counter:" + counter);
+      console.log("i:" + i);
 
-    $('#quiz').removeClass('color' + i); 
-    $('#quiz').addClass('color' + counter); 
-   
-    $('.printout').html(allQuestions[i].question);
-    
-       //console.log(allQuestions[counter]); // the new incremented value
-  });
+      //the class will have the background image.
+      $('#quiz').removeClass('color' + i); 
+      $('#quiz').addClass('color' + counter); 
+
+      //takes the introductory text out.
+      $('.printout').html(" ");
+      $("#next").addClass("hidden ");
 
 
+      // ------------- seeing where we are
+      console.log(allQuestions[i].choices);
 
-// $.each( allQuestions, function( index, val ){
-//    console.log(val.bgcolor);
-//    console.log(val.choices);
-// });
- 
+      var theChoices = allQuestions[i].choices;
+
+//<input class="btn btn-default" type="submit" data=".$row2['ID']." value="submit" onclick="return passID(".$row2['ID'].")">"
+        $(".questionbox").html("<p>" + allQuestions[i].question + "</p>")
+        $( ".answerbox" ).html(
+           "<button class='btn btn-info btn-1'>" + theChoices[0] + "</button>" + 
+           "<button class='btn btn-info btn-2'>" + theChoices[1] + "</button>" + 
+           "<button class='btn btn-info btn-3'>" + theChoices[2] + "</button>");
+
+});
+
+
 
 </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
