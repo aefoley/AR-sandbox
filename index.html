@@ -44,7 +44,7 @@
             
             </div>
             <div id="next"></div>
-              <button class="btn-lg btn-warning" id="start">Start <span class="glyphicon glyphicon-play"></span></button>
+              <button class="btn-lg btn-warning" id="start" onclick="setUpBox(simpleton)">Start <span class="glyphicon glyphicon-play"></span></button>
           </div>
         </div>
       </div><!-- /col -->
@@ -59,6 +59,17 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script>
+
+  var simpleton = [{
+    "color" : "red", 
+    "texture" : "fluffy" 
+  }, {
+    "color" : "yellow",
+    "texture" : "smooth"
+  } , {
+    "color" : "blue",
+    "texture" : "bumpy"
+  }];
 
 
 
@@ -99,46 +110,54 @@
   // console.log("start counter :" + counter);
   // console.log("start i: " + i);
 
-  $('#start').click(function () {
-      // the modulus (%) operator resets the counter to 0
-      // when it reaches the length of the array
-      counter = (counter + 1) % allQuestions.length; //increments
-      i = (i + 1) % allQuestions.length;
+  // $('#start').click(function () {
+  //     // the modulus (%) operator resets the counter to 0
+  //     // when it reaches the length of the array
+  //     counter = (counter + 1) % allQuestions.length; //increments
+  //     i = (i + 1) % allQuestions.length;
 
 
-                // ------------- seeing where we are
-                console.log("counter:" + counter);
-                console.log("i:" + i);
+  //               // ------------- seeing where we are
+  //               console.log("counter:" + counter);
+  //               console.log("i:" + i);
 
-      //the class will have the background image.
-      $('#quiz').removeClass('color' + i); 
-      $('#quiz').addClass('color' + counter); 
+  //     //the class will have the background image.
+  //     $('#quiz').removeClass('color' + i); 
+  //     $('#quiz').addClass('color' + counter); 
 
-      //takes the introductory text out.
-      $('.printout').html(" ");
-      $("#start").addClass("hidden ");
+  //     //takes the introductory text out.
+  //     $('.printout').html(" ");
+  //     $("#start").addClass("hidden ");
 
     
 
       // ------------- seeing where we are
-      console.log(allQuestions[i].choices);
+      // console.log(allQuestions[i].choices);
 
-      var theChoices = allQuestions[i].choices;
+      // var theChoices = allQuestions[i].choices;
 
-      function setUpBox() {
-           $(".printout").html("<p>" + allQuestions[i].question + "</p>");
+ 
+      function setUpBox(rayRay) {
+      var theChoices = rayRay[2].texture;
+
+        $(".questionbox").html("<p>" + theChoices[counter] + "</p>");
+        $( ".answerbox" ).html(
+        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[0] + "'>" + theChoices[0] + "</button>" +
+        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[1] + "'>" + theChoices[1] + "</button>" +
+        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[2] + "'>" + theChoices[2] + "</button>"
+        );
 
 
 
 
       }
 
-      $(".questionbox").html("<p>" + allQuestions[i].question + "</p>")
-      $( ".answerbox" ).html(
-        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[0] + "'>" + theChoices[0] + "</button>" +
-        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[1] + "'>" + theChoices[1] + "</button>" +
-        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[2] + "'>" + theChoices[2] + "</button>"
-        );
+      //$(".questionbox").html("<p>" + allQuestions[i].question + "</p>")
+      // $( ".answerbox" ).html(
+      //   "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[0] + "'>" + theChoices[0] + "</button>" +
+      //   "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[1] + "'>" + theChoices[1] + "</button>" +
+      //   "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[2] + "'>" + theChoices[2] + "</button>"
+      //   );
 
 
 
@@ -166,16 +185,9 @@
           counter = counter + 1;
           console.log("counter:" + counter);
 
+      }); //end button-choice so far
 
-
-
-      });
-
-// function next(){
-
-// }
-
-});
+//}); //end start set up
 
 
 
