@@ -41,9 +41,10 @@
             <div class="printout">Test yourself! How much do you know about electric vehicles (EVs)?</div>
             <div class="questionbox"></div>
             <div class="answerbox">
-         
+            
             </div>
-              <button class="btn-lg btn-warning" id="next">Next <span class="glyphicon glyphicon-play"></span></button>
+            <div id="next"></div>
+              <button class="btn-lg btn-warning" id="start">Start <span class="glyphicon glyphicon-play"></span></button>
           </div>
         </div>
       </div><!-- /col -->
@@ -63,45 +64,51 @@
 
   var allQuestions = [{
     "question": "How far away from Madison are the super-famous LRV electric vehicles parked?",
-    "choices": ["238,900 mi", "5,000 mi", "10 mi"],
+    "choices" : ["238,900 mi", "5,000 mi", "10 mi"],
     "bgclass" : "color0",
-    "correctAnswer": 0
+    "bgclass2" : "color0a",
+    "correctAnswer": "238,900 mi",
+    "correctMessage" : "238,900 mi - on the moon! The LRVs are the Lunar Roving Vehicles, which went to the moon with Apollo missions 15, 16 and 17."
   }, {
     "question": "How many miles is the average American’s daily commute?",
     "choices": ["5 mi", "30 mi ", "70 mi"],
     "bgclass" : "color1",
-    "correctAnswer": 1
+    "bgclass2" : "color1a",
+    "correctAnswer": "5 mi",
+    "correctMessage": "Less than 30 miles."
   }, {
     "question": "What does PHEV stand for?",
     "choices": ["Pretty heavy electric vehicle", "Plug-in hybrid electric vehicle", "Pressure harmonic electric vehicle"],
     "bgclass" : "color2",
-    "correctAnswer": 1
+    "bgclass2" : "color2a",
+    "correctAnswer": "Pretty heavy electric vehicle",
+    "correctMessage" : "Plug-in hybrid electric vehicle. PHEVs have both an internal combustion engine and an electric power. They can be recharged by plugging it into an external source of electric power or by their on-board generators."
   }, {
     "question": "In 1900, what percentage of cars in America were EVs?",
     "choices": ["0%", "38%", "12%"],
     "bgclass" : "color3",
-    "correctAnswer": 1
+    "bgclass2" : "color3a",
+    "correctAnswer": "0%",
+    "correctMessage": "38%! In New York City at that time, 90% of taxis were EVs! Eventually, the price of gasoline powered cars went way down (due to Henry Ford’s assembly line business model) and made them more attractive to drivers. But EVs had their day even back in the day - and they’re becoming once again more than 100 years later."
   }];
 
   var counter = 0;
   var i = -1;
-  var stopper = (allQuestions.length)+1;
-  console.log('stopper: ' + stopper);
+  //var stopper = (allQuestions.length)+1;
+  //console.log('stopper: ' + stopper);
+  // console.log("start counter :" + counter);
+  // console.log("start i: " + i);
 
-
-  console.log("start counter :" + counter);
-  console.log("start i: " + i);
-
-  $('#next').click(function () {
+  $('#start').click(function () {
       // the modulus (%) operator resets the counter to 0
       // when it reaches the length of the array
       counter = (counter + 1) % allQuestions.length; //increments
       i = (i + 1) % allQuestions.length;
 
 
-      // ------------- seeing where we are
-      console.log("counter:" + counter);
-      console.log("i:" + i);
+                // ------------- seeing where we are
+                console.log("counter:" + counter);
+                console.log("i:" + i);
 
       //the class will have the background image.
       $('#quiz').removeClass('color' + i); 
@@ -109,20 +116,64 @@
 
       //takes the introductory text out.
       $('.printout').html(" ");
-      $("#next").addClass("hidden ");
+      $("#start").addClass("hidden ");
 
+    
 
       // ------------- seeing where we are
       console.log(allQuestions[i].choices);
 
       var theChoices = allQuestions[i].choices;
 
-//<input class="btn btn-default" type="submit" data=".$row2['ID']." value="submit" onclick="return passID(".$row2['ID'].")">"
-        $(".questionbox").html("<p>" + allQuestions[i].question + "</p>")
-        $( ".answerbox" ).html(
-           "<button class='btn btn-info btn-1'>" + theChoices[0] + "</button>" + 
-           "<button class='btn btn-info btn-2'>" + theChoices[1] + "</button>" + 
-           "<button class='btn btn-info btn-3'>" + theChoices[2] + "</button>");
+      function setUpBox() {
+           $(".printout").html("<p>" + allQuestions[i].question + "</p>");
+
+
+
+
+      }
+
+      $(".questionbox").html("<p>" + allQuestions[i].question + "</p>")
+      $( ".answerbox" ).html(
+        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[0] + "'>" + theChoices[0] + "</button>" +
+        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[1] + "'>" + theChoices[1] + "</button>" +
+        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[2] + "'>" + theChoices[2] + "</button>"
+        );
+
+
+
+      $(".btn-choice").click(function() {
+          var answer = $(this).attr("data-game-button"); // GET THE DATA IN ATTR
+          event.preventDefault();
+          console.log(answer);
+          realAnswer = allQuestions[i].correctAnswer;
+          goodMessage = allQuestions[i].correctMessage;
+          if (answer === realAnswer ) {
+            console.log("gotit!");
+            $('#quiz').removeClass('color' + counter);
+            $('#quiz').addClass('color' + counter + 'a');
+            $(".answerbox" ).html(goodMessage);
+
+          } else {
+            console.log("keep trying!");
+            $('#quiz').removeClass('color' + counter);
+            $('#quiz').addClass('colorNope');
+            $(".answerbox").html("<h1>Nope</h1>");
+          }
+
+          //$('#next').html("<button class='btn-lg btn-warning'>" + foo )
+
+          counter = counter + 1;
+          console.log("counter:" + counter);
+
+
+
+
+      });
+
+// function next(){
+
+// }
 
 });
 
