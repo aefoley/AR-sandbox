@@ -60,16 +60,6 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script>
 
-  var simpleton = [{
-    "color" : "red", 
-    "texture" : "fluffy" 
-  }, {
-    "color" : "yellow",
-    "texture" : "smooth"
-  } , {
-    "color" : "blue",
-    "texture" : "bumpy"
-  }];
 
 
 
@@ -136,16 +126,39 @@
 
       // var theChoices = allQuestions[i].choices;
 
+  var simpleton = [{
+    "color" : "red", 
+    "texture" : "fluffy" 
+  }, {
+    "color" : "yellow",
+    "texture" : "smooth"
+  } , {
+    "color" : "blue",
+    "texture" : "bumpy"
+  }];
+
  
       function setUpBox(rayRay) {
-      var theChoices = rayRay[2].texture;
+      theChoices = Object.values(rayRay[2]);
 
-        $(".questionbox").html("<p>" + theChoices[counter] + "</p>");
-        $( ".answerbox" ).html(
-        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[0] + "'>" + theChoices[0] + "</button>" +
-        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[1] + "'>" + theChoices[1] + "</button>" +
-        "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[2] + "'>" + theChoices[2] + "</button>"
-        );
+      console.log(Object.values(rayRay[0]))
+
+
+        $(".questionbox").html("<p>" + theChoices + "</p>");
+           
+           for ( num = 0; num < 3; num++){
+            console.log(num + ": "  + theChoices[num]);
+            }
+           
+           //console.log(Object.values(rayRay))
+     
+      //   $( ".answerbox" ).html(
+
+       
+      //   // "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices + "'>" + theChoices + "</button>" +
+      //   // "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices + "'>" + theChoices + "</button>" +
+      //   // "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices + "'>" + theChoices + "</button>"
+      // );
 
 
 
