@@ -36,24 +36,28 @@ body {
   /* purple */
   background-color: #636192;
 }
-.color0a {
-  background-color: #7879A4;
-}
 .color1 {
   /* pink */
-  background-color: #FFCCCC;
-}
-.color1a {
-  /* pink */
-  background-color: #F4C4D2;
+  background-color: #FC9D9D;
 }
 .color2 {
+  /* pink */
+  background-color: pink;
+}
+.color3 {
   /* blue */
   background-color: #336699;
 }
-.color3 {
+.color4 {
+  background-color: #8cb2d9;
+}
+.color5 {
   /* gold */
   background-color: #3399CC;
+}
+.color6 {
+  /* gold */
+  background-color: #add6eb;
 }
 .colorNope {
   background-color: #B0F566;
@@ -87,9 +91,12 @@ body {
 .btn-choice {
   border-radius: 10px;
   border: 1px solid #fac477;
-  width: 20%;
+  max-width: 35%;
   margin-left: 10%;
   margin-top: 25px;
+}
+.hide {
+  display: none;
 }
 .yellow {
   color: #fac477;

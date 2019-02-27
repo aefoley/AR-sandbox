@@ -38,13 +38,16 @@
         <h1 id="quiz-name"> EV Quiz</h1>
         <div id="quiz" class="color0">
           <div class="choices">
-            <div class="printout">Test yourself! How much do you know about electric vehicles (EVs)?</div>
-            <div class="questionbox"></div>
+           <!--  <button class="btn-foo">Click me</button> -->
+            <div class="printout"></div>
+            <div class="questionbox"><p>Test yourself! How much do you know about electric vehicles (EVs)?</p></div>
             <div class="answerbox">
             
             </div>
-            <div id="next"></div>
-              <button class="btn-lg btn-warning" id="start" onclick="setUpBox(simpleton)">Start <span class="glyphicon glyphicon-play"></span></button>
+            
+              <button class="btn-lg btn-warning" id="start" onclick="setUpBox(allQuestions)">Start <span class="glyphicon glyphicon-play"></span></button>
+              <button class="btn-lg btn-danger hide" id="next" onclick="setUpBox(allQuestions)">Next <span class="glyphicon glyphicon-play"></span></button>
+
           </div>
         </div>
       </div><!-- /col -->
@@ -69,136 +72,95 @@
     "bgclass" : "color0",
     "bgclass2" : "color0a",
     "correctAnswer": "238,900 mi",
-    "correctMessage" : "238,900 mi - on the moon! The LRVs are the Lunar Roving Vehicles, which went to the moon with Apollo missions 15, 16 and 17."
+    "correctMessage" : "238,900 mi is correct - they're on the moon! The LRVs are the Lunar Roving Vehicles, which went to the moon with Apollo missions 15, 16 and 17."
   }, {
     "question": "How many miles is the average American’s daily commute?",
     "choices": ["5 mi", "30 mi ", "70 mi"],
     "bgclass" : "color1",
     "bgclass2" : "color1a",
     "correctAnswer": "5 mi",
-    "correctMessage": "Less than 30 miles."
+    "correctMessage": "Correct = less than 30 miles."
   }, {
     "question": "What does PHEV stand for?",
     "choices": ["Pretty heavy electric vehicle", "Plug-in hybrid electric vehicle", "Pressure harmonic electric vehicle"],
     "bgclass" : "color2",
     "bgclass2" : "color2a",
     "correctAnswer": "Pretty heavy electric vehicle",
-    "correctMessage" : "Plug-in hybrid electric vehicle. PHEVs have both an internal combustion engine and an electric power. They can be recharged by plugging it into an external source of electric power or by their on-board generators."
+    "correctMessage" : "Correct - plug-in hybrid electric vehicle. PHEVs have both an internal combustion engine and an electric power. They can be recharged by plugging it into an external source of electric power or by their on-board generators."
   }, {
     "question": "In 1900, what percentage of cars in America were EVs?",
     "choices": ["0%", "38%", "12%"],
     "bgclass" : "color3",
     "bgclass2" : "color3a",
     "correctAnswer": "0%",
-    "correctMessage": "38%! In New York City at that time, 90% of taxis were EVs! Eventually, the price of gasoline powered cars went way down (due to Henry Ford’s assembly line business model) and made them more attractive to drivers. But EVs had their day even back in the day - and they’re becoming once again more than 100 years later."
+    "correctMessage": "Correct - 38%! In New York City at that time, 90% of taxis were EVs! Eventually, the price of gasoline powered cars went way down (due to Henry Ford’s assembly line business model) and made them more attractive to drivers. But EVs had their day even back in the day - and they’re becoming once again more than 100 years later."
   }];
 
-  var counter = 0;
+  var counter = 0;//using for colors right now
+
   var i = -1;
-  //var stopper = (allQuestions.length)+1;
-  //console.log('stopper: ' + stopper);
-  // console.log("start counter :" + counter);
-  // console.log("start i: " + i);
 
-  // $('#start').click(function () {
-  //     // the modulus (%) operator resets the counter to 0
-  //     // when it reaches the length of the array
-  //     counter = (counter + 1) % allQuestions.length; //increments
-  //     i = (i + 1) % allQuestions.length;
+  newCounter = 0;
 
+  colorInc = 1;
 
-  //               // ------------- seeing where we are
-  //               console.log("counter:" + counter);
-  //               console.log("i:" + i);
+  function setUpBox(rayRay) {
+    theArray = Object.values(rayRay); //the whole array
+    choiceArray = theArray[newCounter].choices;
+    correctAns = theArray[newCounter].correctAnswer;
+    correctMessage = theArray[newCounter].correctMessage;
+    colorInc = counter + 1;
 
-  //     //the class will have the background image.
-  //     $('#quiz').removeClass('color' + i); 
-  //     $('#quiz').addClass('color' + counter); 
-
-  //     //takes the introductory text out.
-  //     $('.printout').html(" ");
-  //     $("#start").addClass("hidden ");
-
+        $('#quiz').removeClass('color' + counter); //remove color0. Counter still is 0.
+        $('#quiz').addClass('color' + colorInc ); //add color1.
     
 
-      // ------------- seeing where we are
-      // console.log(allQuestions[i].choices);
+    $(".questionbox").html("<p>" + theArray[newCounter].question + "</p>");
+        newCounter = newCounter+ 1 ;
 
-      // var theChoices = allQuestions[i].choices;
+    $( ".answerbox" ).html(
 
-  var simpleton = [{
-    "color" : "red", 
-    "texture" : "fluffy" 
-  }, {
-    "color" : "yellow",
-    "texture" : "smooth"
-  } , {
-    "color" : "blue",
-    "texture" : "bumpy"
-  }];
+      "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + choiceArray[0] + "'>" + choiceArray[0] + "</button>" +
+      "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + choiceArray[1] + "'>" + choiceArray[1] + "</button>" +
+      "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + choiceArray[2] + "'>" + choiceArray[2] + "</button>"
+    );
 
- 
-      function setUpBox(rayRay) {
-      theChoices = Object.values(rayRay[2]);
-
-      console.log(Object.values(rayRay[0]))
+     $("#start").hide();
 
 
-        $(".questionbox").html("<p>" + theChoices + "</p>");
-           
-           for ( num = 0; num < 3; num++){
-            console.log(num + ": "  + theChoices[num]);
-            }
-           
-           //console.log(Object.values(rayRay))
-     
-      //   $( ".answerbox" ).html(
+
+  $(".btn-choice").click(function() {
+
+      var answer = $(this).attr("data-game-button"); // GET THE DATA IN ATTR
+      event.preventDefault();
+      console.log(answer);
+
+      if (  answer === correctAns ) {
+   
+        $('#quiz').removeClass('color' + colorInc);
+        colorInc++;
+        $('#quiz').addClass('color' + colorInc);
+        $(".answerbox" ).html(correctMessage);
+        $('#next').removeClass('hide');
 
        
-      //   // "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices + "'>" + theChoices + "</button>" +
-      //   // "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices + "'>" + theChoices + "</button>" +
-      //   // "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices + "'>" + theChoices + "</button>"
-      // );
+      } else {
 
-
+        $('#quiz').removeClass('color' + counter);
+        $('#quiz').addClass('colorNope');
+        $('.questionbox').html('');
+        $(".answerbox").html("<h1>Nope</h1>");
+        $('#next').removeClass('hide');
 
 
       }
+ 
 
-      //$(".questionbox").html("<p>" + allQuestions[i].question + "</p>")
-      // $( ".answerbox" ).html(
-      //   "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[0] + "'>" + theChoices[0] + "</button>" +
-      //   "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[1] + "'>" + theChoices[1] + "</button>" +
-      //   "<button class='btn btn-info btn-1 btn-choice' data-game-button='" + theChoices[2] + "'>" + theChoices[2] + "</button>"
-      //   );
+  }); //end button-choice so far
 
+    
+}
 
-
-      $(".btn-choice").click(function() {
-          var answer = $(this).attr("data-game-button"); // GET THE DATA IN ATTR
-          event.preventDefault();
-          console.log(answer);
-          realAnswer = allQuestions[i].correctAnswer;
-          goodMessage = allQuestions[i].correctMessage;
-          if (answer === realAnswer ) {
-            console.log("gotit!");
-            $('#quiz').removeClass('color' + counter);
-            $('#quiz').addClass('color' + counter + 'a');
-            $(".answerbox" ).html(goodMessage);
-
-          } else {
-            console.log("keep trying!");
-            $('#quiz').removeClass('color' + counter);
-            $('#quiz').addClass('colorNope');
-            $(".answerbox").html("<h1>Nope</h1>");
-          }
-
-          //$('#next').html("<button class='btn-lg btn-warning'>" + foo )
-
-          counter = counter + 1;
-          console.log("counter:" + counter);
-
-      }); //end button-choice so far
 
 //}); //end start set up
 
