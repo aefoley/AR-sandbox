@@ -25,6 +25,10 @@ body {
   position:relative;
 }
 
+p {
+  font-size:.9em;
+}
+
 .choices {
   position:absolute;
   width:90%;
@@ -39,20 +43,16 @@ body {
   }
 }
 
-.hidden {
-  display:none;
-}
-
 .color0 { /* purple */
   background-color:#636192;
 }
 
 
-.color1 { /* pink */
+.color1 { /* darker pink */
   background-color:#FC9D9D;
 }
 
-.color2 { /* pink */
+.color2 { /* lighter pink */
   background-color:pink;
 }
 
@@ -60,20 +60,31 @@ body {
   background-color:#336699;
 }
 
-.color4 {
+.color4 { /*lighter blue*/
   background-color:lighten(#336699, 30)
 }
 
 .color5 { /* gold */
- background-color:#3399CC;
+ background-color:#F8B500;
 }
 
-.color6  { /* gold */
- background-color:lighten(#3399CC, 30);
+.color6  { /* lighter gold */
+ background-color:lighten(#F8B500, 30);
 }
 
+.color7 {/* maroon */
+  background-color:#820808;
+}
+
+.color8 {/* maroon */
+  background-color: lighten(#820808, 30);
+}
 .colorNope {
   background-color:#B0F566;
+}
+
+.colorDone {
+  background-color:#5F5F5E;
 }
 
 .btn-red {
@@ -106,7 +117,6 @@ body {
 
 .btn-choice {
     border-radius: 10px;
-    border: 1px solid @yellow;
     max-width:35%;
     margin-left:10%;
     margin-top:25px;
@@ -114,10 +124,6 @@ body {
 
 .hide {
   display:none;
-}
-
-.yellow {
-  color:#fac477;
 }
 
 #quiz {
