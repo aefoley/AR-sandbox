@@ -9,66 +9,165 @@
   // // Init ScrollMagic
   var controller = new ScrollMagic.Controller();
 
-  // //build a scene
+  // facebook
   var gnomeScene = new ScrollMagic.Scene({
-      triggerElement: '.gnomerow',
-      duration:600, //the scene should last for a scroll of 300px
-      triggerHook: .5 //at .7 of viewport height
-
-
+      triggerElement: '.fb-row-ibright',
+      duration:0, //the scene should last for a scroll of 300px
+      triggerHook: .8 //at .7 of viewport height
   })
-
-  .setClassToggle('.gnomes', 'fade-in')
-  .addIndicators({
-    name: 'fade and rise gnomes',
-    colorTrigger: 'gray',
-    colorStart:'gray',
-    colorEnd: 'gray'
-  })
-  .addTo(controller);
-
-  // //pinning  ------------------------------------------------------------------------  
-
-  var pinnerScene = new ScrollMagic.Scene({
-    triggerElement: '.symphony',
-    triggerHook: 0,
-    duration: '30%'
-  })
-  .setPin('.symphony')
-  .addIndicators({
-        name: 'pinner',
-        colorTrigger: 'blue',
-        colorStart:'blue',
-        colorEnd: 'blue'
-    })
+  .setClassToggle('.fb-img-ibright', 'fade-in')
+  // .addIndicators({
+  //   name: 'fade and rise fbs',
+  //   colorTrigger: 'gray',
+  //   colorStart:'gray',
+  //   colorEnd: 'gray'
+  // })
   .addTo(controller);
 
 
-   //parallax scene ---------------------------------------------------------------------
+  // teaser brochure
+  var tbrochScene = new ScrollMagic.Scene({
+      triggerElement: '.tbroch-row-ibright',
+      duration:0, //the scene should last for a scroll of 300px
+      triggerHook: .7 //at .7 of viewport height
 
-var parallaxTl = new TimelineMax();
-parallaxTl
-    //.from('content-wrapper', 1, {autoAlpha: 0, ease:Power0.easeNone}, 0.3) 
-    .from('.content-wrapper', 0.3, {autoAlpha: 0, ease:Power0.easeNone}, 0.2)
-    .from('.bcg', 2, {y:'-80%', ease:Power0.easeNone}, 0) 
-    ;
-
-var slideParallaxScene = new ScrollMagic.Scene({
-      triggerElement: '.bcg-parallax',
-      triggerHook: 1,
-      duration: '200%' //1 - over the duration of 100% of the scrolling
+  })
+  .setClassToggle('.tbroch-img-ibright', 'fade-in')
+  // .addIndicators({
+  //   name: 'fade and rise tbroch',
+  //   colorTrigger: 'pink',
+  //   colorStart:'pink',
+  //   colorEnd: 'pink'
+  // })
+  .addTo(controller);
 
 
-   })
+  // demo box
+  var boxDemo = new ScrollMagic.Scene({
+      triggerElement: '.box-demo-row',
+      duration:0, //the scene should last for a scroll of 300px
+      triggerHook: .7 //at .7 of viewport height
 
-   .setTween(parallaxTl) //2 - we will play the contents of parallaxTl, which has 2 tweens on it.
-   .addIndicators({
-        name: 'parallax',
-        colorTrigger: 'orange',
-        colorStart:'orange',
-        colorEnd: 'orange'
-    })
-   .addTo(controller);
+  })
+  .setClassToggle('.box-demo-img', 'fade-in')
+  // .addIndicators({
+  //   name: 'box demo',
+  //   colorTrigger: 'red',
+  //   colorStart: 'red',
+  //   colorEnd: 'red'
+  // })
+  .addTo(controller);
+
+  // system brochure
+  var sysBroch = new ScrollMagic.Scene({
+      triggerElement: '.sysbroch-row',
+      duration:0, //the scene should last for a scroll of 300px
+      triggerHook: .7 //at .7 of viewport height
+
+  })
+  .setClassToggle('.sysbroch-img', 'fade-in')
+  // .addIndicators({
+  //   name: 'box demo',
+  //   colorTrigger: 'red',
+  //   colorStart: 'red',
+  //   colorEnd: 'red'
+  // })
+  .addTo(controller);
+
+// ---------------------------   fade in vid/email clicks
+
+var FBThumbAppear = TweenMax.staggerTo(".fbthumb", 1, {y:"-=50", opacity:1}, 0.5);
+
+var circleFadeIn = new ScrollMagic.Scene({
+              triggerElement: "#trigger-fbthumbs",
+              triggerHook: .5,
+              //duration:50
+            })
+            .setTween(emThumbAppear)
+            // .addIndicators({
+            //   name: 'email thumbs',
+            //   colorTrigger: 'orange',
+            //   colorStart:'orange',
+            //   colorEnd: 'orange'
+            // })
+            .addTo(controller);
+
+
+var emThumbAppear = TweenMax.staggerTo(".emthumb", 1, {y:"-=50", opacity:1}, 0.5);
+
+var circleFadeIn = new ScrollMagic.Scene({
+              triggerElement: "#trigger-emthumbs",
+              triggerHook: .5,
+              //duration:50
+            })
+            .setTween(emThumbAppear)
+            // .addIndicators({
+            //   name: 'email thumbs',
+            //   colorTrigger: 'orange',
+            //   colorStart:'orange',
+            //   colorEnd: 'orange'
+            // })
+            .addTo(controller);
+
+
+
+
+
+
+
+
+
+
+
+var $circle = $('#circle'),
+    $circle2 = $('#circle2'),
+    $circle3 = $('#circle3'),
+    duration = 1
+  ;
+
+ var circleBounce1 = TweenMax.to($circle, .1, {className: '+=bounce3', ease:Power4.easeOut});
+ var circleBounce2 = TweenMax.to($circle2, .1, {className: '+=bounce3', ease:Power4.easeOut, delay:.5});
+ var circleBounce3 = TweenMax.to($circle3, .1, {className: '+=bounce3', ease:Power4.easeOut, delay:.75});
+
+ var sceneCircle1 = new ScrollMagic.Scene({
+              triggerElement: "#trigger3",
+              triggerHook: .5, 
+              reverse: false
+            })
+            .setTween(circleBounce1)                
+            .addTo(controller);
+
+ var sceneCircle2 = new ScrollMagic.Scene({
+              triggerElement: "#trigger3",
+              triggerHook: .5, 
+              reverse: false
+            })
+            .setTween(circleBounce2)                
+            .addTo(controller);
+
+  var sceneCircle3 = new ScrollMagic.Scene({
+              triggerElement: "#trigger3",
+              triggerHook: .5, 
+              reverse: false
+            })
+            .setTween(circleBounce3)                
+           .addTo(controller);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -83,41 +182,17 @@ $('.looprow').each(function(){
   })
 
     .setClassToggle(this, 'scoot')
-    .addIndicators({
-        name: 'scooter',
-        colorTrigger: 'green',
-        colorStart:'green',
-        colorEnd: 'green'
-    })
+    // .addIndicators({
+    //     name: 'scooter',
+    //     colorTrigger: 'green',
+    //     colorStart:'green',
+    //     colorEnd: 'green'
+    // })
     .addTo(controller);
 
 }) //ends looprow function
 
-  
-  	// var img = $('img');
-  	//  h1 = $('h1');
-  	//  h2 = $('h2');
-  	//  h3 = $('h3');
-  	//  p = $('p');
-  	//  tl = new TimelineLite();
-   //   tl2 = new TimelineLite();
-   //   btn = $('.btn');
 
-
-
-  	
-   //  //using a timeline
-   //  tl
-   //  .add('btn')
-   //  //the last one is the timeline position parameter - you can leave a gap or start it early
-   //  //.to(btn, 0.3, { y: 70, autoAlpha:7, ease:Power1.easeOut})
-
-   //  .from(img, 0.3, {x: 100, autoAlpha:0, ease:Power1.easeOut}, 1.5)
-   //  //'-=1' - that relative positioning - relative to the one before
-   //  .from(h1, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.4}, '-=1')
-   //  //this one will run at the 3 second mark - it's called absolute position
-   //  .from(h3, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.6}, 2.5)
-   //  //.from(p, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut}, 'btn-+.5' );
 
 
 

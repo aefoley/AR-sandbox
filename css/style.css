@@ -1,0 +1,322 @@
+.center-block {
+  margin: 0 auto;
+}
+.mtop0 {
+  margin-top: 0;
+}
+.mtop0 {
+  margin-top: 5px;
+}
+.mtop10 {
+  margin-top: 10px;
+}
+.mtop20 {
+  margin-top: 20px;
+}
+.mtop30 {
+  margin-top: 30px;
+}
+.mtop40 {
+  margin-top: 40px;
+}
+.mtop50 {
+  margin-top: 50px;
+}
+.mtop60 {
+  margin-top: 60px;
+}
+.mtop70 {
+  margin-top: 70px;
+}
+.mtop80 {
+  margin-top: 80px;
+}
+.mright0 {
+  margin-right: 0;
+}
+.mright10 {
+  margin-right: 10px;
+}
+.mright20 {
+  margin-right: 20px;
+}
+.mright30 {
+  margin-right: 30px;
+}
+.mright40 {
+  margin-right: 40px;
+}
+.mright50 {
+  margin-right: 50px;
+}
+.mbottom0 {
+  margin-bottom: 0;
+}
+.mbottom0 {
+  margin-bottom: 5px;
+}
+.mbottom10 {
+  margin-bottom: 10px;
+}
+.mbottom20 {
+  margin-bottom: 20px;
+}
+.mbottom30 {
+  margin-bottom: 30px;
+}
+.mbottom40 {
+  margin-bottom: 40px;
+}
+.mbottom50 {
+  margin-bottom: 50px;
+}
+.mbottom60 {
+  margin-bottom: 60px;
+}
+.mbottom70 {
+  margin-bottom: 70px;
+}
+.mbottom80 {
+  margin-bottom: 80px;
+}
+.mleft0 {
+  margin-left: 0;
+}
+.mleft10 {
+  margin-left: 10px;
+}
+.mleft20 {
+  margin-left: 20px;
+}
+.mleft30 {
+  margin-left: 30px;
+}
+.mleft40 {
+  margin-left: 40px;
+}
+.mleft50 {
+  margin-left: 50px;
+}
+.ptop0 {
+  padding-top: 0;
+}
+.ptop10 {
+  padding-top: 10px;
+}
+.ptop20 {
+  padding-top: 20px;
+}
+.ptop30 {
+  padding-top: 30px;
+}
+.ptop40 {
+  padding-top: 40px;
+}
+.ptop50 {
+  padding-top: 50px;
+}
+.pright0 {
+  padding-right: 0;
+}
+.pright10 {
+  padding-right: 10px;
+}
+.pright20 {
+  padding-right: 20px;
+}
+.pright30 {
+  padding-right: 30px;
+}
+.pright40 {
+  padding-right: 40px;
+}
+.pright50 {
+  padding-right: 50px;
+}
+.pbottom0 {
+  padding-bottom: 0;
+}
+.pbottom10 {
+  padding-bottom: 10px;
+}
+.pbottom20 {
+  padding-bottom: 20px;
+}
+.pbottom30 {
+  padding-bottom: 30px;
+}
+.pbottom40 {
+  padding-bottom: 40px;
+}
+.pbottom50 {
+  padding-bottom: 50px;
+}
+.pleft0 {
+  padding-left: 0;
+}
+.pleft10 {
+  padding-left: 10px;
+}
+.pleft20 {
+  padding-left: 20px;
+}
+.pleft30 {
+  padding-left: 30px;
+}
+.pleft40 {
+  padding-left: 40px;
+}
+.pleft50 {
+  padding-left: 50px;
+}
+body {
+  /* min-height: 2000px;*/
+  padding-top: 70px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1 {
+  font-weight: 300;
+  color: #525252;
+}
+.fb-row-ibright {
+  position: relative;
+}
+.fb-row-ibright img {
+  margin: 0 auto;
+}
+.fb-img-ibright {
+  /*starting positions*/
+  opacity: 0.5;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+  width: 75%;
+}
+.fb-img-ibright.fade-in {
+  opacity: 1;
+  transform: translateY(5px);
+  width: 80%;
+}
+.tbroch-row-ibright {
+  position: relative;
+}
+.tbroch-row-ibright img {
+  margin: 0 auto;
+}
+.tbroch-img-ibright {
+  /*starting positions*/
+  opacity: 0.5;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+  width: 75%;
+}
+.tbroch-img-ibright.fade-in {
+  opacity: 1;
+  transform: translateY(5px);
+  width: 80%;
+}
+.sysbroch-row {
+  position: relative;
+}
+.sysbroch-row img {
+  margin: 0 auto;
+}
+.sysbroch-img {
+  /*starting positions*/
+  opacity: 0.5;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+  width: 75%;
+}
+.sysbroch-img.fade-in {
+  opacity: 1;
+  transform: translateY(5px);
+  width: 80%;
+}
+.box-demo-img {
+  /*starting positions*/
+  opacity: 0.5;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+  width: 75%;
+}
+.box-demo-img.fade-in {
+  opacity: 1;
+  transform: translateY(5px);
+  width: 80%;
+}
+.box-demo-row {
+  position: relative;
+}
+.box-demo-row img {
+  margin: 0 auto;
+}
+.row.copy p {
+  font-size: 1.5em;
+  color: #525252;
+  font-weight: 300;
+}
+.emthumb {
+  opacity: 0.7;
+}
+.looprow > img {
+  transform: translateX(0);
+  transition: all 1s ease-out;
+}
+.looprow.scoot > img {
+  transform: translateX(100%);
+}
+.symphony {
+  background-image: url('img/symphony.png');
+  height: 500px;
+  z-index: 100;
+}
+.symphony .col-sm-12 img {
+  display: block;
+  margin: 100px auto;
+}
+.pink {
+  height: 450px;
+  background-color: pink;
+}
+.pink h1 {
+  font-size: 5.9vw;
+  z-index: 10;
+}
+.pink h2 {
+  font-size: 3vw;
+}
+.pink h3 {
+  font-size: 2vw;
+}
+.pink p {
+  font-size: 1vw;
+}
+.looprow {
+  padding: 30px 50px;
+}
+.bcg-parallax {
+  padding: 140px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.bcg {
+  background: url('img/starry2.jpg') no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 240%;
+  top: 0;
+  z-index: 1;
+  opacity: 0.7;
+}
+.content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1140px;
+  position: relative;
+  z-index: 2;
+}
+/*# sourceMappingURL=style.css.map */
