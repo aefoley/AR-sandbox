@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "29156",
 "files": {
+	"/gifplayer.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/gifplayer-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/margins.less": {
 		"aP": 0,
 		"bl": 0,
@@ -78,7 +88,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 578325484.78739095,
-	"displayValue": "css",
+	"displayValue": "css-gsap",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-cocaine",
 	"iconImageWasSetByUser": 0

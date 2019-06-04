@@ -178,6 +178,9 @@ h1 {
   font-weight: 300;
   color: #525252;
 }
+.fbcol {
+  padding: 4vw;
+}
 .fb-row-ibright {
   position: relative;
 }

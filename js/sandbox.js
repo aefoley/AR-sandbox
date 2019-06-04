@@ -76,6 +76,24 @@
 
 // ---------------------------   fade in vid/email clicks
 
+var HTThumbAppear = TweenMax.staggerTo(".htthumb", 1, {y:"-=50", opacity:1}, 0.5);
+
+var circleFadeIn = new ScrollMagic.Scene({
+              triggerElement: "#trigger-htthumbs",
+              triggerHook: .5,
+              //duration:50
+            })
+            .setTween(emThumbAppear)
+            // .addIndicators({
+            //   name: 'email thumbs',
+            //   colorTrigger: 'orange',
+            //   colorStart:'orange',
+            //   colorEnd: 'orange'
+            // })
+            .addTo(controller);
+
+
+
 var FBThumbAppear = TweenMax.staggerTo(".fbthumb", 1, {y:"-=50", opacity:1}, 0.5);
 
 var circleFadeIn = new ScrollMagic.Scene({
