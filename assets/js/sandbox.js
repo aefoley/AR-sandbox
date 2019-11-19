@@ -4,28 +4,38 @@
 
 (function($) {
 
-  //basic  ------------------------------------------------------------------------  
+ //basic  ------------------------------------------------------------------------  
   
-  // // Init ScrollMagic
-  // var controller = new ScrollMagic.Controller();
-
-  // // //build a scene
-  // var gnomeScene = new ScrollMagic.Scene({
-  //     triggerElement: '.cover',
-  //     duration:600, //the scene should last for a scroll of 300px
-  //     triggerHook: .5 //at .7 of viewport height
 
 
-  // })
+var introtext = $('h2.title');
 
-  // .setClassToggle('.covergnomes', 'fade-in')
-  // .addIndicators({
-  //   name: 'fade and rise gnomes',
-  //   colorTrigger: 'gray',
-  //   colorStart:'gray',
-  //   colorEnd: 'gray'
-  // })
-  // .addTo(controller);
+TweenLite.to(introtext, 1, {opacity:0, y:50});
+
+
+
+
+
+  // Init ScrollMagic
+  var controller = new ScrollMagic.Controller();
+
+  // //build a scene
+  var gnomeScene = new ScrollMagic.Scene({
+      triggerElement: '.cover',
+      duration:600, //the scene should last for a scroll of 300px
+      triggerHook: .5 //at .7 of viewport height
+
+
+  })
+
+  .setClassToggle('.covergnomes', 'fade-in')
+  .addIndicators({
+    name: 'fade and rise gnomes',
+    colorTrigger: 'gray',
+    colorStart:'gray',
+    colorEnd: 'gray'
+  })
+  .addTo(controller);
 
   // // //pinning  ------------------------------------------------------------------------  
 

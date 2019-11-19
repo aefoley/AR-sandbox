@@ -1,0 +1,10 @@
+
+# Codekit #
+######################
+config.codekit3
+
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
