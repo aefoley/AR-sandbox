@@ -8,34 +8,42 @@
   
 
 
-var introtext = $('h2.title');
-
-TweenLite.to(introtext, 1, {opacity:0, y:50});
-
-
-
+var introtext = $('div.introtext');
+var introtwo = $('div.introtwo');
+  TweenLite.to(introtext, 1, {opacity:1, y:-50});
+  TweenLite.to(introtwo, 1, {opacity:1, y:-50, delay: 0.8});
 
 
-  // Init ScrollMagic
-  var controller = new ScrollMagic.Controller();
+  
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+  // // Init ScrollMagic
+  // var controller = new ScrollMagic.Controller();
 
-  // //build a scene
-  var gnomeScene = new ScrollMagic.Scene({
-      triggerElement: '.cover',
-      duration:600, //the scene should last for a scroll of 300px
-      triggerHook: .5 //at .7 of viewport height
+  // // //build a scene
+  // var gnomeScene = new ScrollMagic.Scene({
+  //     triggerElement: '.cover',
+  //     duration:600, //the scene should last for a scroll of 300px
+  //     triggerHook: .5 //at .7 of viewport height
 
 
-  })
+  // })
 
-  .setClassToggle('.covergnomes', 'fade-in')
-  .addIndicators({
-    name: 'fade and rise gnomes',
-    colorTrigger: 'gray',
-    colorStart:'gray',
-    colorEnd: 'gray'
-  })
-  .addTo(controller);
+  // .setClassToggle('.covergnomes', 'fade-in')
+  // .addIndicators({
+  //   name: 'fade and rise gnomes',
+  //   colorTrigger: 'gray',
+  //   colorStart:'gray',
+  //   colorEnd: 'gray'
+  // })
+  // .addTo(controller);
 
   // // //pinning  ------------------------------------------------------------------------  
 
@@ -131,4 +139,4 @@ TweenLite.to(introtext, 1, {opacity:0, y:50});
 
 
 
-})(jQuery);
+})($);

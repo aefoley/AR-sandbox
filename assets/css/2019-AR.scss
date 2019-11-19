@@ -1,8 +1,11 @@
+
+@import 'animations.scss';
+@import 'margins.scss';
+
 body {
-font-size:13px;
+  font-size:15px;
+  font-weight:300;
 }
-
-
 
 //variables
 $white: #fff;
@@ -11,25 +14,36 @@ $medgray: #ADADAD;
 $darkgray: #6B6B6B;
 $vdarkgray: #333;
 $orange: #FFA500;
+$yellowgreen: #dee21e;
+$green:rgb(0,111,81);
 
 .orange {color:$orange}
-.white { color: $white; }
+.white { color: $white;}
+.yellowgreen {color:$yellowgreen;}
+.green {color:$green;}
+.bkggreen {background-color:$green;}
+
 
 
 .navbar-default {
-  background-color:rgba(55, 55, 55, .8);
+  background-color:rgba(2, 2, 2, .7);
    .navbar-nav>li>a {
-   color:#000;
+   color:$darkgray;
    &:hover {
-    color:$lightgray;
+    color:$white;
    }
   }
   a.navbar-brand {
     padding-top:10px;
     img {
-      opacity: 0.5;
+      opacity: 0.7;
+
       filter: alpha(opacity=50);
       width:70px;
+       &:hover {
+        opacity:1;
+       filter: alpha(opacity=100);
+      }
     }
   }
 }
@@ -39,9 +53,55 @@ $orange: #FFA500;
 	border:none;
 }
 
-
 .introtext {
-  margin:3vw;
+  margin-left:3vw;
+  margin-right:3vw;
+  margin-top:10vw;
+  hr {
+  	opacity:.5;
+  }
+  h1 {
+  	font-size:5vw;
+  	color:$orange;
+  	line-height:.8;
+	}
+  h2 {
+  	font-size:2.5vw;
+  	color:$white;
+  	font-weight:400;
+    margin-top:10px;
+  }
+  h3 {
+  	color:$white;
+  	font-weight:400;
+  }
+	opacity:0;
+}
+
+.introtwo {
+
+  margin-left:3vw;
+  margin-right:3vw;
+  margin-top:5vw;
+  
+  hr {
+  	opacity:.5;
+  }
+  h1 {
+  	font-size:72px;
+  	color:$orange;
+	}
+  h2 {
+  	font-size:36px;
+  	color:$white;
+  	font-weight:400;
+  }
+  h3 {
+  	color:$yellowgreen;
+  	font-weight:400;
+  }
+	opacity:0;
+
 }
 
 
@@ -54,6 +114,68 @@ $orange: #FFA500;
  
 
 }
+
+
+
+#glance {
+  h1 {
+    font-size:56px;
+  }
+  p {
+    font-size:20px;
+  }
+  .tables {
+    padding-top:50px;
+  }
+  .bkggreen {
+    padding-left:40px;
+    padding-right:40px;
+    color:$white;
+  }
+
+  .tables {
+    padding-left:40px;
+    padding-right:40px;
+
+  }
+
+  td.right {
+    text-align:right;
+  }
+  td:nth-child(2) {
+  color:$green;
+  font-weight:600;
+  text-align:right;
+  }
+  td:nth-child(3) {
+    text-align:right;
+  }
+   td:nth-child(4) {
+    text-align:right;
+  }
+  td:nth-child(5){
+    text-align:center;
+  }
+ }
+
+tr.secborder {
+  border-bottom: 2px solid $green;
+}
+.table>tbody>tr.notopborder>td
+ {
+  border-top:none;
+ 
+}
+
+
+
+
+
+
+
+
+
+
 
 .gnomerow {
 	background-image: url('../img/footer_lodyas.png');
