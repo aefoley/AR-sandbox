@@ -2,10 +2,7 @@
 @import 'animations.scss';
 @import 'margins.scss';
 
-body {
-  font-size:15px;
-  font-weight:300;
-}
+
 
 //variables
 $white: #fff;
@@ -22,13 +19,19 @@ $green:rgb(0,111,81);
 .yellowgreen {color:$yellowgreen;}
 .green {color:$green;}
 .bkggreen {background-color:$green;}
+body {
+  font-size:15px;
+  font-weight:300;
+  color:$darkgray;
+}
 
-
-
+.body-large {
+  font-size:1.5em;
+}
 .navbar-default {
   background-color:rgba(2, 2, 2, .7);
    .navbar-nav>li>a {
-   color:$darkgray;
+   color:#ebebeb;
    &:hover {
     color:$white;
    }
@@ -56,7 +59,7 @@ $green:rgb(0,111,81);
 .introtext {
   margin-left:3vw;
   margin-right:3vw;
-  margin-top:10vw;
+  margin-top:15vw;
   hr {
   	opacity:.5;
   }
@@ -83,6 +86,7 @@ $green:rgb(0,111,81);
   margin-left:3vw;
   margin-right:3vw;
   margin-top:5vw;
+  margin-bottom:7vw;
   
   hr {
   	opacity:.5;
@@ -111,26 +115,35 @@ $green:rgb(0,111,81);
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position:relative;
  
 
 }
 
 
+/* At-a-glance section 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+ 
+
+
+.panel-title>a:hover, .panel-title>a:active, .panel-title>a:focus {
+  text-decoration: none;
+}
 
 #glance {
+  padding:60px 0;
+
+
+
   h1 {
-    font-size:56px;
+    font-size:36px;
   }
   p {
     font-size:20px;
   }
   .tables {
     padding-top:50px;
-  }
-  .bkggreen {
-    padding-left:40px;
-    padding-right:40px;
-    color:$white;
   }
 
   .tables {
@@ -167,7 +180,80 @@ tr.secborder {
  
 }
 
+/* Charts
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
 
+.chart1t {
+  // transform: translateY(50px);
+}
+
+// .chart1{
+//     /*starting positions*/
+//   opacity:0;
+//   transform: translateY(150px);
+//   transition: all 1s ease-out;
+// }
+
+// .chart1.fade-in{
+//   opacity:1;
+//   transform:translateY(5px);
+// }
+
+/* President section
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+
+
+
+
+
+
+.president {
+   background: url('../img/president/Keebler-2019-10-30-0016.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+ 
+
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -350px;
+ }
+
+.page-wrap:after {
+  content: "";
+  display: block;
+
+}
+.footer, .page-wrap:after {
+  height: 350px;
+}
+.footer {
+    background-color: $green;
+    font-size:12px;
+    color:$white;
+ }
+
+.right-footer {
+    float:right;
+}
+
+ul.utility-menu {
+  list-style-type:none;
+  a { color:$white; }
+}
 
 
 

@@ -4,9 +4,7 @@
 
 (function($) {
 
- //basic  ------------------------------------------------------------------------  
-  
-
+//first section - fade in and up on load
 
 var introtext = $('div.introtext');
 var introtwo = $('div.introtwo');
@@ -15,28 +13,20 @@ var introtwo = $('div.introtwo');
 
 
   
-$('a[href^="#"]').on('click', function(event) {
-    var target = $(this.getAttribute('href'));
-    if( target.length ) {
-        event.preventDefault();
-        $('html, body').stop().animate({
-            scrollTop: target.offset().top
-        }, 1000);
-    }
-});
-  // // Init ScrollMagic
-  // var controller = new ScrollMagic.Controller();
+
+// Init ScrollMagic
+  var controller = new ScrollMagic.Controller();
 
   // // //build a scene
   // var gnomeScene = new ScrollMagic.Scene({
-  //     triggerElement: '.cover',
+  //     triggerElement: '.charts',
   //     duration:600, //the scene should last for a scroll of 300px
   //     triggerHook: .5 //at .7 of viewport height
 
 
   // })
 
-  // .setClassToggle('.covergnomes', 'fade-in')
+  // .setClassToggle('.chart1', 'fade-in')
   // .addIndicators({
   //   name: 'fade and rise gnomes',
   //   colorTrigger: 'gray',
@@ -45,7 +35,40 @@ $('a[href^="#"]').on('click', function(event) {
   // })
   // .addTo(controller);
 
-  // // //pinning  ------------------------------------------------------------------------  
+   
+
+  var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:0}, {y:0, opacity:1}, 0.8);
+
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: ".trigger1", duration: 400})
+        .setTween(twChart1)
+        .addTo(controller)
+        //.addIndicators({name: 'fade and rise gnomes'});
+
+var twChart2 = TweenMax.staggerFromTo(".chart2t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
+
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: ".trigger2", duration: 400})
+        .setTween(twChart2)
+        .addTo(controller);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  // //pinning  ------------------------------------------------------------------------  
 
   // var pinnerScene = new ScrollMagic.Scene({
   //   triggerElement: '.symphony',
@@ -62,7 +85,7 @@ $('a[href^="#"]').on('click', function(event) {
   // .addTo(controller);
 
 
-   //parallax scene ---------------------------------------------------------------------
+  //parallax scene ---------------------------------------------------------------------
 
 // var parallaxTl = new TimelineMax();
 // parallaxTl
@@ -112,30 +135,73 @@ $('a[href^="#"]').on('click', function(event) {
 // }) //ends looprow function
 
   
-  	// var img = $('img');
-  	//  h1 = $('h1');
-  	//  h2 = $('h2');
-  	//  h3 = $('h3');
-  	//  p = $('p');
-  	//  tl = new TimelineLite();
-   //   tl2 = new TimelineLite();
-   //   btn = $('.btn');
+//   	var img = $('img');
+//   	 h1 = $('h1');
+//   	 h2 = $('h2');
+//   	 h3 = $('h3');
+//   	 p = $('p');
+//   	 tl = new TimelineLite();
+//      tl2 = new TimelineLite();
+//      btn = $('.btn');
 
 
 
   	
-   //  //using a timeline
-   //  tl
-   //  .add('btn')
-   //  //the last one is the timeline position parameter - you can leave a gap or start it early
-   //  //.to(btn, 0.3, { y: 70, autoAlpha:7, ease:Power1.easeOut})
+    // //using a timeline
+    // tl
+    // .add('btn')
+    // //the last one is the timeline position parameter - you can leave a gap or start it early
+    // //.to(btn, 0.3, { y: 70, autoAlpha:7, ease:Power1.easeOut})
 
-   //  .from(img, 0.3, {x: 100, autoAlpha:0, ease:Power1.easeOut}, 1.5)
-   //  //'-=1' - that relative positioning - relative to the one before
-   //  .from(h1, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.4}, '-=1')
-   //  //this one will run at the 3 second mark - it's called absolute position
-   //  .from(h3, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.6}, 2.5)
-   //  //.from(p, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut}, 'btn-+.5' );
+    // .from(img, 0.3, {x: 100, autoAlpha:0, ease:Power1.easeOut}, 1.5)
+    // //'-=1' - that relative positioning - relative to the one before
+    // .from(h1, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.4}, '-=1')
+    // //this one will run at the 3 second mark - it's called absolute position
+    // .from(h3, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.6}, 2.5)
+    // //.from(p, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut}, 'btn-+.5' );
+
+
+//utilities - scroll to, get current year in footer
+
+$('a[href^="#"]').on('click', function(event) {
+    var target = $(this.getAttribute('href'));
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').stop().animate({
+            scrollTop: target.offset().top
+        }, 1000);
+    }
+});
+
+
+  //gets current year in footer
+  var currentYear = (new Date).getFullYear();
+  $('.year').text(currentYear);
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

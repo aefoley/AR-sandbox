@@ -38,12 +38,14 @@
     transform: translateY(-15px); } }
 
 .arrow {
-  margin: 85vh auto auto auto;
   display: block;
   width: 40px;
   height: 40px;
   background-image: url("../img/global/round-down.svg");
-  background-size: contain; }
+  background-size: contain;
+  position: absolute;
+  bottom: 20px;
+  margin-left: 49vw; }
 
 .bounce {
   -moz-animation: bounce 1.5s 2;
@@ -200,10 +202,6 @@
 .pleft50 {
   padding-left: 50px; }
 
-body {
-  font-size: 15px;
-  font-weight: 300; }
-
 .orange {
   color: #FFA500; }
 
@@ -219,10 +217,18 @@ body {
 .bkggreen {
   background-color: #006f51; }
 
+body {
+  font-size: 15px;
+  font-weight: 300;
+  color: #6B6B6B; }
+
+.body-large {
+  font-size: 1.5em; }
+
 .navbar-default {
   background-color: rgba(2, 2, 2, 0.7); }
   .navbar-default .navbar-nav > li > a {
-    color: #6B6B6B; }
+    color: #ebebeb; }
     .navbar-default .navbar-nav > li > a:hover {
       color: #fff; }
   .navbar-default a.navbar-brand {
@@ -241,7 +247,7 @@ body {
 .introtext {
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 10vw;
+  margin-top: 15vw;
   opacity: 0; }
   .introtext hr {
     opacity: .5; }
@@ -262,6 +268,7 @@ body {
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 5vw;
+  margin-bottom: 7vw;
   opacity: 0; }
   .introtwo hr {
     opacity: .5; }
@@ -281,48 +288,88 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
 
-#glance h1 {
-  font-size: 56px; }
+/* At-a-glance section 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+.panel-title > a:hover, .panel-title > a:active, .panel-title > a:focus {
+  text-decoration: none; }
 
-#glance p {
-  font-size: 20px; }
-
-#glance .tables {
-  padding-top: 50px; }
-
-#glance .bkggreen {
-  padding-left: 40px;
-  padding-right: 40px;
-  color: #fff; }
-
-#glance .tables {
-  padding-left: 40px;
-  padding-right: 40px; }
-
-#glance td.right {
-  text-align: right; }
-
-#glance td:nth-child(2) {
-  color: #006f51;
-  font-weight: 600;
-  text-align: right; }
-
-#glance td:nth-child(3) {
-  text-align: right; }
-
-#glance td:nth-child(4) {
-  text-align: right; }
-
-#glance td:nth-child(5) {
-  text-align: center; }
+#glance {
+  padding: 60px 0; }
+  #glance h1 {
+    font-size: 36px; }
+  #glance p {
+    font-size: 20px; }
+  #glance .tables {
+    padding-top: 50px; }
+  #glance .tables {
+    padding-left: 40px;
+    padding-right: 40px; }
+  #glance td.right {
+    text-align: right; }
+  #glance td:nth-child(2) {
+    color: #006f51;
+    font-weight: 600;
+    text-align: right; }
+  #glance td:nth-child(3) {
+    text-align: right; }
+  #glance td:nth-child(4) {
+    text-align: right; }
+  #glance td:nth-child(5) {
+    text-align: center; }
 
 tr.secborder {
   border-bottom: 2px solid #006f51; }
 
 .table > tbody > tr.notopborder > td {
   border-top: none; }
+
+/* Charts
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+/* President section
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+.president {
+  background: url("../img/president/Keebler-2019-10-30-0016.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height: 100%; }
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -350px; }
+
+.page-wrap:after {
+  content: "";
+  display: block; }
+
+.footer, .page-wrap:after {
+  height: 350px; }
+
+.footer {
+  background-color: #006f51;
+  font-size: 12px;
+  color: #fff; }
+
+.right-footer {
+  float: right; }
+
+ul.utility-menu {
+  list-style-type: none; }
+  ul.utility-menu a {
+    color: #fff; }
 
 .gnomerow {
   background-image: url("../img/footer_lodyas.png");
