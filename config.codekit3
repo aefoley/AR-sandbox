@@ -7,8 +7,935 @@
 		"uuidString": "2DFF83C9-B730-4AC1-8BA1-FD1D8AE64895"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "31934",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/assets/css/2019-AR.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/2019-AR-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/2019-AR.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/2019-AR.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/css/animations.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/animations-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/animations.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/css/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/css/margins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/margins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/css/navbar-fixed-top.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/css/navbar-fixed-top-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/img/ataglance/CTRT-graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/ataglance/CTRT-graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/ataglance/EPS-graph.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/ataglance/EPS-graph.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/blue.png": {
+		"ft": 32768,
+		"iS": 10381,
+		"oA": 0,
+		"oAP": "/assets/img/blue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/cheese.png": {
+		"ft": 32768,
+		"iS": 187973,
+		"oA": 0,
+		"oAP": "/assets/img/cheese.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.jpg": {
+		"ft": 16384,
+		"iS": 147965,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.png": {
+		"ft": 32768,
+		"iS": 2264569,
+		"oA": 0,
+		"oAP": "/assets/img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.psd",
+		"oF": 0
+		},
+	"/assets/img/cover/MGEEnergy-white-170.png": {
+		"ft": 32768,
+		"iS": 8091,
+		"oA": 0,
+		"oAP": "/assets/img/cover/MGEEnergy-white-170.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/filler.png": {
+		"ft": 32768,
+		"iS": 1031,
+		"oA": 0,
+		"oAP": "/assets/img/filler.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/filler.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/img/filler.psd",
+		"oF": 0
+		},
+	"/assets/img/footer_lodyas.png": {
+		"ft": 32768,
+		"iS": 33702,
+		"oA": 0,
+		"oAP": "/assets/img/footer_lodyas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/game-card-wrong.jpg": {
+		"ft": 16384,
+		"iS": 394997,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/game-card-wrong.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/game-card1.jpg": {
+		"ft": 16384,
+		"iS": 412255,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/game-card1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/game-card1a.jpg": {
+		"ft": 16384,
+		"iS": 399323,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/game-card1a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/game-card2.jpg": {
+		"ft": 16384,
+		"iS": 447052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/game-card2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/game-card2a.jpg": {
+		"ft": 16384,
+		"iS": 423664,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/game-card2a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/game-intro.jpg": {
+		"ft": 16384,
+		"iS": 428913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/game-intro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/global/fb-wh.png": {
+		"ft": 32768,
+		"iS": 491,
+		"oA": 0,
+		"oAP": "/assets/img/global/fb-wh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/li-wh.png": {
+		"ft": 32768,
+		"iS": 562,
+		"oA": 0,
+		"oAP": "/assets/img/global/li-wh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/MGEEnergy-white-1200.png": {
+		"ft": 32768,
+		"iS": 17045,
+		"oA": 0,
+		"oAP": "/assets/img/global/MGEEnergy-white-1200.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/MGEEnergy-white-150.png": {
+		"ft": 32768,
+		"iS": 6551,
+		"oA": 0,
+		"oAP": "/assets/img/global/MGEEnergy-white-150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/MGEEnergy-white-170.png": {
+		"ft": 32768,
+		"iS": 8091,
+		"oA": 0,
+		"oAP": "/assets/img/global/MGEEnergy-white-170.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/MGEEnergy-white-200.png": {
+		"ft": 32768,
+		"iS": 5212,
+		"oA": 0,
+		"oAP": "/assets/img/global/MGEEnergy-white-200.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/MGEEnergy-white-400.png": {
+		"ft": 32768,
+		"iS": 5159,
+		"oA": 0,
+		"oAP": "/assets/img/global/MGEEnergy-white-400.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/MGEEnergy-white-600.png": {
+		"ft": 32768,
+		"iS": 8112,
+		"oA": 0,
+		"oAP": "/assets/img/global/MGEEnergy-white-600.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/pix.png": {
+		"ft": 32768,
+		"iS": 120,
+		"oA": 0,
+		"oAP": "/assets/img/global/pix.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/round-down.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/global/round-down.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/global/round-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/global/round-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/global/tw-wh.png": {
+		"ft": 32768,
+		"iS": 539,
+		"oA": 0,
+		"oAP": "/assets/img/global/tw-wh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/global/yt-wh.png": {
+		"ft": 32768,
+		"iS": 615,
+		"oA": 0,
+		"oAP": "/assets/img/global/yt-wh.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/gnomes.png": {
+		"ft": 32768,
+		"iS": 4076669,
+		"oA": 0,
+		"oAP": "/assets/img/gnomes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/IMG_7159.JPG": {
+		"ft": 16384,
+		"iS": 7690643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/IMG_7159.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/map-test.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/img/map-test.ai",
+		"oF": 0
+		},
+	"/assets/img/map-test.png": {
+		"ft": 32768,
+		"iS": 3298,
+		"oA": 0,
+		"oAP": "/assets/img/map-test.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/margins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/img/margins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/assets/img/orange.png": {
+		"ft": 32768,
+		"iS": 10449,
+		"oA": 0,
+		"oAP": "/assets/img/orange.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/president/Keebler-2019-10-30-0016.jpg": {
+		"ft": 16384,
+		"iS": 141252,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/president/Keebler-2019-10-30-0016.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/president/Keebler-2019-10-30-0016.psd": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/assets/img/president/Keebler-2019-10-30-0016.psd",
+		"oF": 0
+		},
+	"/assets/img/red.png": {
+		"ft": 32768,
+		"iS": 10230,
+		"oA": 0,
+		"oAP": "/assets/img/red.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/round-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/round-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/starry copy.jpg": {
+		"ft": 16384,
+		"iS": 1586811,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/starry copy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/starry.jpg": {
+		"ft": 16384,
+		"iS": 1018266,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/starry.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/starry2.jpg": {
+		"ft": 16384,
+		"iS": 1210892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/assets/img/starry2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/assets/img/symphony.png": {
+		"ft": 32768,
+		"iS": 19189,
+		"oA": 0,
+		"oAP": "/assets/img/symphony.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/Untitled-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/Untitled-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/js/bootstrap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/chart.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/chart.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/easing/EasePack.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/easing/EasePack.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/fancybox/jquery.fancybox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/js/fancybox/jquery.fancybox-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/js/fancybox/jquery.fancybox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/fancybox/jquery.fancybox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/fancybox/jquery.fancybox.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/assets/js/fancybox/jquery.fancybox.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/assets/js/fancybox/jquery.fancybox.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/fancybox/jquery.fancybox.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/image-map.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/image-map-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/jquery-3.3.1.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/jquery-3.3.1.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/jquery.gsap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/jquery.gsap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/old/offcanvas.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/old/offcanvas-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/old/sandbox-gs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/old/sandbox-gs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/old/sandbox2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/old/sandbox2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/AttrPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/AttrPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/BezierPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/BezierPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/ColorPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/ColorPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/CSSPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/CSSPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/CSSRulePlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/CSSRulePlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/DirectionalRotationPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/DirectionalRotationPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/EaselPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/EaselPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/EndArrayPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/EndArrayPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/ModifiersPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/ModifiersPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/RaphaelPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/RaphaelPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/RoundPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/RoundPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/ScrollToPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/ScrollToPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/plugins/TextPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/plugins/TextPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/sandbox-mgequiz.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/sandbox-mgequiz-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/sandbox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/sandbox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/TimelineLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/TimelineLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/TimelineMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/TimelineMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/TweenLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/TweenLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/TweenMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/TweenMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/assets/js/utils/Draggable.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/utils/Draggable.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/css/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -32,6 +959,7 @@
 	"/css/ev-game.css.map": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/css/ev-game.css.map",
 		"oF": 0
@@ -41,7 +969,6 @@
 		"bl": 0,
 		"eJ": 0,
 		"ft": 1,
-		"ie": 1,
 		"iI": 0,
 		"ma": 1,
 		"mS": 0,
@@ -53,166 +980,12 @@
 		"sI": 0,
 		"sU": 0
 		},
-	"/img/cheese.png": {
-		"ft": 32768,
-		"iS": 187973,
-		"oA": 0,
-		"oAP": "/img/cheese.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/filler.png": {
-		"ft": 32768,
-		"iS": 1031,
-		"oA": 0,
-		"oAP": "/img/filler.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/filler.psd": {
+	"/index.htm": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/img/filler.psd",
-		"oF": 0
-		},
-	"/img/game-card-wrong.jpg": {
-		"ft": 16384,
-		"iS": 394997,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/game-card-wrong.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/game-card1.jpg": {
-		"ft": 16384,
-		"iS": 412255,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/game-card1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/game-card1a.jpg": {
-		"ft": 16384,
-		"iS": 399323,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/game-card1a.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/game-card2.jpg": {
-		"ft": 16384,
-		"iS": 447052,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/game-card2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/game-card2a.jpg": {
-		"ft": 16384,
-		"iS": 423664,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/game-card2a.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/game-intro.jpg": {
-		"ft": 16384,
-		"iS": 428913,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/game-intro.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gnomes.png": {
-		"ft": 32768,
-		"iS": 4076669,
-		"oA": 0,
-		"oAP": "/img/gnomes.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/map-test.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/img/map-test.ai",
-		"oF": 0
-		},
-	"/img/map-test.png": {
-		"ft": 32768,
-		"iS": 3298,
-		"oA": 0,
-		"oAP": "/img/map-test.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/Untitled-1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Untitled-1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/index-css-list.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/index-css-list.html",
-		"oF": 0
-		},
-	"/index-gs.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/index-gs.html",
-		"oF": 0
-		},
-	"/index-saving.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/index-saving.html",
-		"oF": 0
-		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "/index.html",
+		"oAP": "/index.htm",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Book/calc.css": {
@@ -228,11 +1001,13 @@
 	"/Intro to Javascript /AF_Book/sandbox.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Book/sandbox.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Book/sandbox.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -245,6 +1020,7 @@
 	"/Intro to Javascript /AF_Book/sandbox_redirect.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Book/sandbox_redirect.html",
 		"oF": 0
@@ -252,6 +1028,7 @@
 	"/Intro to Javascript /AF_Book/youdonthavejs.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Book/youdonthavejs.html",
 		"oF": 0
@@ -259,6 +1036,7 @@
 	"/Intro to Javascript /AF_Project1.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project1.zip",
 		"oF": 0
@@ -276,11 +1054,13 @@
 	"/Intro to Javascript /AF_Project1/calc.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project1/calc.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project1/calc.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -293,6 +1073,7 @@
 	"/Intro to Javascript /AF_Project2.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project2.zip",
 		"oF": 0
@@ -310,11 +1091,13 @@
 	"/Intro to Javascript /AF_Project2/calc.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project2/calc.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project2/calc.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -337,11 +1120,13 @@
 	"/Intro to Javascript /AF_Project3 2/bzbing.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project3 2/bzbing.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project3 2/bzbingo.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -362,6 +1147,7 @@
 	"/Intro to Javascript /AF_Project3.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project3.zip",
 		"oF": 0
@@ -379,11 +1165,13 @@
 	"/Intro to Javascript /AF_Project3/bzbing.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project3/bzbing.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project3/bzbingo.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -414,11 +1202,13 @@
 	"/Intro to Javascript /AF_Project3_bingonumbers/Bingo.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project3_bingonumbers/Bingo.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -429,6 +1219,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo1.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -439,6 +1230,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo2.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -449,6 +1241,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo3.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -459,6 +1252,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo4.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -469,6 +1263,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo5.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -479,6 +1274,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project3_bingonumbers/bingo6.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -499,6 +1295,7 @@
 	"/Intro to Javascript /AF_Project4.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project4.zip",
 		"oF": 0
@@ -583,6 +1380,7 @@
 	"/Intro to Javascript /AF_Project4/nextpage.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project4/nextpage.html",
 		"oF": 0
@@ -600,11 +1398,13 @@
 	"/Intro to Javascript /AF_Project4/rollover.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project4/rollover.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project4/rollover.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -615,6 +1415,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project4/rollover1.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -742,6 +1543,7 @@
 	"/Intro to Javascript /AF_Project4_withlinks/nextpage.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project4_withlinks/nextpage.html",
 		"oF": 0
@@ -759,11 +1561,13 @@
 	"/Intro to Javascript /AF_Project4_withlinks/rollover.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project4_withlinks/rollover.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project4_withlinks/rollover.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -776,11 +1580,13 @@
 	"/Intro to Javascript /AF_Project4_withlinks/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project4_withlinks/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project4_withlinks/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -793,11 +1599,13 @@
 	"/Intro to Javascript /AF_Project5/banner.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project5/banner.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project5/banner.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -810,11 +1618,13 @@
 	"/Intro to Javascript /AF_Project5/banner_links.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project5/banner_links.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project5/banner_links.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -882,6 +1692,7 @@
 	"/Intro to Javascript /AF_Project5/images/pantone.psd": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project5/images/pantone.psd",
 		"oF": 0
@@ -910,6 +1721,7 @@
 	"/Intro to Javascript /AF_Project6.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project6.zip",
 		"oF": 0
@@ -936,11 +1748,13 @@
 	"/Intro to Javascript /AF_Project6/DatePage.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project6/DatePage.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project6/DatesPage.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1115,6 +1929,7 @@
 		"q": 100
 		},
 	"/Intro to Javascript /AF_Project7/menu_new.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1125,6 +1940,7 @@
 		"tS": 0
 		},
 	"/Intro to Javascript /AF_Project7/menus..js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1147,11 +1963,13 @@
 	"/Intro to Javascript /AF_Project7/menus.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/menus.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/menus.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1184,11 +2002,13 @@
 	"/Intro to Javascript /AF_Project7/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1211,11 +2031,13 @@
 	"/Intro to Javascript /AF_Project7/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1238,11 +2060,13 @@
 	"/Intro to Javascript /AF_Project7/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1265,11 +2089,13 @@
 	"/Intro to Javascript /AF_Project7/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1282,11 +2108,13 @@
 	"/Intro to Javascript /AF_Project7/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1309,11 +2137,13 @@
 	"/Intro to Javascript /AF_Project7/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1336,11 +2166,13 @@
 	"/Intro to Javascript /AF_Project7/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /AF_Project7/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /AF_Project7/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1363,6 +2195,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/comparisons.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/comparisons.html",
 		"oF": 0
@@ -1380,6 +2213,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/formevents.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/formevents.html",
 		"oF": 0
@@ -1419,6 +2253,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/keyboardevents.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/keyboardevents.html",
 		"oF": 0
@@ -1426,6 +2261,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/mouseclickchart.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/mouseclickchart.html",
 		"oF": 0
@@ -1443,11 +2279,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/mousemovechart.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/mousemovechart.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/mousemovechart.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1460,6 +2298,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/windowevents.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/event charts/windowevents.html",
 		"oF": 0
@@ -1467,6 +2306,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter02/script01.html",
 		"oF": 0
@@ -1474,6 +2314,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example01/finished/script.html",
 		"oF": 0
@@ -1481,6 +2322,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example01/script.html",
 		"oF": 0
@@ -1488,11 +2330,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1505,11 +2349,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1522,11 +2368,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1539,11 +2387,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1556,11 +2406,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1573,11 +2425,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter03/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1590,11 +2444,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1607,11 +2463,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1624,11 +2482,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1641,11 +2501,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1658,11 +2520,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1675,11 +2539,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1692,11 +2558,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1709,11 +2577,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1726,6 +2596,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/finished/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/finished/index.html",
 		"oF": 0
@@ -1733,11 +2604,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1750,6 +2623,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/index.html",
 		"oF": 0
@@ -1757,11 +2631,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1774,6 +2650,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/index.html",
 		"oF": 0
@@ -1781,6 +2658,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/jswelcome.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/jswelcome.html",
 		"oF": 0
@@ -1788,11 +2666,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1805,6 +2685,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/index.html",
 		"oF": 0
@@ -1812,6 +2693,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/jswelcome.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/jswelcome.html",
 		"oF": 0
@@ -1819,11 +2701,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-1/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1836,11 +2720,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-2/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-2/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-2/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1853,11 +2739,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-2/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-2/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example06-2/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1870,11 +2758,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example07/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example07/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example07/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1887,11 +2777,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example07/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example07/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example07/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1904,11 +2796,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example08/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example08/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example08/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1921,11 +2815,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example08/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example08/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter04/example08/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1948,11 +2844,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1975,11 +2873,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2002,11 +2902,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2029,11 +2931,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2056,11 +2960,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2083,11 +2989,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2110,11 +3018,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2137,11 +3047,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2164,11 +3076,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2191,11 +3105,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2218,11 +3134,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example06/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example06/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example06/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2245,11 +3163,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example06/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example06/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example06/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2272,11 +3192,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example07/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example07/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example07/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2299,11 +3221,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example07/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example07/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example07/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2326,11 +3250,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example08/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example08/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example08/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2353,11 +3279,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example08/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example08/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter05/example08/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2386,6 +3314,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example01/finished/script.html",
 		"oF": 0
@@ -2419,6 +3348,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example01/script.html",
 		"oF": 0
@@ -2468,11 +3398,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2527,11 +3459,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2602,11 +3536,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2677,11 +3613,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2752,11 +3690,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2827,11 +3767,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2870,11 +3812,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2913,11 +3857,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2964,11 +3910,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example06/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example06/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example06/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3015,11 +3963,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example06/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example06/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example06/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3138,11 +4088,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example07/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example07/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example07/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3261,11 +4213,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example07/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example07/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter06/example07/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3288,6 +4242,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/alaska.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/alaska.html",
 		"oF": 0
@@ -3295,6 +4250,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/california.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/california.html",
 		"oF": 0
@@ -3302,6 +4258,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/alaska.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/alaska.html",
 		"oF": 0
@@ -3309,6 +4266,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/california.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/california.html",
 		"oF": 0
@@ -3316,6 +4274,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/florida.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/florida.html",
 		"oF": 0
@@ -3323,6 +4282,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/hawaii.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/hawaii.html",
 		"oF": 0
@@ -3330,11 +4290,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3347,6 +4309,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/florida.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/florida.html",
 		"oF": 0
@@ -3354,6 +4317,7 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/hawaii.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/hawaii.html",
 		"oF": 0
@@ -3361,11 +4325,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3378,11 +4344,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3395,11 +4363,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3422,11 +4392,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3449,11 +4421,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3476,11 +4450,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3503,11 +4479,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3530,11 +4508,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3557,11 +4537,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3584,11 +4566,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example06/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example06/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example06/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3611,11 +4595,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example06/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example06/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example06/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3638,11 +4624,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example07/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example07/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example07/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3665,11 +4653,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example07/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example07/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example07/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3692,11 +4682,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example08/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example08/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example08/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3719,11 +4711,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example08/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example08/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter07/example08/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3736,11 +4730,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3753,11 +4749,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3796,11 +4794,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3839,11 +4839,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -3922,11 +4924,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4005,11 +5009,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4022,11 +5028,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4039,11 +5047,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4056,11 +5066,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4073,11 +5085,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4134,11 +5148,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example06/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example06/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example06/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4195,11 +5211,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example06/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example06/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter08/example06/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4212,11 +5230,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4229,11 +5249,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4246,11 +5268,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4263,11 +5287,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4280,11 +5306,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4297,11 +5325,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4314,11 +5344,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4331,11 +5363,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4348,11 +5382,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4365,11 +5401,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4382,11 +5420,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example06/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example06/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example06/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4399,11 +5439,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example06/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example06/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example06/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4424,11 +5466,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example07/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example07/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example07/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4449,11 +5493,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example07/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example07/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter09/example07/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4466,11 +5512,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4483,11 +5531,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4500,11 +5550,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4517,11 +5569,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4534,11 +5588,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4551,11 +5607,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4568,11 +5626,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4585,11 +5645,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4602,11 +5664,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4619,11 +5683,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter10/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4636,11 +5702,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4653,11 +5721,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4670,11 +5740,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4687,11 +5759,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4704,11 +5778,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4721,11 +5797,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter11/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4748,11 +5826,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example01/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example01/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example01/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4775,11 +5855,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example01/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example01/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example01/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4802,11 +5884,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example02/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example02/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example02/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4829,11 +5913,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example02/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example02/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example02/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4856,11 +5942,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example03/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example03/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example03/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -4883,11 +5971,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example03/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example03/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example03/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5020,11 +6110,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example04/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example04/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example04/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5157,11 +6249,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example04/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example04/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example04/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5194,11 +6288,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example05/finished/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example05/finished/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example05/finished/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5241,11 +6337,13 @@
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example05/script.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example05/script.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /Ex_Files_New_JScrpt_EssT/Exercise Files/chapter12/example05/script.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5268,6 +6366,7 @@
 	"/Intro to Javascript /GalTut/gallery.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /GalTut/gallery.html",
 		"oF": 0
@@ -5275,6 +6374,7 @@
 	"/Intro to Javascript /JavaScript & Ajax.docx": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript & Ajax.docx",
 		"oF": 0
@@ -5282,6 +6382,7 @@
 	"/Intro to Javascript /Javascript and Ajax.docx": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Javascript and Ajax.docx",
 		"oF": 0
@@ -5289,6 +6390,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap01/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap01/script01.html",
 		"oF": 0
@@ -5296,6 +6398,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/jswelcome.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/jswelcome.html",
 		"oF": 0
@@ -5303,6 +6406,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script01.html",
 		"oF": 0
@@ -5310,11 +6414,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5327,11 +6433,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5344,11 +6452,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5361,11 +6471,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5378,11 +6490,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5395,11 +6509,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5412,11 +6528,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5429,11 +6547,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script09.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script09.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script09.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5446,11 +6566,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script10.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap02/script10.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap02/script10.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5481,11 +6603,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5498,11 +6622,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5515,11 +6641,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5532,11 +6660,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5549,11 +6679,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5566,11 +6698,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5583,11 +6717,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5600,11 +6736,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5617,11 +6755,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script09.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script09.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script09.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5634,11 +6774,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script10.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script10.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script10.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5651,11 +6793,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script11.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap03/script11.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap03/script11.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5963,6 +7107,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script01.html",
 		"oF": 0
@@ -5980,11 +7125,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -5997,11 +7144,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6014,11 +7163,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6031,11 +7182,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6048,11 +7201,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6065,11 +7220,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6082,11 +7239,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6099,11 +7258,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script09.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script09.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script09.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6116,11 +7277,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script10.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script10.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script10.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6133,11 +7296,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script11.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap04/script11.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap04/script11.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6150,6 +7315,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/frameset1.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/frameset1.html",
 		"oF": 0
@@ -6157,6 +7323,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/iframe01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/iframe01.html",
 		"oF": 0
@@ -6164,6 +7331,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/iframe02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/iframe02.html",
 		"oF": 0
@@ -6247,6 +7415,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/index.html",
 		"oF": 0
@@ -6254,6 +7423,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/left1.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/left1.html",
 		"oF": 0
@@ -6261,6 +7431,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/page1.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/page1.html",
 		"oF": 0
@@ -6268,6 +7439,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/page2.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/page2.html",
 		"oF": 0
@@ -6275,6 +7447,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/page3.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/page3.html",
 		"oF": 0
@@ -6292,11 +7465,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6309,11 +7484,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6326,11 +7503,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6343,11 +7522,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6360,11 +7541,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6377,11 +7560,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6394,11 +7579,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6411,11 +7598,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap05/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap05/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6438,11 +7627,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6455,11 +7646,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6482,11 +7675,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6499,11 +7694,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6516,11 +7713,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6543,11 +7742,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6560,11 +7761,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6577,11 +7780,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6594,11 +7799,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script09.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script09.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script09.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6611,11 +7818,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script10.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap06/script10.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap06/script10.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6694,11 +7903,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6711,11 +7922,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6728,11 +7941,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6745,11 +7960,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6762,11 +7979,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6779,11 +7998,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6796,11 +8017,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap07/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap07/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6939,11 +8162,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6956,11 +8181,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6973,11 +8200,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -6990,11 +8219,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7007,11 +8238,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7034,11 +8267,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7061,11 +8296,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7088,11 +8325,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7105,11 +8344,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script09.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script09.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script09.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7132,11 +8373,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script10.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap08/script10.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap08/script10.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7157,11 +8400,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7174,11 +8419,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7191,11 +8438,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7208,11 +8457,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7225,11 +8476,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7242,11 +8495,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7269,11 +8524,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap09/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap09/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7286,11 +8543,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap10/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7303,11 +8562,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap10/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7320,11 +8581,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap10/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7337,11 +8600,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap10/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7354,11 +8619,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap10/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7371,11 +8638,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap10/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap10/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7388,11 +8657,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7405,11 +8676,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7422,11 +8695,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7439,11 +8714,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7466,11 +8743,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7483,11 +8762,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7510,11 +8791,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7527,11 +8810,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap11/script08.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap11/script08.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7698,11 +8983,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7725,11 +9012,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7752,11 +9041,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7779,11 +9070,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7796,11 +9089,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7823,11 +9118,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7850,11 +9147,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script07.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap12/script07.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap12/script07.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7877,6 +9176,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/flickrfeed.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/flickrfeed.xml",
 		"oF": 0
@@ -7884,6 +9184,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/gAddress.txt": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/gAddress.txt",
 		"oF": 0
@@ -7891,6 +9192,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-08.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-08.html",
 		"oF": 0
@@ -7898,6 +9200,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-09.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-09.html",
 		"oF": 0
@@ -7905,6 +9208,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-10.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-10.html",
 		"oF": 0
@@ -7912,6 +9216,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-11.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/jsintro/2000-11.html",
 		"oF": 0
@@ -7919,11 +9224,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7946,11 +9253,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7963,11 +9272,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -7980,11 +9291,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8007,11 +9320,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8034,11 +9349,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap13/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8051,6 +9368,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap13/us-states.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap13/us-states.xml",
 		"oF": 0
@@ -8058,11 +9376,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap14/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8075,11 +9395,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap14/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8102,11 +9424,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap14/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8129,11 +9453,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap14/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8146,11 +9472,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap14/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap14/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8177,6 +9505,7 @@
 		"opt": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap15/jquery/jquery.tablesorter.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8189,11 +9518,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script01.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap15/script01.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script01.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8216,11 +9547,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap15/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8233,11 +9566,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap15/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8260,11 +9595,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap15/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8277,11 +9614,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap15/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap15/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8448,11 +9787,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script02.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap16/script02.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script02.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8465,11 +9806,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script03.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap16/script03.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script03.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8492,11 +9835,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script04.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap16/script04.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script04.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8519,11 +9864,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script05.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap16/script05.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script05.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8546,11 +9893,13 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script06.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap16/script06.html",
 		"oF": 0
 		},
 	"/Intro to Javascript /JavaScript8eScripts/chap16/script06.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8571,6 +9920,7 @@
 	"/Intro to Javascript /JavaScript8eScripts/chap17/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /JavaScript8eScripts/chap17/index.html",
 		"oF": 0
@@ -8578,6 +9928,7 @@
 	"/Intro to Javascript /Playing.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /Playing.html",
 		"oF": 0
@@ -8585,251 +9936,13 @@
 	"/Intro to Javascript /sandbox_redirect.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/Intro to Javascript /sandbox_redirect.html",
 		"oF": 0
 		},
-	"/js/bootstrap.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/bootstrap.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/easing/EasePack.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/easing/EasePack.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/fancybox/jquery.fancybox.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/js/fancybox/jquery.fancybox-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/js/fancybox/jquery.fancybox.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/fancybox/jquery.fancybox-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/fancybox/jquery.fancybox.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/js/fancybox/jquery.fancybox.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/js/fancybox/jquery.fancybox.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/fancybox/jquery.fancybox.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/image-map.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/image-map-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/jquery-3.3.1.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/jquery-3.3.1.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/jquery.gsap.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/jquery.gsap.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/AttrPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/AttrPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/BezierPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/BezierPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/ColorPropsPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/ColorPropsPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/CSSPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/CSSPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/CSSRulePlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/CSSRulePlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/DirectionalRotationPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/DirectionalRotationPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/EaselPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/EaselPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/EndArrayPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/EndArrayPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/ModifiersPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/ModifiersPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/RaphaelPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/RaphaelPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/RoundPropsPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/RoundPropsPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/ScrollToPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/ScrollToPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/plugins/TextPlugin.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/plugins/TextPlugin.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/sandbox-gs.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/sandbox-gs-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/js/sandbox-mgequiz.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/sandbox-mgequiz-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/js/sandbox.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -8839,71 +9952,1077 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/TimelineLite.min.js": {
+	"/old/_js/easing/EasePack.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/TimelineLite.min-min.js",
+		"oAP": "/old/_js/easing/EasePack.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/TimelineMax.min.js": {
+	"/old/_js/jquery.gsap.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/TimelineMax.min-min.js",
+		"oAP": "/old/_js/jquery.gsap.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/TweenLite.min.js": {
+	"/old/_js/plugins/AttrPlugin.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/TweenLite.min-min.js",
+		"oAP": "/old/_js/plugins/AttrPlugin.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/TweenMax.min.js": {
+	"/old/_js/plugins/BezierPlugin.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/TweenMax.min-min.js",
+		"oAP": "/old/_js/plugins/BezierPlugin.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/js/utils/Draggable.min.js": {
+	"/old/_js/plugins/ColorPropsPlugin.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/js/utils/Draggable.min-min.js",
+		"oAP": "/old/_js/plugins/ColorPropsPlugin.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/navbar-fixed-top.css": {
+	"/old/_js/plugins/CSSPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/CSSPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/CSSRulePlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/CSSRulePlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/DirectionalRotationPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/DirectionalRotationPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/EaselPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/EaselPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/EndArrayPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/EndArrayPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/ModifiersPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/ModifiersPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/RaphaelPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/RaphaelPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/RoundPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/RoundPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/ScrollToPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/ScrollToPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/plugins/TextPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/plugins/TextPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/sandbox-gs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/sandbox-gs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/sandbox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/sandbox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/sandbox2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/sandbox2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/TimelineLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/TimelineLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/TimelineMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/TimelineMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/TweenLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/TweenLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/TweenMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/TweenMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/_js/utils/Draggable.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/_js/utils/Draggable.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master.zip",
+		"oF": 0
+		},
+	"/old/GreenSock-JS-master/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/.gitignore",
+		"oF": 0
+		},
+	"/old/GreenSock-JS-master/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/old/GreenSock-JS-master/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/old/GreenSock-JS-master/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/old/GreenSock-JS-master/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/old/GreenSock-JS-master/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/easing/EasePack.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/easing/EasePack.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/jquery.gsap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/jquery.gsap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/AttrPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/AttrPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/BezierPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/BezierPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/ColorPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/ColorPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/CSSPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/CSSPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/CSSRulePlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/CSSRulePlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/DirectionalRotationPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/DirectionalRotationPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/EaselPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/EaselPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/EndArrayPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/EndArrayPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/ModifiersPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/ModifiersPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/RaphaelPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/RaphaelPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/RoundPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/RoundPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/ScrollToPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/ScrollToPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/plugins/TextPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/plugins/TextPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/TimelineLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/TimelineLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/TimelineMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/TimelineMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/TweenLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/TweenLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/minified/utils/Draggable.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/minified/utils/Draggable.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/easing/EasePack.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/easing/EasePack-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/jquery.gsap.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/jquery.gsap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/AttrPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/AttrPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/BezierPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/BezierPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/ColorPropsPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/ColorPropsPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/CSSPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/CSSPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/CSSRulePlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/CSSRulePlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/DirectionalRotationPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/DirectionalRotationPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/EaselPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/EaselPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/EndArrayPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/EndArrayPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/ModifiersPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/ModifiersPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/RaphaelPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/RaphaelPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/RoundPropsPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/RoundPropsPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/ScrollToPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/ScrollToPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/TEMPLATE_Plugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/TEMPLATE_Plugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/plugins/TextPlugin.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/plugins/TextPlugin-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/TimelineLite.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/TimelineLite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/TimelineMax.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/TimelineMax-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/TweenLite.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/TweenLite-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/TweenMax.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/TweenMax-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/GreenSock-JS-master/src/uncompressed/utils/Draggable.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/GreenSock-JS-master/src/uncompressed/utils/Draggable-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/index-css-list.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/index-css-list.html",
+		"oF": 0
+		},
+	"/old/index-gs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/index-gs.html",
+		"oF": 0
+		},
+	"/old/index-saving.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/index-saving.html",
+		"oF": 0
+		},
+	"/old/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/index.html",
+		"oF": 0
+		},
+	"/old/index3.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/old/index3.html",
+		"oF": 0
+		},
+	"/old/js/easing/EasePack.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/easing/EasePack.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/jquery.gsap.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/jquery.gsap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/AttrPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/AttrPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/BezierPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/BezierPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/ColorPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/ColorPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/CSSPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/CSSPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/CSSRulePlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/CSSRulePlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/DirectionalRotationPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/DirectionalRotationPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/EaselPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/EaselPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/EndArrayPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/EndArrayPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/ModifiersPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/ModifiersPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/RaphaelPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/RaphaelPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/RoundPropsPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/RoundPropsPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/ScrollToPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/ScrollToPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/plugins/TextPlugin.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/plugins/TextPlugin.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/sandbox-gs.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/sandbox-gs-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/sandbox.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/sandbox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/sandbox2.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/sandbox2-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/TimelineLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/TimelineLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/TimelineMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/TimelineMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/TweenLite.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/TweenLite.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/TweenMax.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/TweenMax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/js/utils/Draggable.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/old/js/utils/Draggable.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/old/navbar-fixed-top.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/navbar-fixed-top-min.css",
+		"oAP": "/old/navbar-fixed-top-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/pseudo": {
+	"/old/navbar-fixed-top2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/old/navbar-fixed-top2-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/old/pseudo": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
-		"oAP": "/pseudo",
+		"oAP": "/old/pseudo",
+		"oF": 0
+		},
+	"/snippets.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/snippets.html",
 		"oF": 0
 		}
 	},
@@ -8920,6 +11039,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -8931,6 +11051,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "/\\/node_modules\\//, /\\/core-js\\//, /\\/bower_components\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -9001,6 +11122,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -9022,6 +11149,36 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
+			"active": 0
+			},
 		"modules-amd": {
 			"active": 0
 			},
@@ -9032,6 +11189,9 @@
 			"active": 0
 			},
 		"modules-umd": {
+			"active": 0
+			},
+		"named-capturing-groups-regex": {
 			"active": 0
 			},
 		"new-target": {
@@ -9067,7 +11227,13 @@
 		"parameters": {
 			"active": 0
 			},
+		"partial-application": {
+			"active": 0
+			},
 		"pipeline-operator": {
+			"active": 0
+			},
+		"private-methods": {
 			"active": 0
 			},
 		"property-literals": {
@@ -9103,10 +11269,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -9150,11 +11322,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -9299,6 +11470,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -9400,6 +11572,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -9751,6 +11927,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-import-assign": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-inline-comments": {
 			"active": 0,
 			"optionString": ""
@@ -10055,6 +12235,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -10155,6 +12339,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -10166,6 +12354,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -10717,6 +12909,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -10738,6 +12931,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -10760,7 +12954,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -10772,7 +12967,6 @@
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -10799,6 +12993,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -10808,7 +13003,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -10829,7 +13025,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -10858,7 +13055,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -10901,8 +13099,16 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
@@ -10946,16 +13152,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -10974,7 +13184,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -10997,6 +13207,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -11022,10 +13236,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -11034,13 +13244,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -11052,6 +13262,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -11074,13 +13288,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -11089,10 +13303,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -11116,6 +13326,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -11150,6 +13364,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -11159,6 +13377,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -11186,15 +13408,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": ""
 	},
