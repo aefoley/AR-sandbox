@@ -1,0 +1,284 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"border",
+				"border-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/afoley/Sites/gsap-sandbox-MGE-AR/.gitignore",
+		"/Users/afoley/Sites/EV-changes-Nov2019/assets/img/models/080118-teslamodel3-web.jpg",
+		"/Users/afoley/Sites/EV-changes-Nov2019/driving.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/distance.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/costs.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/clean.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/charging.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/workplace.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/models.htm",
+		"/Users/afoley/Sites/EV-changes-Nov2019/index.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/models.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/workplace.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/index.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/charging.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/clean.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/costs.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/distance.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/driving.htm",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/assets/css/ev.less",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/assets/css/ev.css",
+		"/Volumes/Utilities/MGE/19MGE073 Updates to LovEV website/4-HTML/EV-changes-Nov2019/business.htm",
+		"/Users/afoley/Library/Application Support/Sublime Text 3/Packages/User/View In Browser.sublime-settings",
+		"/Users/afoley/Library/Caches/Transmit/D3917C50-EED7-45A4-9720-B0DB366A1280/ftp.devrsandk.com/public_html/ed2018.devrsandk.com/index.html",
+		"/Users/afoley/Library/Caches/Transmit/125D0362-F317-4FC9-9F36-7B5E9B7F4F6E/ftp.devrsandk.com/public_html/me-pe/me-pe_email_2.html",
+		"/Volumes/Science/PANTHERICS/19PI062 Pantherics identity, website, presentation template/4-Digital/Backups-pan.devrsandk.com/110119/pan.devrsandk.com/wp-content/themes/bootstrap-to-wp-child/footer.php",
+		"/Volumes/Science/PANTHERICS/19PI062 Pantherics identity, website, presentation template/4-Digital/091919-Previous-website-files/panthex2_WPR69-110119.sql",
+		"/Users/afoley/Sites/test/index.html",
+		"/Users/afoley/Library/Caches/Transmit/ACD2A124-F094-4805-9A51-FCD90451DF5D/studio-227.com/repo.git/hooks/post.receive",
+		"/Users/afoley/.ssh/id_new.pub",
+		"/Users/afoley/Desktop/bootstrap4/offcanvas.css",
+		"/Users/afoley/Desktop/bootstrap4/index.html",
+		"/Users/afoley/Sites/remote/hooks/post-receive",
+		"/Users/afoley/Desktop/post-receive",
+		"/Users/afoley/Library/Caches/Transmit/3F87B3FB-832E-478E-82D5-26A6715753E1/ftp.devrsandk.com/public_html/pan.devrsandk.com/wp-config.php",
+		"/Users/afoley/.ssh/known_hosts",
+		"/Users/afoley/.ssh/id_rsa",
+		"/Users/afoley/Library/Caches/Transmit/B871BA46-7D6B-4F8C-91EA-9CD229379897/204.48.31.193/root/.ssh/authorized_keys",
+		"/Users/afoley/Library/Caches/Transmit/6BAC7AF1-7818-4651-A0E7-3CCCB7CA2931/ftp.devrsandk.com/.ssh/afoley-at-rsandk",
+		"/Users/afoley/Library/Caches/Transmit/2D5EF7FF-B771-411F-A907-5A471375062F/ftp.devrsandk.com/public_html/demos.devrsandk.com/vids/index.html",
+		"/Users/afoley/Library/Caches/Transmit/4A4368A1-F5B9-44D1-93F5-A566419E59BA/204.48.31.193/var/www/html/wp-config.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/assets/css/style.less",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/assets/css/media-queries.less",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/assets/js/theme_child.js",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/front-page.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/includes/pop-in.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/footer.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/header.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/CLP-saving.html",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/page-company-landing.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/functions.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/asthma-saving.html",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/single-news.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/page-bio.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/page-news-landing.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/img-size-test.php",
+		"/Volumes/G-DRIVE MOB/pan4/wp-content/themes/bootstrap-to-wp-child/style.css",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/header.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/page-company-landing.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/includes/landingwork-square.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/page-fluid.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/functions.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/style.css",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/assets/css/margins.less",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/assets/js/source/jquery.fancybox.js",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/assets/css/style.less",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/assets/css/media-queries.less",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/front-page.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/assets/js/theme_child.js",
+		"/Volumes/Science/PANTHERICS/19PI062 Pantherics identity, website, presentation template/4-Digital/plugins/3c23c49f581f328bc8504395a67c56c5",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/single-news.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/footer.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/assets/js/unslider-min.js",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/header.php",
+		"/Users/afoley/Sites/pan3/wp-content/themes/bootstrap-to-wp-child/searchform.php",
+		"/Volumes/Science/PANTHERICS/19PI062 Pantherics identity, website, presentation template/4-Digital/Previous-website-files/panthex2_WPR69.sql",
+		"/Users/afoley/Sites/pan3/.gitignore",
+		"/Users/afoley/Downloads/Search-Replace-DB-master/README.md",
+		"/Users/afoley/Sites/panth/wp-config.php",
+		"/Volumes/GoogleDrive/My Drive/Vogel/PPC-keywords-080719.txt",
+		"/Volumes/GoogleDrive/My Drive/Vogel/Biotech construction wisconsin, wisconsin general",
+		"/Volumes/Thermo/TLSS (LIFE SCIENCE SOLUTIONS)/19TLSS023 SuperSignal videos/5-Photos/Readme-file-locations.txt",
+		"/Users/afoley/Sites/EV-changes-June2019/clean.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/costs.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/driving.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/business.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/charging.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/models.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/distance.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/index.htm",
+		"/Users/afoley/Sites/EV-changes-June2019/assets/css/ev.less",
+		"/Volumes/GoogleDrive/My Drive/MGE/19MGE041-LovEV-website-updates/4-HTML/index.htm",
+		"/Users/afoley/Desktop/readme.txt",
+		"/Volumes/GoogleDrive/My Drive/MGE/19MGE041-LovEV-website-updates/4-HTML/.gitignore",
+		"/Volumes/GoogleDrive/My Drive/MGE/19MGE041-LovEV-website-updates/4-HTML/assets/css/margins.less",
+		"/Volumes/GoogleDrive/My Drive/MGE/19MGE041-LovEV-website-updates/4-HTML/assets/css/ev.less",
+		"/Volumes/GoogleDrive/My Drive/MGE/19MGE041-LovEV-website-updates/4-HTML/index.html",
+		"/Volumes/Utilities/MGE/19MGE041 LovEV website updates/README.TXT/All working files for this project are moved to Go",
+		"/Volumes/Utilities/MGE/19MGE041 LovEV website updates/4-HTML/index.htm",
+		"/Users/afoley/Downloads/play-BW.svg",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/assets/css/media-queries.less",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/assets/css/style.less",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/page-work-landing.php",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/front-page.php",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/style.css",
+		"/Users/afoley/Sites/RSK/wp-content/themes/bootstrap-to-wp-child/single-work.php",
+		"/Users/afoley/Sites/react/snippets.html",
+		"/Users/afoley/Sites/react/index.html",
+		"/Users/afoley/Sites/react/app-jscript-loops.js"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 277.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,364 @@
+
+@import 'animations.scss';
+@import 'margins.scss';
+
+
+
+//variables
+$white: #fff;
+$lightgray:  #EBEBEB;
+$medgray: #ADADAD;
+$darkgray: #6B6B6B;
+$vdarkgray: #333;
+$orange: #FFA500;
+$yellowgreen: #dee21e;
+$green:rgb(0,111,81);
+
+.orange {color:$orange}
+.white { color: $white;}
+.yellowgreen {color:$yellowgreen;}
+.green {color:$green;}
+.bkggreen {background-color:$green;}
+body {
+  font-size:15px;
+  font-weight:300;
+  color:$darkgray;
+}
+
+.body-large {
+  font-size:1.5em;
+}
+.navbar-default {
+  background-color:rgba(2, 2, 2, .7);
+   .navbar-nav>li>a {
+   color:#ebebeb;
+   &:hover {
+    color:$white;
+   }
+  }
+  a.navbar-brand {
+    padding-top:10px;
+    img {
+      opacity: 0.7;
+
+      filter: alpha(opacity=50);
+      width:70px;
+       &:hover {
+        opacity:1;
+       filter: alpha(opacity=100);
+      }
+    }
+  }
+}
+
+
+.navbar-fixed-top {
+	border:none;
+}
+
+.introtext {
+  margin-left:3vw;
+  margin-right:3vw;
+  margin-top:15vw;
+  hr {
+  	opacity:.5;
+  }
+  h1 {
+  	font-size:5vw;
+  	color:$orange;
+  	line-height:.8;
+	}
+  h2 {
+  	font-size:2.5vw;
+  	color:$white;
+  	font-weight:400;
+    margin-top:10px;
+  }
+  h3 {
+  	color:$white;
+  	font-weight:400;
+  }
+	opacity:0;
+}
+
+.introtwo {
+
+  margin-left:3vw;
+  margin-right:3vw;
+  margin-top:5vw;
+  margin-bottom:7vw;
+  
+  hr {
+  	opacity:.5;
+  }
+  h1 {
+  	font-size:72px;
+  	color:$orange;
+	}
+  h2 {
+  	font-size:36px;
+  	color:$white;
+  	font-weight:400;
+  }
+  h3 {
+  	color:$yellowgreen;
+  	font-weight:400;
+  }
+	opacity:0;
+
+}
+
+
+.cover {
+	 background: url('../img/cover/E-Washington-Night-2019-10-29-0025-pr115rev3.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+ 
+
+}
+
+
+/* At-a-glance section 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+ 
+
+
+.panel-title>a:hover, .panel-title>a:active, .panel-title>a:focus {
+  text-decoration: none;
+}
+
+#glance {
+  padding:60px 0;
+
+
+
+  h1 {
+    font-size:36px;
+  }
+  p {
+    font-size:20px;
+  }
+  .tables {
+    padding-top:50px;
+  }
+
+  .tables {
+    padding-left:40px;
+    padding-right:40px;
+
+  }
+
+  td.right {
+    text-align:right;
+  }
+  td:nth-child(2) {
+  color:$green;
+  font-weight:600;
+  text-align:right;
+  }
+  td:nth-child(3) {
+    text-align:right;
+  }
+   td:nth-child(4) {
+    text-align:right;
+  }
+  td:nth-child(5){
+    text-align:center;
+  }
+ }
+
+tr.secborder {
+  border-bottom: 2px solid $green;
+}
+.table>tbody>tr.notopborder>td
+ {
+  border-top:none;
+ 
+}
+
+/* Charts
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+
+.chart1t {
+  // transform: translateY(50px);
+}
+
+// .chart1{
+//     /*starting positions*/
+//   opacity:0;
+//   transform: translateY(150px);
+//   transition: all 1s ease-out;
+// }
+
+// .chart1.fade-in{
+//   opacity:1;
+//   transform:translateY(5px);
+// }
+
+/* President section
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+// */
+
+
+
+
+
+
+.president {
+   background: url('../img/president/Keebler-2019-10-30-0016.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+ 
+
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -350px;
+ }
+
+.page-wrap:after {
+  content: "";
+  display: block;
+
+}
+.footer, .page-wrap:after {
+  height: 350px;
+}
+.footer {
+    background-color: $green;
+    font-size:12px;
+    color:$white;
+ }
+
+.right-footer {
+    float:right;
+}
+
+ul.utility-menu {
+  list-style-type:none;
+  a { color:$white; }
+}
+
+
+
+
+
+
+
+
+
+.gnomerow {
+	background-image: url('../img/footer_lodyas.png');
+	height:600px;
+
+}
+
+.gnomes{
+		/*starting positions*/
+	opacity:0;
+	transform: translateY(150px);
+	transition: all 1s ease-out;
+}
+
+.gnomes.fade-in{
+	opacity:1;
+	transform:translateY(5px);
+}
+
+
+.looprow>img{
+	transform: translateX(0);
+	transition: all 1s ease-out;
+}
+
+.looprow.scoot>img {
+	transform:translateX(100%);
+
+}
+
+
+.symphony .col-sm-12 img {
+	display:block;
+	margin:100px auto;
+}
+
+.pink {
+	height:450px;
+	background-color:pink;
+	}
+
+
+.pink	h1 {
+  font-size: 5.9vw;
+  z-index: 10;
+}
+.pink h2 {
+  font-size: 3.0vw;
+}
+
+.pink h3 {
+  font-size: 2.0vw;
+}
+
+.pink p {
+  font-size: 1vw;
+}
+
+.looprow {
+	padding:30px 50px;
+}
+
+.bcg-parallax {
+	padding: 140px 0;
+	color:#fff;
+	background-color:#000;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	}
+
+.bcg {
+	background: url('../img/starry2.jpg') no-repeat;
+	background-size: cover;
+	position: absolute;
+	width:100%;
+	height:240%;//set the starting offset to the same size as the height of the element
+	top:0;
+	z-index:1;
+	opacity:.7;
+}
+.content-wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1140px;
+	position:relative;
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
