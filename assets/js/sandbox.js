@@ -1,4 +1,126 @@
 
+let labels = ["2013", "2014", "2015", "2016", "2017", "2018"];
+
+let valuesMGEE = [1000, 1230, 1280, 1890, 1860, 1750];
+let valuesSP = [1000, 1140, 1160, 1305, 1610,1540];
+let valuesEEI = [1000, 1305, 1240, 1480, 1660, 1730];
+let valuesRUS = [1000, 1040, 1010, 1220, 1410, 1250];
+
+Chart.defaults.global.elements.line.fill = false;
+
+
+Chart.scaleService.updateScaleDefaults('linear', {
+    ticks: {
+        callback: function (value, index, values) {
+            return '$' + value.toLocaleString();
+        }
+    }
+});
+
+const dataObj = {
+  labels: labels,
+  datasets: [
+    {
+      label: "MGEE",
+      data: valuesMGEE,
+      backgroundColor:"green", //fill color of bars
+      borderColor:"green",
+      borderWidth: 3,
+      lineTension: 0,
+      pointRadius: 1,
+    }, 
+    {
+      label: "S&P 500",
+      data: valuesSP,
+      backgroundColor:'maroon',
+      borderColor:'maroon',
+      borderWidth: 3,
+      lineTension: 0,
+      pointRadius: 1,
+    },
+    {
+      label: "EEI Investor-Owned Electrics",
+      data: valuesEEI,
+      backgroundColor:"#fcc201", //fill color of bars
+      borderColor:"#fcc201",
+      borderWidth: 3,
+      lineTension: 0,
+      pointRadius: 1,
+
+    },
+    {
+      label: "Russell 2000",
+      data: valuesRUS,
+      backgroundColor:"#545F9E", //fill color of bars
+      borderColor:"#545F9E",
+      borderWidth: 3,
+      lineTension: 0,
+      pointRadius: 1,
+
+    },
+
+
+  ]
+}
+
+const canvasObj = document.getElementById("linechart");
+
+const chartObj = {
+  type: "line",
+  data: dataObj,
+  options:{
+    maintainAspectRatio: false,  //you can set container height, to make it shorter
+
+    scales: {
+      yAxes: [{
+        display: true,
+        stacked: true,
+        
+          ticks: {
+              max: 2200,
+              min: 1000,
+              stepSize: 200
+          }
+      }]
+    },//end scales
+    
+    title: {
+      display: true,
+      text: ['Cumulative Total Return Comparison', '(Assumes $1,000 investment on 12/31/13 with dividends reinvested)'],
+      fontSize: 16,
+      fontStyle: 'normal'
+    },
+    
+    tooltips: {
+          callbacks: {
+                label: function(tooltipItem, data) {
+                    var value = data.datasets[0].data[tooltipItem.index];
+                    if(parseInt(value) >= 1000){
+                               return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                            } else {
+                               return '$' + value;
+                            }
+                }
+          } // end callbacks:
+    }, //end tooltips
+
+  }
+
+
+};
+
+
+// const context = canvas.getContext("2d");
+ 
+new Chart("linechart", chartObj);
+
+
+
+
+
+
+
+
       // The basic ScrollMagic design pattern is one controller, which has one or more scenes attached to it.
       // Each scene is used to define what happens when the container is scrolled to a specific offset.
 
@@ -53,15 +175,7 @@ var twChart2 = TweenMax.staggerFromTo(".chart2t", 2, {y:50, opacity:0}, {y:0, op
         .addTo(controller);
 
 
-
-
-
-
-
-
-
-
-
+/////////////////////////////////////////////////
 
 
 
