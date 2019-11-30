@@ -60,8 +60,6 @@ const dataObj = {
       pointRadius: 1,
 
     },
-
-
   ]
 }
 
@@ -71,20 +69,16 @@ const chartObj = {
   type: "line",
   data: dataObj,
   options:{
-     legend: {
-                    position: 'bottom',
-                },
+    legend: {
+        position: 'bottom',
+    },
     maintainAspectRatio: false,  //you can set container height, to make it shorter
 
     scales: {
       yAxes: [{
-        //display: true,
-        //stacked: true,
-        
           ticks: {
               max: 2200,
               min: 1000,
-              //stepSize: 200
           }
       }]
     },//end scales
@@ -97,27 +91,53 @@ const chartObj = {
     },
     
     tooltips: {
-          callbacks: {
-                label: function(tooltipItem, data) {
-                    var value = data.datasets[1].data[tooltipItem.index];
-                    if(parseInt(value) >= 1000){
-                               return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-                            } else {
-                               return '$' + value;
-                            }
-                }
-          } // end callbacks:
-    }, //end tooltips
+        callbacks: {
+            label: function(tooltipItem, data) {
+              var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
+                return lbl + ": $" + Number(tooltipItem.yLabel).toFixed(0).replace(/./g, function(c, i, a) {
+                    return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+                });
+            }
+        }
+    }
 
   }
 
 
 };
 
-
-// const context = canvas.getContext("2d");
  
-new Chart("linechart", chartObj);
+
+
+
+var inView = false;
+
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
+}
+
+$(window).scroll(function() {
+    if (isScrolledIntoView('#linechart')) {
+        if (inView) { return; }
+        inView = true;
+        new Chart("linechart", chartObj);
+    } else {
+        inView = false;  
+    }
+});
+
+
+
+
+
+
 
 
 

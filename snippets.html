@@ -1,36 +1,15 @@
-<<<<<<< HEAD
-  //var stopper = (allQuestions.length)+1;
-  //console.log('stopper: ' + stopper);
-  // console.log("start counter :" + counter);
-  // console.log("start i: " + i);
-
-  // $('#start').click(function () {
-  //     // the modulus (%) operator resets the counter to 0
-  //     // when it reaches the length of the array
-  //     counter = (counter + 1) % allQuestions.length; //increments
-  //     i = (i + 1) % allQuestions.length;
-
-
-  //               // ------------- seeing where we are
-  //               console.log("counter:" + counter);
-  //               console.log("i:" + i);
-
-  //     //the class will have the background image.
-  //     $('#quiz').removeClass('color' + i); 
-  //     $('#quiz').addClass('color' + counter); 
-
-  //     //takes the introductory text out.
-  //     $('.printout').html(" ");
-  //     $("#start").addClass("hidden ");
-
-    
-
-      // ------------- seeing where we are
-      // console.log(allQuestions[i].choices);
-
-      // var theChoices = allQuestions[i].choices;
-
-=======
+tooltips: {
+          callbacks: {
+                label: function(tooltipItem, data) {
+                    var value = data.datasets[0].data[tooltipItem.index];
+                    var value = data.datasets[1].data[tooltipItem.index];
+                    if(parseInt(value) >= 1000){
+                               return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                            } else {
+                               return '$' + value;
+                            }
+                }
+          } // end callbacks:
 
        <div class="row looprow 1" >
         <!--   <div class="col-sm-8 col-sm-offset-2" > -->
