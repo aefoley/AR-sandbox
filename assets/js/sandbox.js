@@ -1,4 +1,6 @@
 
+
+
 let labels = ["2013", "2014", "2015", "2016", "2017", "2018"];
 
 let valuesMGEE = [1000, 1230, 1280, 1890, 1860, 1750];
@@ -63,30 +65,33 @@ const dataObj = {
   ]
 }
 
-const canvasObj = document.getElementById("linechart");
+//const canvasObj = document.getElementById("linechart");
 
 const chartObj = {
   type: "line",
   data: dataObj,
   options:{
+     legend: {
+                    position: 'bottom',
+                },
     maintainAspectRatio: false,  //you can set container height, to make it shorter
 
     scales: {
       yAxes: [{
-        display: true,
-        stacked: true,
+        //display: true,
+        //stacked: true,
         
           ticks: {
               max: 2200,
               min: 1000,
-              stepSize: 200
+              //stepSize: 200
           }
       }]
     },//end scales
     
     title: {
       display: true,
-      text: ['Cumulative Total Return Comparison', '(Assumes $1,000 investment on 12/31/13 with dividends reinvested)'],
+      text: ['Cumulative Total Return Comparison', '(Assumes $1,000 investment on 12/31/13 with dividends reinvested)', ' '],
       fontSize: 16,
       fontStyle: 'normal'
     },
@@ -94,7 +99,7 @@ const chartObj = {
     tooltips: {
           callbacks: {
                 label: function(tooltipItem, data) {
-                    var value = data.datasets[0].data[tooltipItem.index];
+                    var value = data.datasets[1].data[tooltipItem.index];
                     if(parseInt(value) >= 1000){
                                return '$' + value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
                             } else {
