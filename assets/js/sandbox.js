@@ -1,5 +1,5 @@
 
-
+/* ========================================= LINE CHART======================================== */
 
 let labels = ["2013", "2014", "2015", "2016", "2017", "2018"];
 
@@ -106,10 +106,7 @@ const chartObj = {
 
 };
 
- 
-
-
-
+//calls the line chart on scroll
 var inView = false;
 
 function isScrolledIntoView(elem)
@@ -136,7 +133,7 @@ $(window).scroll(function() {
 
 
 
-
+/* ========================================= BAR CHART ======================================== */
 
 
 
