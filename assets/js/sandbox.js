@@ -135,7 +135,79 @@ $(window).scroll(function() {
 
 /* ========================================= BAR CHART ======================================== */
 
+var inView2 = false;
 
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
+}
+
+$(window).scroll(function() {
+    if (isScrolledIntoView('#barChart')) {
+        if (inView2) { return; }
+        inView2 = true;
+        new Chart('barChart', {
+            type: 'bar',
+            data: {
+                labels: ['2014', '2015', '2016', '2017', '2018'],
+                datasets: [{
+                     data: [2.32, 2.06, 2.18, 2.82, 2.43],
+                    backgroundColor: [
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)'
+                    ],
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            stepSize: 1
+                        }
+                    }]
+                },
+                legend: {
+                    position: 'bottom',
+                },
+                title: {
+                    display: true,
+                    text: ['Earnings Per Share', '(2014 - 2018)', ' '],
+                    fontSize: 16,
+                    fontStyle: 'normal'
+                },
+                legend: {
+                    display: false
+                },
+                tooltips: {
+                   
+                    displayColors: false,
+            
+                    callbacks: {
+                        label: function(tooltipItem, data) {
+                          var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
+                            return lbl + " $" + Number(tooltipItem.yLabel).toFixed(2).replace(/./g, function(c, i, a) {
+                                return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+                            });
+                        }
+                    }
+                }
+            }
+        });
+
+    } else {
+        inView2 = false;  
+    }
+});
 
 
 
@@ -152,7 +224,9 @@ $(window).scroll(function() {
 
 var introtext = $('div.introtext');
 var introtwo = $('div.introtwo');
+var presidentText = $('div.presidentText');
   TweenLite.to(introtext, 1, {opacity:1, y:-50});
+  TweenLite.to(presidentText, 1, {opacity:1, y:-50});
   TweenLite.to(introtwo, 1, {opacity:1, y:-50, delay: 0.8});
 
 

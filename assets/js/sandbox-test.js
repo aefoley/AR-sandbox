@@ -1,27 +1,13 @@
 
-var data = {
-    labels: [
-        "Red",
-        "Blue",
-        "Yellow"
-    ],
-    datasets: [
-        {
-            data: [300, 50, 100],
-            backgroundColor: [
-                "#FF6384",
-                "#36A2EB",
-                "#FFCE56"
-            ],
-            hoverBackgroundColor: [
-                "#FF6384",
-                "#36A2EB",
-                "#FFCE56"
-            ]
-        }]
-};
+Chart.scaleService.updateScaleDefaults('linear', {
+    ticks: {
+        callback: function (value, index, values) {
+            return '$' + value.toLocaleString();
+        }
+    }
+});
 
-var inView = false;
+var inView2 = false;
 
 function isScrolledIntoView(elem)
 {
@@ -35,80 +21,64 @@ function isScrolledIntoView(elem)
 }
 
 $(window).scroll(function() {
-    if (isScrolledIntoView('#canvas')) {
-        if (inView) { return; }
-        inView = true;
-        new Chart(
-            document.getElementById("canvas").getContext("2d"),
-            {type: 'pie', data: data });
-    } else {
-        inView = false;  
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-var ctx = document.getElementById('myChart');
-
-var myChart = new Chart(ctx, {
-    type: 'line',
-     data: {
-        labels: ["2013", "2014", "2015", "2016", "2017", "2018"],
-
-        datasets: [{
-            label: 'Dataset One',
-            data: [15, 35, 22, 42, 48],
-            fill:false,
-            backgroundColor: '#ffcccc',
-            borderColor: '#ff9999',
-            borderWidth: 3,
-            lineTension: 0,
-            pointRadius: 1,
+    if (isScrolledIntoView('#myChart')) {
+        if (inView2) { return; }
+        inView2 = true;
+        new Chart('myChart', {
+            type: 'bar',
+            data: {
+                labels: ['2014', '2015', '2016', '2017', '2018'],
+                datasets: [{
+                     data: [2.32, 2.06, 2.18, 2.82, 2.43],
+                    backgroundColor: [
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)',
+                        'rgba(0, 111, 81, 1)'
+                    ],
+                }]
             },
-            {
-              label: 'Dataset Two',
-              data: [8, 20, 29, 35, 50],
-              fill:false,
-              backgroundColor: '#33ccff',
-              borderColor: '#3399ff',
-              borderWidth: 3,
-              lineTension: 0,
-              pointRadius: 1,
-            }
-
-        ]
-    },
-    options: {
-        legend: {
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true,
+                            stepSize: 1
+                        }
+                    }]
+                },
+                legend: {
                     position: 'bottom',
                 },
-    
-scales: {
-        yAxes: [{
-            ticks: {
-                max: 100,
-                min: 0,
-                stepSize: 10
+                title: {
+                    display: true,
+                    text: ['Earnings Per Share', '(2014 - 2018)', ' '],
+                    fontSize: 16,
+                    fontStyle: 'normal'
+                },
+                legend: {
+                    display: false
+                },
+                tooltips: {
+                   
+                    displayColors: false,
+            
+                    callbacks: {
+                        label: function(tooltipItem, data) {
+                          var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
+                            return lbl + " $" + Number(tooltipItem.yLabel).toFixed(2).replace(/./g, function(c, i, a) {
+                                return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+                            });
+                        }
+                    }
+                }
             }
-        }]
+        });
+
+    } else {
+        inView2 = false;  
     }
-  }
 });
 
 

@@ -202,6 +202,29 @@
 .pleft50 {
   padding-left: 50px; }
 
+.watch-button {
+  display: block;
+  margin: 150px auto 50px;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA;
+  box-shadow: 0px 0px 6px 0px #FFFFFA; }
+  .watch-button:hover {
+    opacity: 1;
+    color: #fff; }
+
+.letter {
+  background-color: #F58456;
+  color: #000;
+  margin: 50px;
+  padding: 50px;
+  font-size: larger; }
+
+.subtitle {
+  color: #F58456;
+  text-decoration: underline; }
+
 #canvas-container {
   position: relative;
   height: 400px; }
@@ -222,9 +245,10 @@
   background-color: #006f51; }
 
 body {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
-  color: #6B6B6B; }
+  color: #6B6B6B;
+  line-height: 1.55; }
 
 .body-large {
   font-size: 1.5em; }
@@ -265,6 +289,25 @@ body {
     font-weight: 400;
     margin-top: 10px; }
   .introtext h3 {
+    color: #fff;
+    font-weight: 400; }
+
+.presidentText {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 5vw;
+  opacity: 0; }
+  .presidentText hr {
+    opacity: .5; }
+  .presidentText h1 {
+    font-size: 3vw;
+    color: #F58456; }
+  .presidentText h2 {
+    font-size: 2vw;
+    color: #54A8D8;
+    font-weight: 400;
+    margin-top: 10px; }
+  .presidentText h3 {
     color: #fff;
     font-weight: 400; }
 

@@ -4,8 +4,32 @@
 
 
 
+.watch-button {
+  display:block;
+  margin:150px auto 50px;
+  background-color:#000;
+  color:#fff;
+  opacity:.5;
+  &:hover {
+    opacity:1;
+    color:#fff;
+  }
+  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA; 
+  box-shadow: 0px 0px 6px 0px #FFFFFA;
+}
 
+.letter {
+  background-color: #F58456;
+  color: #000;
+  margin: 50px;
+  padding: 50px;
+  font-size: larger;
+}
 
+.subtitle {
+  color:#F58456;
+  text-decoration:underline;
+}
 #canvas-container {
   position:relative;
 height:400px;
@@ -26,9 +50,10 @@ $green:rgb(0,111,81);
 .green {color:$green;}
 .bkggreen {background-color:$green;}
 body {
-  font-size:15px;
+  font-size:16px;
   font-weight:300;
   color:$darkgray;
+  line-height:1.55;
 }
 
 .body-large {
@@ -85,6 +110,30 @@ body {
   	font-weight:400;
   }
 	opacity:0;
+}
+
+.presidentText{
+  margin-left:3vw;
+  margin-right:3vw;
+  margin-top:5vw;
+  hr {
+    opacity:.5;
+  }
+  h1 {
+    font-size:3vw;
+    color:#F58456;
+  }
+  h2 {
+    font-size:2vw;
+    color:#54A8D8;
+    font-weight:400;
+    margin-top:10px;
+  }
+  h3 {
+    color:$white;
+    font-weight:400;
+  }
+  opacity:0;
 }
 
 .introtwo {
