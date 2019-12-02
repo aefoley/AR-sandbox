@@ -226,49 +226,36 @@ var introtext = $('div.introtext');
 var introtwo = $('div.introtwo');
 var presidentText = $('div.presidentText');
   TweenLite.to(introtext, 1, {opacity:1, y:-50});
-  TweenLite.to(presidentText, 1, {opacity:1, y:-50});
   TweenLite.to(introtwo, 1, {opacity:1, y:-50, delay: 0.8});
 
 
   
 
 // Init ScrollMagic
-  var controller = new ScrollMagic.Controller();
-
-  // // //build a scene
-  // var gnomeScene = new ScrollMagic.Scene({
-  //     triggerElement: '.charts',
-  //     duration:600, //the scene should last for a scroll of 300px
-  //     triggerHook: .5 //at .7 of viewport height
+var controller = new ScrollMagic.Controller();
 
 
-  // })
+var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:0}, {y:0, opacity:1}, 0.8);
 
-  // .setClassToggle('.chart1', 'fade-in')
-  // .addIndicators({
-  //   name: 'fade and rise gnomes',
-  //   colorTrigger: 'gray',
-  //   colorStart:'gray',
-  //   colorEnd: 'gray'
-  // })
-  // .addTo(controller);
-
-   
-
-  var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:0}, {y:0, opacity:1}, 0.8);
-
-  // build scene
-  var scene = new ScrollMagic.Scene({triggerElement: ".trigger1", duration: 400})
-        .setTween(twChart1)
-        .addTo(controller)
-        //.addIndicators({name: 'fade and rise gnomes'});
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".trigger1", duration: 400})
+      .setTween(twChart1)
+      .addTo(controller)
+      //.addIndicators({name: 'fade and rise gnomes'});
 
 var twChart2 = TweenMax.staggerFromTo(".chart2t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
 
-  // build scene
-  var scene = new ScrollMagic.Scene({triggerElement: ".trigger2", duration: 400})
-        .setTween(twChart2)
-        .addTo(controller);
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".trigger2", duration: 400})
+      .setTween(twChart2)
+      .addTo(controller);
+
+var twChart3 = TweenMax.staggerFromTo(".chart3t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".trigger3", duration: 400})
+      .setTween(twChart3)
+      .addTo(controller);
 
 
 /////////////////////////////////////////////////

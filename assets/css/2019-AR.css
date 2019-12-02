@@ -202,35 +202,11 @@
 .pleft50 {
   padding-left: 50px; }
 
-.watch-button {
-  display: block;
-  margin: 150px auto 50px;
-  background-color: #000;
-  color: #fff;
-  opacity: .5;
-  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA;
-  box-shadow: 0px 0px 6px 0px #FFFFFA; }
-  .watch-button:hover {
-    opacity: 1;
-    color: #fff; }
-
-.letter {
-  background-color: #F58456;
-  color: #000;
-  margin: 50px;
-  padding: 50px;
-  font-size: larger; }
-
-.subtitle {
-  color: #F58456;
-  text-decoration: underline; }
-
-#canvas-container {
-  position: relative;
-  height: 400px; }
-
 .orange {
   color: #FFA500; }
+
+.orange2 {
+  color: #F58456; }
 
 .white {
   color: #fff; }
@@ -272,6 +248,39 @@ body {
 .navbar-fixed-top {
   border: none; }
 
+.watch-button {
+  display: block;
+  margin: 150px auto 50px;
+  background-color: #000;
+  color: #fff;
+  opacity: .5;
+  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA;
+  box-shadow: 0px 0px 6px 0px #FFFFFA; }
+  .watch-button:hover {
+    opacity: 1;
+    color: #fff; }
+
+.letter p {
+  font-size: 18px; }
+
+.letter h2 {
+  color: #F58456; }
+
+.letter-box {
+  background-color: #F58456;
+  color: #000;
+  margin: 50px;
+  padding: 50px;
+  font-size: larger; }
+
+.subtitle {
+  color: #F58456;
+  text-decoration: underline; }
+
+#canvas-container {
+  position: relative;
+  height: 400px; }
+
 .introtext {
   margin-left: 3vw;
   margin-right: 3vw;
@@ -295,7 +304,7 @@ body {
 .presidentText {
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 5vw;
+  margin-top: 110px;
   opacity: 0; }
   .presidentText hr {
     opacity: .5; }
@@ -374,12 +383,36 @@ tr.secborder {
 .table > tbody > tr.notopborder > td {
   border-top: none; }
 
-/* Charts
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// */
-/* President section
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// */
+/* Relaxing page load effects
+-------------------------------------------------- */
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0); }
+  100% {
+    opacity: 1;
+    transform: none; } }
+
+.m-scene {
+  /** Basic styles for an animated element */
+  /** An element that fades in */
+  /** An element that fades in and slides up */ }
+  .m-scene .scene_element {
+    animation-duration: .5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both; }
+  .m-scene .scene_element--fadein {
+    animation-name: fadeIn; }
+  .m-scene .scene_element--fadeinup {
+    animation-name: fadeInUp;
+    animation-duration: 1s; }
+
 .president {
   background: url("../img/president/Keebler-2019-10-30-0016.jpg") no-repeat center center;
   -webkit-background-size: cover;

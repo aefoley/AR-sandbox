@@ -3,37 +3,6 @@
 @import 'margins.scss';
 
 
-
-.watch-button {
-  display:block;
-  margin:150px auto 50px;
-  background-color:#000;
-  color:#fff;
-  opacity:.5;
-  &:hover {
-    opacity:1;
-    color:#fff;
-  }
-  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA; 
-  box-shadow: 0px 0px 6px 0px #FFFFFA;
-}
-
-.letter {
-  background-color: #F58456;
-  color: #000;
-  margin: 50px;
-  padding: 50px;
-  font-size: larger;
-}
-
-.subtitle {
-  color:#F58456;
-  text-decoration:underline;
-}
-#canvas-container {
-  position:relative;
-height:400px;
-}
 //variables
 $white: #fff;
 $lightgray:  #EBEBEB;
@@ -41,10 +10,12 @@ $medgray: #ADADAD;
 $darkgray: #6B6B6B;
 $vdarkgray: #333;
 $orange: #FFA500;
+$orange2:#F58456;
 $yellowgreen: #dee21e;
 $green:rgb(0,111,81);
 
 .orange {color:$orange}
+.orange2 {color:$orange2}
 .white { color: $white;}
 .yellowgreen {color:$yellowgreen;}
 .green {color:$green;}
@@ -87,6 +58,48 @@ body {
 	border:none;
 }
 
+
+
+
+.watch-button {
+  display:block;
+  margin:150px auto 50px;
+  background-color:#000;
+  color:#fff;
+  opacity:.5;
+  &:hover {
+    opacity:1;
+    color:#fff;
+  }
+  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA; 
+  box-shadow: 0px 0px 6px 0px #FFFFFA;
+}
+
+.letter {
+  p {
+    font-size:18px;
+  }
+  h2{
+    color:$orange2;
+  }
+}
+.letter-box{
+  background-color: $orange2;
+  color: #000;
+  margin: 50px;
+  padding: 50px;
+  font-size: larger;
+}
+
+.subtitle {
+  color: $orange2;
+  text-decoration:underline;
+}
+#canvas-container {
+  position:relative;
+height:400px;
+}
+
 .introtext {
   margin-left:3vw;
   margin-right:3vw;
@@ -115,7 +128,8 @@ body {
 .presidentText{
   margin-left:3vw;
   margin-right:3vw;
-  margin-top:5vw;
+  margin-top:110px;
+
   hr {
     opacity:.5;
   }
@@ -235,29 +249,49 @@ tr.secborder {
  
 }
 
-/* Charts
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// */
+/* Relaxing page load effects
+-------------------------------------------------- */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
 
-.chart1t {
-  // transform: translateY(50px);
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-// .chart1{
-//     /*starting positions*/
-//   opacity:0;
-//   transform: translateY(150px);
-//   transition: all 1s ease-out;
-// }
+.m-scene {
+  /** Basic styles for an animated element */
+  .scene_element {
+    animation-duration: .5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
 
-// .chart1.fade-in{
-//   opacity:1;
-//   transform:translateY(5px);
-// }
+  }
 
-/* President section
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// */
+  /** An element that fades in */
+  .scene_element--fadein {
+    animation-name: fadeIn;
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+  }
+}
 
 
 
