@@ -13,13 +13,19 @@ $orange: #FFA500;
 $orange2:#F58456;
 $yellowgreen: #dee21e;
 $green:rgb(0,111,81);
+$melon: #e66567;
+$paleblue: #66cbe1;
 
 .orange {color:$orange}
 .orange2 {color:$orange2}
 .white { color: $white;}
 .yellowgreen {color:$yellowgreen;}
 .green {color:$green;}
+.melon {color:$melon;}
+.paleblue {color:$paleblue;}
 .bkggreen {background-color:$green;}
+.bkgmelon {background-color:$melon;}
+
 body {
   font-size:16px;
   font-weight:300;
@@ -58,7 +64,52 @@ body {
 	border:none;
 }
 
+.spread {
+     background: url('../img/spread/K&L-17-rev.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+  height:800px;
 
+}
+
+figcaption {
+    background: url('../img/global/trans-gray.png');
+    color: white;
+    max-width: 400px;
+    font-size: .8em;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+div.spread-title {
+  h1 {
+    font-size:3vw;
+    color:$melon;
+    font-weight:400;
+  }
+  h3 {
+    font-size:2vw;
+    color:$paleblue;
+     font-weight:400;
+
+    }
+  }
+.spread-intro {
+  color:$vdarkgray;
+  margin-top:50px;
+
+    padding: 20px 50px;
+
+  h3 {margin-top:0;}
+}
 .watch-button {
   display:block;
   background: url('../img/global/trans-gray.png');
@@ -74,6 +125,16 @@ body {
   }
 
 
+}
+
+.family{
+
+
+}
+
+.box-link {
+  color:maroon;
+  text-decoration:underline;
 }
 
 .letter {
@@ -104,7 +165,7 @@ height:400px;
 .introtext {
   margin-left:3vw;
   margin-right:3vw;
-  margin-top:15vw;
+  margin-top:12vw;
   hr {
   	opacity:.5;
   }
@@ -156,7 +217,7 @@ height:400px;
   margin-left:3vw;
   margin-right:3vw;
   margin-top:5vw;
-  margin-bottom:7vw;
+  margin-bottom:0;
   
   hr {
   	opacity:.5;
@@ -202,7 +263,7 @@ height:400px;
 }
 
 #glance {
-  padding:60px 0;
+  padding:30px 0;
 
 
 
@@ -349,102 +410,42 @@ ul.utility-menu {
 
 
 
-
-
-
-
-
-.gnomerow {
-	background-image: url('../img/footer_lodyas.png');
-	height:600px;
+/* ========================================= Large devices (large desktops, 1200px and up)  col-lg */
+@media (min-width: 1200px) {
 
 }
 
-.gnomes{
-		/*starting positions*/
-	opacity:0;
-	transform: translateY(150px);
-	transition: all 1s ease-out;
+/* ========================================= Landscape tablets and medium desktops col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.spread-col-2 {
+  margin-top: 30px;
+  margin-left:-150px;
+  font-size:15px;
 }
-
-.gnomes.fade-in{
-	opacity:1;
-	transform:translateY(5px);
-}
-
-
-.looprow>img{
-	transform: translateX(0);
-	transition: all 1s ease-out;
-}
-
-.looprow.scoot>img {
-	transform:translateX(100%);
 
 }
 
 
-.symphony .col-sm-12 img {
-	display:block;
-	margin:100px auto;
-}
+/* ========================================= Portrait tablets and small desktops col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
 
-.pink {
-	height:450px;
-	background-color:pink;
-	}
-
-
-.pink	h1 {
-  font-size: 5.9vw;
-  z-index: 10;
-}
-.pink h2 {
-  font-size: 3.0vw;
-}
-
-.pink h3 {
-  font-size: 2.0vw;
-}
-
-.pink p {
-  font-size: 1vw;
-}
-
-.looprow {
-	padding:30px 50px;
-}
-
-.bcg-parallax {
-	padding: 140px 0;
-	color:#fff;
-	background-color:#000;
-	text-align:center;
-	position:relative;
-	overflow:hidden;
-	}
-
-.bcg {
-	background: url('../img/starry2.jpg') no-repeat;
-	background-size: cover;
-	position: absolute;
-	width:100%;
-	height:240%;//set the starting offset to the same size as the height of the element
-	top:0;
-	z-index:1;
-	opacity:.7;
-}
-.content-wrapper {
-	width: 90%;
-	margin: 0 auto;
-	max-width: 1140px;
-	position:relative;
-	z-index: 2;
 }
 
 
 
+/* ========================================= Landscape phones and portrait tablets col-xs */
+@media (min-width: 481px) and (max-width: 767px){
 
+
+
+}
+
+/* =========================================  Portrait phones and smaller */
+@media (max-width: 480px) { 
+
+
+}
 
 
 

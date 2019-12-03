@@ -148,6 +148,21 @@
 .ptop50 {
   padding-top: 50px; }
 
+.ptop60 {
+  padding-top: 60px; }
+
+.ptop70 {
+  padding-top: 70px; }
+
+.ptop80 {
+  padding-top: 80px; }
+
+.ptop90 {
+  padding-top: 90px; }
+
+.ptop100 {
+  padding-top: 100px; }
+
 .pright0 {
   padding-right: 0; }
 
@@ -184,6 +199,21 @@
 .pbottom50 {
   padding-bottom: 50px; }
 
+.pbottom60 {
+  padding-bottom: 60px; }
+
+.pbottom70 {
+  padding-bottom: 70px; }
+
+.pbottom80 {
+  padding-bottom: 80px; }
+
+.pbottom9 {
+  padding-bottom: 90px; }
+
+.pbottom100 {
+  padding-bottom: 100px; }
+
 .pleft0 {
   padding-left: 0; }
 
@@ -217,8 +247,17 @@
 .green {
   color: #006f51; }
 
+.melon {
+  color: #e66567; }
+
+.paleblue {
+  color: #66cbe1; }
+
 .bkggreen {
   background-color: #006f51; }
+
+.bkgmelon {
+  background-color: #e66567; }
 
 body {
   font-size: 16px;
@@ -248,6 +287,43 @@ body {
 .navbar-fixed-top {
   border: none; }
 
+.spread {
+  background: url("../img/spread/K&L-17-rev.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 800px; }
+
+figcaption {
+  background: url("../img/global/trans-gray.png");
+  color: white;
+  max-width: 400px;
+  font-size: .8em;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  margin: 10px;
+  padding: 10px; }
+
+div.spread-title h1 {
+  font-size: 3vw;
+  color: #e66567;
+  font-weight: 400; }
+
+div.spread-title h3 {
+  font-size: 2vw;
+  color: #66cbe1;
+  font-weight: 400; }
+
+.spread-intro {
+  color: #333;
+  margin-top: 50px;
+  padding: 20px 50px; }
+  .spread-intro h3 {
+    margin-top: 0; }
+
 .watch-button {
   display: block;
   background: url("../img/global/trans-gray.png");
@@ -259,6 +335,10 @@ body {
     color: #FFA500; }
   .watch-button:focus {
     color: #FFA500; }
+
+.box-link {
+  color: maroon;
+  text-decoration: underline; }
 
 .letter p {
   font-size: 18px; }
@@ -284,7 +364,7 @@ body {
 .introtext {
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 15vw;
+  margin-top: 12vw;
   opacity: 0; }
   .introtext hr {
     opacity: .5; }
@@ -324,7 +404,7 @@ body {
   margin-left: 3vw;
   margin-right: 3vw;
   margin-top: 5vw;
-  margin-bottom: 7vw;
+  margin-bottom: 0;
   opacity: 0; }
   .introtwo hr {
     opacity: .5; }
@@ -354,7 +434,7 @@ body {
   text-decoration: none; }
 
 #glance {
-  padding: 60px 0; }
+  padding: 30px 0; }
   #glance h1 {
     font-size: 36px; }
   #glance p {
@@ -453,72 +533,14 @@ ul.utility-menu {
   ul.utility-menu a {
     color: #fff; }
 
-.gnomerow {
-  background-image: url("../img/footer_lodyas.png");
-  height: 600px; }
+/* ========================================= Large devices (large desktops, 1200px and up)  col-lg */
+/* ========================================= Landscape tablets and medium desktops col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .spread-col-2 {
+    margin-top: 30px;
+    margin-left: -150px;
+    font-size: 15px; } }
 
-.gnomes {
-  /*starting positions*/
-  opacity: 0;
-  transform: translateY(150px);
-  transition: all 1s ease-out; }
-
-.gnomes.fade-in {
-  opacity: 1;
-  transform: translateY(5px); }
-
-.looprow > img {
-  transform: translateX(0);
-  transition: all 1s ease-out; }
-
-.looprow.scoot > img {
-  transform: translateX(100%); }
-
-.symphony .col-sm-12 img {
-  display: block;
-  margin: 100px auto; }
-
-.pink {
-  height: 450px;
-  background-color: pink; }
-
-.pink h1 {
-  font-size: 5.9vw;
-  z-index: 10; }
-
-.pink h2 {
-  font-size: 3.0vw; }
-
-.pink h3 {
-  font-size: 2.0vw; }
-
-.pink p {
-  font-size: 1vw; }
-
-.looprow {
-  padding: 30px 50px; }
-
-.bcg-parallax {
-  padding: 140px 0;
-  color: #fff;
-  background-color: #000;
-  text-align: center;
-  position: relative;
-  overflow: hidden; }
-
-.bcg {
-  background: url("../img/starry2.jpg") no-repeat;
-  background-size: cover;
-  position: absolute;
-  width: 100%;
-  height: 240%;
-  top: 0;
-  z-index: 1;
-  opacity: .7; }
-
-.content-wrapper {
-  width: 90%;
-  margin: 0 auto;
-  max-width: 1140px;
-  position: relative;
-  z-index: 2; }
+/* ========================================= Portrait tablets and small desktops col-sm */
+/* ========================================= Landscape phones and portrait tablets col-xs */
+/* =========================================  Portrait phones and smaller */
