@@ -250,15 +250,15 @@ body {
 
 .watch-button {
   display: block;
+  background: url("../img/global/trans-gray.png");
   margin: 150px auto 50px;
-  background-color: #000;
-  color: #fff;
-  opacity: .5;
-  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA;
-  box-shadow: 0px 0px 6px 0px #FFFFFA; }
+  background-repeat: repeat;
+  color: #F58456; }
   .watch-button:hover {
     opacity: 1;
-    color: #fff; }
+    color: #FFA500; }
+  .watch-button:focus {
+    color: #FFA500; }
 
 .letter p {
   font-size: 18px; }

@@ -59,20 +59,21 @@ body {
 }
 
 
-
-
 .watch-button {
   display:block;
+  background: url('../img/global/trans-gray.png');
   margin:150px auto 50px;
-  background-color:#000;
-  color:#fff;
-  opacity:.5;
+  background-repeat:repeat;
+  color:$orange2;
   &:hover {
     opacity:1;
-    color:#fff;
+    color:$orange;
   }
-  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA; 
-  box-shadow: 0px 0px 6px 0px #FFFFFA;
+  &:focus {
+    color:$orange;
+  }
+
+
 }
 
 .letter {
