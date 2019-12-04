@@ -22,7 +22,7 @@ var presidentText = $('div.presidentText');
 var controller = new ScrollMagic.Controller();
 
 
-var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:0}, {y:0, opacity:1}, 0.8);
+var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:1}, {y:0, opacity:1}, 0.8);
 
 // build scene
 var scene = new ScrollMagic.Scene({triggerElement: ".trigger1", duration: 400})
@@ -30,12 +30,13 @@ var scene = new ScrollMagic.Scene({triggerElement: ".trigger1", duration: 400})
       .addTo(controller)
       //.addIndicators({name: 'fade and rise gnomes'});
 
-var twChart2 = TweenMax.staggerFromTo(".chart2t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
+var twChart2 = TweenMax.staggerFromTo(".chart2t", 2, {y:50, opacity:1}, {y:0, opacity:1}, 0.8);
 
 // build scene
 var scene = new ScrollMagic.Scene({triggerElement: ".trigger2", duration: 400})
       .setTween(twChart2)
       .addTo(controller);
+
 
 var twChart3 = TweenMax.staggerFromTo(".chart3t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
 
@@ -73,7 +74,7 @@ $('a[href^="#"]').on('click', function(event) {
     if( target.length ) {
         event.preventDefault();
         $('html, body').stop().animate({
-            scrollTop: target.offset().top
+            scrollTop: target.offset().top - 49
         }, 1000);
     }
 });

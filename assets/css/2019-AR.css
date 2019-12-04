@@ -70,7 +70,7 @@
 .mtop40 {
   margin-top: 40px; }
 
-.mtop50 {
+.mtop50, #actualLetter h2 {
   margin-top: 50px; }
 
 .mright0 {
@@ -381,7 +381,7 @@ div.sustain-title hr {
 .watch-button {
   display: block;
   background: url("../img/global/trans-gray.png");
-  margin: 150px auto 50px;
+  margin: 110px auto 50px;
   background-repeat: repeat;
   color: #F58456; }
   .watch-button:hover {
@@ -439,8 +439,7 @@ div.sustain-title hr {
 .presidentText {
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 110px;
-  opacity: 0; }
+  margin-top: 110px; }
   .presidentText hr {
     opacity: .5; }
   .presidentText h1 {
@@ -454,6 +453,13 @@ div.sustain-title hr {
   .presidentText h3 {
     color: #fff;
     font-weight: 400; }
+
+.presidentThumbs img {
+  border: 2px solid #F58456; }
+
+.fancybox-caption__body {
+  max-width: 600px;
+  margin: 0 auto; }
 
 .introtwo {
   margin-left: 3vw;

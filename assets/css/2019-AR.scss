@@ -138,6 +138,7 @@ body {
     h2 {
       color:$orange2;
       @extend .mbottom30;
+      @extend .mtop50;
     }
 
     .pullquote {
@@ -195,7 +196,7 @@ div.sustain-title {
 .watch-button {
   display:block;
   background: url('../img/global/trans-gray.png');
-  margin:150px auto 50px;
+  margin:110px auto 50px;
   background-repeat:repeat;
   color:$orange2;
   &:hover {
@@ -205,11 +206,6 @@ div.sustain-title {
   &:focus {
     color:$orange;
   }
-
-
-}
-
-.family{
 
 
 }
@@ -292,8 +288,16 @@ height:400px;
     color:$white;
     font-weight:400;
   }
-  opacity:0;
 }
+
+.presidentThumbs img {
+  border:2px solid $orange2;
+}
+
+.fancybox-caption__body {
+    max-width: 600px;
+    margin: 0 auto;
+    }
 
 .introtwo {
 

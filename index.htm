@@ -214,66 +214,65 @@
 
         <!--   ====================== Line chart ===================== -->
 
-      <div class="row chart-test">
+      <div class="row chart-test chart1t">
          <div class="col-sm-6" id="canvas-container">
-            <canvas id="linechart" width="400" height="200" class="chart1t"></canvas>
+            <canvas id="linechart" width="400" height="200"></canvas>
          </div>
           <div class="col-sm-4 col-sm-offset-1 mtop50">
-              <p class="body-large chart1t ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p class="body-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
          </div> 
       </div>
 
+     <!--   ====================== Bar chart ===================== -->
 
-        <!--   ====================== Bar chart ===================== -->
-
-         <hr>
+     <hr>
 
 
-      <div class="row chart2 ptop50 pbottom50 trigger2">
-        <div class="col-sm-4 col-sm-offset-1">
-          <p class="body-large chart2t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
-        </div>
-        <div class="col-sm-5 col-sm-offset-1">
-          <canvas id="barChart" width="400" height="400"></canvas>
-        </div> 
-        
+    <div class="row pbottom50 trigger2 chart2t">
+      <div class="col-sm-4 col-sm-offset-1">
+        <p class="body-large  mtop30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  <span class="trigger3"></span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
       </div>
+    <div class="col-sm-5 col-sm-offset-1">
+      <canvas id="barChart" width="400" height="400"></canvas>
+    </div> 
+
+  </div>
+
+
 </div> <!-- end .container -->
 
-<div class="container-fluid" id="pres"><!-- President container -->
+<div class="container-fluid" ><!-- President container -->
   
-  <div class="row president">
-    <div class="col-sm-4">
-      <div class="presidentText chart3t">
-        <h1>Letter to our <br> shareholders.</h1>
-        <hr>
-        <h2>We are building long-term <br> value in an evolving energy <br>landscape.</h2>
-      </div>
-    </div> <!-- end col 4 -->
-    
-    <div class="trigger3"></div>
+  <div class="row president" id="pres">
+    <div class="chart3t"> <!-- this makes the fadeinup animation work -->
+      <div class="col-sm-4">
+        <div class="presidentText">
+          <h1>Letter to our <br> shareholders.</h1>
+          <hr>
+          <h2>We are building long-term <br> value in an evolving energy <br>landscape.</h2>
+        </div>
+      </div> <!-- end col 4 -->
+      
+      
 
-    <div class="col-sm-6 col-sm-offset-2 ">
+      <div class="col-sm-6 col-sm-offset-2">
 
-   <button class="btn btn-lg watch-button" data-fancybox href="https://www.youtube.com/embed/2d7tLL4-7y0">View a message from <br>MGEE's president Jeff Keebler <i class="fa fa-chevron-right"></i></button>
-      <div class="letter-box">
-         <p>The energy world is undergoing a transformation. Technology is opening new opportunities to invest in cleaner energy. We are tapping new technology to create products for our customers. We are using technology to inspire new community partnerships to advance sustainability in the world around us.</p> 
-         <p>Our regulated subsidiary, Madison Gas and Electric (MGE), is building upon our record of industry leadership by transitioning our generation fleet, deepening our engagement with those we serve and harnessing the power of new technologies for the benefit of all. </p>
+        <button class="btn btn-lg watch-button" data-fancybox href="https://www.youtube.com/embed/2d7tLL4-7y0">View a message from <br>MGEE's president Jeff Keebler <i class="fa fa-chevron-right"></i></button>
+          <div class="letter-box">
+            <p>The energy world is undergoing a transformation. Technology is opening new opportunities to invest in cleaner energy. We are tapping new technology to create products for our customers. We are using technology to inspire new community partnerships to advance sustainability in the world around us.</p> 
+            <p>Our regulated subsidiary, Madison Gas and Electric (MGE), is building upon our record of industry leadership by transitioning our generation fleet, deepening our engagement with those we serve and harnessing the power of new technologies for the benefit of all. </p>
 
-        <p><a href="#actualLetter"> Read the full letter &nbsp;<i class="fa fa-chevron-down" style="font-size:14px;"></i></a></p>
+          <p><a href="#actualLetter"> Read the full letter &nbsp;<i class="fa fa-chevron-down" style="font-size:14px;"></i></a></p>
 
-      </div> <!-- end letterbox -->
-    </div><!--  end col6 -->
+          </div> <!-- end letterbox -->
+      </div><!--  end col6 -->
+    </div>
     
   </div><!--  end row president -->
 </div><!-- end container fluid -->
 
 
-
-
-
-
-<div class="container" id="actualLetter">
+<div class="container mbottom50" id="actualLetter">
   
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
@@ -284,15 +283,13 @@
   </div>
 
    <div class="row pullquote">
-          <div class="col-sm-5 col-sm-offset-1">
-            <img src="assets/img/president/Keebler-2019-10-30-0090.jpg" alt="" class="img-responsive">
-          </div>
-          <div class="col-sm-5 textcol">
-           In 2018, we made significant new investments in clean energy generation.We partnered with stakeholders to grow the use of electric vehicles. And, we worked with customers and communities to build a better, smarter energy future for all of us.
-          </div>
-        </div>
-
- 
+    <div class="col-sm-5 col-sm-offset-1">
+      <img src="assets/img/president/Keebler-2019-10-30-0090.jpg" alt="" class="img-responsive">
+    </div>
+    <div class="col-sm-5 textcol">
+     In 2018, we made significant new investments in clean energy generation.We partnered with stakeholders to grow the use of electric vehicles. And, we worked with customers and communities to build a better, smarter energy future for all of us.
+    </div>
+  </div>
 
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
@@ -312,57 +309,51 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row presidentThumbs">
+    <div class="col-sm-3">
+      <a href="assets/img/president/Guilette-Family-0012.jpg" data-fancybox="images" data-caption="Family: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Guilette-Family-0012-thumb.jpg" alt="" class="img-responsive"></a>
+    </div>
+    <div class="col-sm-3">
+      <a href="assets/img/president/Networking-0010.jpg" data-fancybox="images" data-caption="Construction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Networking-0010-thumb.jpg" alt="" class="img-responsive"></a>
+    </div>
+    <div class="col-sm-3">
+      <a href="assets/img/president/Dane-Co-0059.jpg" data-fancybox="images" data-caption="Podium: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Dane-Co-0059-thumb.jpg" alt="" class="img-responsive"></a>
+    </div>
+    <div class="col-sm-3">
+      <a href="assets/img/president/Garver-charging-001.jpg" data-fancybox="images" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Garver-charging-001-thumb.jpg" alt="" class="img-responsive"></a>
+    </div>
+
+  </div>
+
+ <!--  <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
       <img src="assets/img/president/prez-charts.jpg" class="img-responsive" alt="">
     </div>
-  </div>
+  </div> -->
 
 </div><!-- /.actualLetter -->
 <div class="container-fluid">
-<div class="row sustain" id="sustainability">
-  <div class="col-sm-6 family">
+  <div class="row sustain" id="sustainability">
+    <div class="col-sm-6 family"> 
+    </div>
 
-
+  <div class="col-sm-6" >
+    <div class="sustain-title larger">
+      <h1>Advance energy efficiency.</h1>
+      <hr>
+      <h3>We are helping our customers conserve and benefit from new programs. </h3>
+    </div>
+    <!-- 
+    <figcaption>Travelers using Dane County Regional Airport could get a bird’s-eye view of up to 8 MW of solar panels. MGE and Dane County are partnering to build the array on 41 acres next to the airport under MGE’s Renewable Energy Rider option for large customers. </figcaption> -->
+      <div class="bkgmelon sustain-intro">
+        <h3 class="white text-center" >Sustainability is important to our investors, to our customers and to MGE.</h3>
+        <p>Transitioning to greater use of renewable energy is one of our strategies for achieving deep decarbonization. MGE is working toward its carbon reduction goals by investing in new, efficient and cost-effective renewable generation. We are taking advantage of improved wind and solar technologies to serve our customers reliably, affordably and sustainably. Under our Energy 2030 framework, MGE is targeting 30% renewable energy by 2030. Beyond 2030, we are targeting carbon dioxide reductions of at least 80% by 2050. If we can go further faster by working with our customers, we will.</p>
+        <p>Our new Saratoga, Iowa, wind farm is one step in our ongoing transition toward cleaner energy. At 66 MW, Saratoga is our largest wind farm—and our most efficient. It will power about 47,000 households, deliver long-lasting value to our customers and help us reach our goals. When combined with our other wind resources, Saratoga grows MGE-owned wind generation by more than 200%.</p>
+        <a href="sustainability.htm" class="box-link">Read more about MGEE's sustainability efforts <i class="fa fa-chevron-right" style="font-size:14px;"></i>  </a>
+      </div>
+    </div>
   </div>
-
- <div class="col-sm-6" >
-
-      <div class="sustain-title larger">
-
-           <h1>Advance energy efficiency.</h1>
-            <hr>
-            <h3>We are helping our customers conserve and benefit from new programs. </h3>
-          </div>
-<!-- 
-      <figcaption>Travelers using Dane County Regional Airport could get a bird’s-eye view of up to 8 MW of solar panels. MGE and Dane County are partnering to build the array on 41 acres next to the airport under MGE’s Renewable Energy Rider option for large customers. </figcaption> -->
-        
-
-  <div class="bkgmelon sustain-intro">
-      <h3 class="white text-center" >Sustainability is important to our investors, to our customers and to MGE.</h3>
-        
-     
-       <p>Transitioning to greater use of renewable energy is one of our strategies for achieving deep decarbonization. MGE is working toward its carbon reduction goals by investing in new, efficient and cost-effective renewable generation. We are taking advantage of improved wind and solar technologies to serve our customers reliably, affordably and sustainably. Under our Energy 2030 framework, MGE is targeting 30% renewable energy by 2030. Beyond 2030, we are targeting carbon dioxide reductions of at least 80% by 2050. If we can go further faster by working with our customers, we will.</p>
-     <p>Our new Saratoga, Iowa, wind farm is one step in our ongoing transition toward cleaner energy. At 66 MW, Saratoga is our largest wind farm—and our most efficient. It will power about 47,000 households, deliver long-lasting value to our customers and help us reach our goals. When combined with our other wind resources, Saratoga grows MGE-owned wind generation by more than 200%.</p>
-     <a href="sustainability.htm" class="box-link">Read more about MGEE's sustainability efforts <i class="fa fa-chevron-right" style="font-size:14px;"></i>  </a>
-  </div>
-</div>
-
- 
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-      </div> <!-- end .container-fluid -->
+</div> <!-- end .container-fluid -->
 
 </div><!-- end .page-wrap  -->
 
