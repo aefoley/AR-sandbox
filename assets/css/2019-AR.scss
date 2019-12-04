@@ -38,10 +38,21 @@ body {
 }
 .navbar-default {
   background-color:rgba(2, 2, 2, .7);
+  .navbar-nav>.open>a {
+    background-color:transparent;
+    color:$white;
+    &:hover {
+      color:$white;
+      background-color:transparent;
+    }
+  }
    .navbar-nav>li>a {
    color:#ebebeb;
    &:hover {
     color:$white;
+   }
+   &:focus {
+    color:#ebebeb;
    }
   }
   a.navbar-brand {
@@ -64,7 +75,30 @@ body {
 	border:none;
 }
 
-.spread {
+
+#return-to-top {
+    background:url('../img/global/round-up.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display:none;
+    -webkit-transition: all 0.8s linear;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+
+.sustain {
      background: url('../img/spread/K&L-17-rev.jpg') no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -72,6 +106,50 @@ body {
   background-size: cover;
   position:relative;
   height:800px;
+
+}
+
+.sustainability {
+    .subtitle {
+      color:$melon;
+    }
+    h2 {
+      color:$melon;
+      @extend .mbottom30;
+    }
+
+    .pullquote {
+      @extend .mtop30;
+      @extend .mbottom30;
+    }
+    .textcol {
+      font-size:20px;
+      border-left:2px solid $melon;
+      color:$melon;
+      @extend .mleft20;
+  }
+
+}
+
+#actualLetter {
+  .subtitle {
+      color:$orange2;
+    }
+    h2 {
+      color:$orange2;
+      @extend .mbottom30;
+    }
+
+    .pullquote {
+      @extend .mtop30;
+      @extend .mbottom30;
+    }
+    .textcol {
+      font-size:20px;
+      border-left:2px solid $orange2;
+      color:$orange2;
+      @extend .mleft20;
+  }
 
 }
 
@@ -89,7 +167,7 @@ figcaption {
 
 
 
-div.spread-title {
+div.sustain-title {
   h1 {
     font-size:3vw;
     color:$melon;
@@ -101,14 +179,18 @@ div.spread-title {
      font-weight:400;
 
     }
+
+       hr {
+    opacity:.5;
   }
-.spread-intro {
+  }
+.sustain-intro {
   color:$vdarkgray;
   margin-top:50px;
-
-    padding: 20px 50px;
+  padding: 20px 50px;
 
   h3 {margin-top:0;}
+
 }
 .watch-button {
   display:block;
@@ -135,6 +217,8 @@ div.spread-title {
 .box-link {
   color:maroon;
   text-decoration:underline;
+  &:hover {
+    color: darken( maroon, 10% )}
 }
 
 .letter {
@@ -148,9 +232,8 @@ div.spread-title {
 .letter-box{
   background-color: $orange2;
   color: #000;
-  margin: 50px;
-  padding: 50px;
-  font-size: larger;
+  margin-bottom:50px;
+  padding: 20px 50px;
 }
 
 .subtitle {
@@ -368,9 +451,14 @@ tr.secborder {
   background-size: cover;
   position:relative;
  
-
 }
 
+
+#actualLetter {
+
+
+
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */

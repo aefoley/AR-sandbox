@@ -64,7 +64,7 @@
 .mtop20 {
   margin-top: 20px; }
 
-.mtop30 {
+.mtop30, .sustainability .pullquote, #actualLetter .pullquote {
   margin-top: 30px; }
 
 .mtop40 {
@@ -103,7 +103,7 @@
 .mbottom20 {
   margin-bottom: 20px; }
 
-.mbottom30 {
+.mbottom30, .sustainability h2, .sustainability .pullquote, #actualLetter h2, #actualLetter .pullquote {
   margin-bottom: 30px; }
 
 .mbottom40 {
@@ -118,7 +118,7 @@
 .mleft10 {
   margin-left: 10px; }
 
-.mleft20 {
+.mleft20, .sustainability .textcol, #actualLetter .textcol {
   margin-left: 20px; }
 
 .mleft30 {
@@ -270,10 +270,18 @@ body {
 
 .navbar-default {
   background-color: rgba(2, 2, 2, 0.7); }
+  .navbar-default .navbar-nav > .open > a {
+    background-color: transparent;
+    color: #fff; }
+    .navbar-default .navbar-nav > .open > a:hover {
+      color: #fff;
+      background-color: transparent; }
   .navbar-default .navbar-nav > li > a {
     color: #ebebeb; }
     .navbar-default .navbar-nav > li > a:hover {
       color: #fff; }
+    .navbar-default .navbar-nav > li > a:focus {
+      color: #ebebeb; }
   .navbar-default a.navbar-brand {
     padding-top: 10px; }
     .navbar-default a.navbar-brand img {
@@ -287,7 +295,28 @@ body {
 .navbar-fixed-top {
   border: none; }
 
-.spread {
+#return-to-top {
+  background: url("../img/global/round-up.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.8s linear;
+  -moz-transition: all 0.8s ease;
+  -ms-transition: all 0.8s ease;
+  -o-transition: all 0.8s ease;
+  transition: all 0.8s ease; }
+
+.sustain {
   background: url("../img/spread/K&L-17-rev.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -295,6 +324,28 @@ body {
   background-size: cover;
   position: relative;
   height: 800px; }
+
+.sustainability .subtitle {
+  color: #e66567; }
+
+.sustainability h2 {
+  color: #e66567; }
+
+.sustainability .textcol {
+  font-size: 20px;
+  border-left: 2px solid #e66567;
+  color: #e66567; }
+
+#actualLetter .subtitle {
+  color: #F58456; }
+
+#actualLetter h2 {
+  color: #F58456; }
+
+#actualLetter .textcol {
+  font-size: 20px;
+  border-left: 2px solid #F58456;
+  color: #F58456; }
 
 figcaption {
   background: url("../img/global/trans-gray.png");
@@ -307,21 +358,24 @@ figcaption {
   margin: 10px;
   padding: 10px; }
 
-div.spread-title h1 {
+div.sustain-title h1 {
   font-size: 3vw;
   color: #e66567;
   font-weight: 400; }
 
-div.spread-title h3 {
+div.sustain-title h3 {
   font-size: 2vw;
   color: #66cbe1;
   font-weight: 400; }
 
-.spread-intro {
+div.sustain-title hr {
+  opacity: .5; }
+
+.sustain-intro {
   color: #333;
   margin-top: 50px;
   padding: 20px 50px; }
-  .spread-intro h3 {
+  .sustain-intro h3 {
     margin-top: 0; }
 
 .watch-button {
@@ -339,6 +393,8 @@ div.spread-title h3 {
 .box-link {
   color: maroon;
   text-decoration: underline; }
+  .box-link:hover {
+    color: #4d0000; }
 
 .letter p {
   font-size: 18px; }
@@ -349,9 +405,8 @@ div.spread-title h3 {
 .letter-box {
   background-color: #F58456;
   color: #000;
-  margin: 50px;
-  padding: 50px;
-  font-size: larger; }
+  margin-bottom: 50px;
+  padding: 20px 50px; }
 
 .subtitle {
   color: #F58456;

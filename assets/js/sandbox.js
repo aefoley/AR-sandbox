@@ -1,217 +1,4 @@
 
-/* ========================================= LINE CHART======================================== */
-
-let labels = ["2013", "2014", "2015", "2016", "2017", "2018"];
-
-let valuesMGEE = [1000, 1230, 1280, 1890, 1860, 1750];
-let valuesSP = [1000, 1140, 1160, 1305, 1610,1540];
-let valuesEEI = [1000, 1305, 1240, 1480, 1660, 1730];
-let valuesRUS = [1000, 1040, 1010, 1220, 1410, 1250];
-
-Chart.defaults.global.elements.line.fill = false;
-
-
-Chart.scaleService.updateScaleDefaults('linear', {
-    ticks: {
-        callback: function (value, index, values) {
-            return '$' + value.toLocaleString();
-        }
-    }
-});
-
-const dataObj = {
-  labels: labels,
-  datasets: [
-    {
-      label: "MGEE",
-      data: valuesMGEE,
-      backgroundColor:"green", //fill color of bars
-      borderColor:"green",
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
-    }, 
-    {
-      label: "S&P 500",
-      data: valuesSP,
-      backgroundColor:'maroon',
-      borderColor:'maroon',
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
-    },
-    {
-      label: "EEI Investor-Owned Electrics",
-      data: valuesEEI,
-      backgroundColor:"#fcc201", //fill color of bars
-      borderColor:"#fcc201",
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
-
-    },
-    {
-      label: "Russell 2000",
-      data: valuesRUS,
-      backgroundColor:"#545F9E", //fill color of bars
-      borderColor:"#545F9E",
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
-
-    },
-  ]
-}
-
-//const canvasObj = document.getElementById("linechart");
-
-const chartObj = {
-  type: "line",
-  data: dataObj,
-  options:{
-    legend: {
-        position: 'bottom',
-    },
-    maintainAspectRatio: false,  //you can set container height, to make it shorter
-
-    scales: {
-      yAxes: [{
-          ticks: {
-              max: 2200,
-              min: 1000,
-          }
-      }]
-    },//end scales
-    
-    title: {
-      display: true,
-      text: ['Cumulative Total Return Comparison', '(Assumes $1,000 investment on 12/31/13 with dividends reinvested)', ' '],
-      fontSize: 16,
-      fontStyle: 'normal'
-    },
-    
-    tooltips: {
-        callbacks: {
-            label: function(tooltipItem, data) {
-              var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
-                return lbl + ": $" + Number(tooltipItem.yLabel).toFixed(0).replace(/./g, function(c, i, a) {
-                    return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
-                });
-            }
-        }
-    }
-
-  }
-
-
-};
-
-//calls the line chart on scroll
-var inView = false;
-
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-}
-
-$(window).scroll(function() {
-    if (isScrolledIntoView('#linechart')) {
-        if (inView) { return; }
-        inView = true;
-        new Chart("linechart", chartObj);
-    } else {
-        inView = false;  
-    }
-});
-
-
-
-
-/* ========================================= BAR CHART ======================================== */
-
-var inView2 = false;
-
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-}
-
-$(window).scroll(function() {
-    if (isScrolledIntoView('#barChart')) {
-        if (inView2) { return; }
-        inView2 = true;
-        new Chart('barChart', {
-            type: 'bar',
-            data: {
-                labels: ['2014', '2015', '2016', '2017', '2018'],
-                datasets: [{
-                     data: [2.32, 2.06, 2.18, 2.82, 2.43],
-                    backgroundColor: [
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)'
-                    ],
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            stepSize: 1
-                        }
-                    }]
-                },
-                legend: {
-                    position: 'bottom',
-                },
-                title: {
-                    display: true,
-                    text: ['Earnings Per Share', '(2014 - 2018)', ' '],
-                    fontSize: 16,
-                    fontStyle: 'normal'
-                },
-                legend: {
-                    display: false
-                },
-                tooltips: {
-                   
-                    displayColors: false,
-            
-                    callbacks: {
-                        label: function(tooltipItem, data) {
-                          var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
-                            return lbl + " $" + Number(tooltipItem.yLabel).toFixed(2).replace(/./g, function(c, i, a) {
-                                return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
-                            });
-                        }
-                    }
-                }
-            }
-        });
-
-    } else {
-        inView2 = false;  
-    }
-});
-
-
-
-
 
 
 
@@ -258,107 +45,28 @@ var scene = new ScrollMagic.Scene({triggerElement: ".trigger3", duration: 400})
       .addTo(controller);
 
 
-/////////////////////////////////////////////////
-
-
-
-
-  
-
-  // //pinning  ------------------------------------------------------------------------  
-
-  // var pinnerScene = new ScrollMagic.Scene({
-  //   triggerElement: '.symphony',
-  //   triggerHook: 0,
-  //   duration: '30%'
-  // })
-  // .setPin('.symphony')
-  // .addIndicators({
-  //       name: 'pinner',
-  //       colorTrigger: 'salmon',
-  //       colorStart:'salmon',
-  //       colorEnd: 'salmon'
-  //   })
-  // .addTo(controller);
-
-
-  //parallax scene ---------------------------------------------------------------------
-
-// var parallaxTl = new TimelineMax();
-// parallaxTl
-//     //.from('content-wrapper', 1, {autoAlpha: 0, ease:Power0.easeNone}, 0.3) 
-//     .from('.content-wrapper', 0.3, {autoAlpha: 0, ease:Power0.easeNone}, 0.2)
-//     .from('.bcg', 2, {y:'-80%', ease:Power0.easeNone}, 0) 
-//     ;
-
-// var slideParallaxScene = new ScrollMagic.Scene({
-//       triggerElement: '.bcg-parallax',
-//       triggerHook: 1,
-//       duration: '200%' //1 - over the duration of 100% of the scrolling
-
-
-//    })
-
-//    .setTween(parallaxTl) //2 - we will play the contents of parallaxTl, which has 2 tweens on it.
-//    .addIndicators({
-//         name: 'parallax',
-//         colorTrigger: 'orange',
-//         colorStart:'orange',
-//         colorEnd: 'orange'
-//     })
-//    .addTo(controller);
-
-
-
-  //with a loop ------------------------------------------------------------------------
-
-// $('.looprow').each(function(){
-
-//   var balloonScene = new ScrollMagic.Scene({
-//     triggerElement: this.children[0],
-//     duration:200,
-//     triggerHook: .5
-//   })
-
-//     .setClassToggle(this, 'scoot')
-//     .addIndicators({
-//         name: 'scooter',
-//         colorTrigger: 'green',
-//         colorStart:'green',
-//         colorEnd: 'green'
-//     })
-//     .addTo(controller);
-
-// }) //ends looprow function
-
-  
-//   	var img = $('img');
-//   	 h1 = $('h1');
-//   	 h2 = $('h2');
-//   	 h3 = $('h3');
-//   	 p = $('p');
-//   	 tl = new TimelineLite();
-//      tl2 = new TimelineLite();
-//      btn = $('.btn');
-
-
-
-  	
-    // //using a timeline
-    // tl
-    // .add('btn')
-    // //the last one is the timeline position parameter - you can leave a gap or start it early
-    // //.to(btn, 0.3, { y: 70, autoAlpha:7, ease:Power1.easeOut})
-
-    // .from(img, 0.3, {x: 100, autoAlpha:0, ease:Power1.easeOut}, 1.5)
-    // //'-=1' - that relative positioning - relative to the one before
-    // .from(h1, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.4}, '-=1')
-    // //this one will run at the 3 second mark - it's called absolute position
-    // .from(h3, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut, delay:0.6}, 2.5)
-    // //.from(p, 0.3, {y: -15, autoAlpha:0, ease:Power1.easeOut}, 'btn-+.5' );
 
 
 //utilities - scroll to, get current year in footer
+
+
+
+  // ===== Scroll to Top ==== 
+$(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
+        $('#return-to-top').fadeIn(500);    // Fade in the arrow
+    } else {
+        $('#return-to-top').fadeOut(500);   // Else fade out the arrow
+    }
+});
+$('#return-to-top').click(function() {      // When arrow is clicked
+    $('body,html').animate({
+        scrollTop : 0                       // Scroll to top of body
+    }, 500);
+});
+
+
+
 
 $('a[href^="#"]').on('click', function(event) {
     var target = $(this.getAttribute('href'));
@@ -375,30 +83,6 @@ $('a[href^="#"]').on('click', function(event) {
   var currentYear = (new Date).getFullYear();
   $('.year').text(currentYear);
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
