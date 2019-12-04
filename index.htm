@@ -33,49 +33,52 @@
 
   <body>
 
-    <!-- Fixed navbar -->
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container" id="foo">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="assets/img/global/MGEEnergy-white-170.png" class="img-responsive" alt=""></a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#glance">At-a-glance</a></li>
-            <li><a href="#pres">President's letter</a></li>
-            <li><a href="#sustainability">Sustainability</a></li>
-            <li><a href="#MGEE">About MGEE</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
+<!-- Fixed navbar -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container" id="foo">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="assets/img/global/MGEEnergy-white-170.png" class="img-responsive" alt=""></a>
     </div>
-    <div class="page-wrap">
-      <div class="container-fluid" >
-        <div class="row cover" > 
-          <div class="col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7 col-xs-5">
-            <div class="introtext">
-                <h1>Bold <br>goals</h1>
-                <hr>
-                <h2>Community <br>focus.</h2>
-                <hr>
-                <h3 >Together we build a <br> strong energy future.</h3>
-            </div>
-            <div class="introtwo ">
-             
-              <img src="assets/img/global/MGEEnergy-white-150.png" alt="MGE Energy logo">
-              <h3 class="yellowgreen font-weight-normal">MGE Energy 2019 Annual Report</h3>
-            </div>
-          </div>
-            <a href="#glance"><div class="arrow bounce"></div></a>
-          </div>
-        </div> <!-- end container-fluid -->
-        <div class="container">
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#glance">At-a-glance</a></li>
+        <li><a href="#pres">President's letter</a></li>
+        <li><a href="#sustainability">Sustainability</a></li>
+        <li><a href="#MGEE">About MGEE</a></li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div>
+</div>
+
+<div class="page-wrap">
+  <div class="container-fluid" >
+    <div class="row cover" > 
+      <div class="col-lg-5 col-lg-offset-7 col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7 col-xs-5">
+        <div class="introtext">
+            <h1>Bold <br>goals</h1>
+            <hr>
+            <h2>Community <br>focus.</h2>
+            <hr>
+            <h3 >Together we build a <br> strong energy future.</h3>
+        </div>
+        <div class="introtwo ">
+         
+          <img src="assets/img/global/MGEEnergy-white-150.png" alt="MGE Energy logo">
+          <h3 class="yellowgreen font-weight-normal">MGE Energy 2019 Annual Report</h3>
+        </div>
+      </div>
+        <a href="#glance"><div class="arrow bounce"></div></a>
+      </div>
+    </div> <!-- end container-fluid -->
+
+
+    <div class="container"> <!-- charts container -->
           <div class="row" id="glance">
             <div class=" col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 tables">
               <div class="panel panel-default">
@@ -226,17 +229,16 @@
          <hr>
 
 
-          <div class="row chart2 ptop50 pbottom50 trigger2">
-            <div class="col-sm-4 col-sm-offset-1">
-              <p class="body-large chart2t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
-            </div>
-            <div class="col-sm-5 col-sm-offset-1">
-              <canvas id="barChart" width="400" height="400"></canvas>
-            
-            </div> 
-            
-          </div>
-      </div> <!-- end .container -->
+      <div class="row chart2 ptop50 pbottom50 trigger2">
+        <div class="col-sm-4 col-sm-offset-1">
+          <p class="body-large chart2t">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
+        </div>
+        <div class="col-sm-5 col-sm-offset-1">
+          <canvas id="barChart" width="400" height="400"></canvas>
+        </div> 
+        
+      </div>
+</div> <!-- end .container -->
 
 <div class="container-fluid" id="pres"><!-- President container -->
   
@@ -317,7 +319,7 @@
   </div>
 
 </div><!-- /.actualLetter -->
-
+<div class="container-fluid">
 <div class="row sustain" id="sustainability">
   <div class="col-sm-6 family">
 
@@ -362,7 +364,7 @@
 
       </div> <!-- end .container-fluid -->
 
-    </div><!-- end .page-wrap  -->
+</div><!-- end .page-wrap  -->
 
 <footer class="footer ptop30">
   <div class="container">
@@ -396,7 +398,7 @@
     </div>
 
   </div>
-   <a href="javascript:" id="return-to-top">
+   <a href="javascript:" id="return-to-top"></a>
 </footer>
 
 
