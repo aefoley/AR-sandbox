@@ -340,7 +340,7 @@ body {
   border-left: 2px solid #e66567;
   color: #e66567; }
 
-#connectCopy img {
+#connectCopy img.border {
   border: 2px solid #e66567; }
 
 #actualLetter .subtitle {
