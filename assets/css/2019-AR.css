@@ -64,7 +64,7 @@
 .mtop20 {
   margin-top: 20px; }
 
-.mtop30, .sustainability .pullquote, #actualLetter .pullquote {
+.mtop30, #actualLetter .pullquote {
   margin-top: 30px; }
 
 .mtop40 {
@@ -100,10 +100,10 @@
 .mbottom10 {
   margin-bottom: 10px; }
 
-.mbottom20 {
+.mbottom20, .presidentThumbs img {
   margin-bottom: 20px; }
 
-.mbottom30, .sustainability h2, .sustainability .pullquote, #actualLetter h2, #actualLetter .pullquote {
+.mbottom30, #connectCopy h2, #actualLetter h2, #actualLetter .pullquote {
   margin-bottom: 30px; }
 
 .mbottom40 {
@@ -118,7 +118,7 @@
 .mleft10 {
   margin-left: 10px; }
 
-.mleft20, .sustainability .textcol, #actualLetter .textcol {
+.mleft20, #connectCopy .textcol, #actualLetter .textcol {
   margin-left: 20px; }
 
 .mleft30 {
@@ -316,7 +316,7 @@ body {
   -o-transition: all 0.8s ease;
   transition: all 0.8s ease; }
 
-.sustain {
+#connect {
   background: url("../img/spread/K&L-17-rev.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -325,16 +325,23 @@ body {
   position: relative;
   height: 800px; }
 
-.sustainability .subtitle {
+#connectCopy .subtitle {
+  color: #e66567;
+  line-height: 1.2em; }
+
+#connectCopy h3.subtitle {
+  text-decoration: underline; }
+
+#connectCopy h2 {
   color: #e66567; }
 
-.sustainability h2 {
-  color: #e66567; }
-
-.sustainability .textcol {
+#connectCopy .textcol {
   font-size: 20px;
   border-left: 2px solid #e66567;
   color: #e66567; }
+
+#connectCopy img {
+  border: 2px solid #e66567; }
 
 #actualLetter .subtitle {
   color: #F58456; }
@@ -358,24 +365,24 @@ figcaption {
   margin: 10px;
   padding: 10px; }
 
-div.sustain-title h1 {
+div.connect-title h1 {
   font-size: 3vw;
   color: #e66567;
   font-weight: 400; }
 
-div.sustain-title h3 {
+div.connect-title h3 {
   font-size: 2vw;
   color: #66cbe1;
   font-weight: 400; }
 
-div.sustain-title hr {
+div.connect-title hr {
   opacity: .5; }
 
-.sustain-intro {
+.connect-intro {
   color: #333;
   margin-top: 50px;
   padding: 20px 50px; }
-  .sustain-intro h3 {
+  .connect-intro h3 {
     margin-top: 0; }
 
 .watch-button {
@@ -407,10 +414,6 @@ div.sustain-title hr {
   color: #000;
   margin-bottom: 50px;
   padding: 20px 50px; }
-
-.subtitle {
-  color: #F58456;
-  text-decoration: underline; }
 
 #canvas-container {
   position: relative;
@@ -455,7 +458,36 @@ div.sustain-title hr {
     font-weight: 400; }
 
 .presidentThumbs img {
-  border: 2px solid #F58456; }
+  border: 2px solid #F58456;
+  display: block;
+  margin: 0 auto 30px; }
+
+img.icon-hand-up {
+  border: none;
+  display: block;
+  margin: -80px auto 0;
+  max-width: 30px; }
+  img.icon-hand-up:hover {
+    -moz-animation: move .5s 1;
+    -webkit-animation: move .5s 1;
+    animation: move .5s 1; }
+
+@keyframes move {
+  0% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  50% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); }
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
 
 .fancybox-caption__body {
   max-width: 600px;
@@ -491,32 +523,47 @@ div.sustain-title hr {
 /* At-a-glance section 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // */
-.panel-title > a:hover, .panel-title > a:active, .panel-title > a:focus {
-  text-decoration: none; }
+.panel-default {
+  border: none; }
+  .panel-default .panel-heading {
+    border: none;
+    background-color: #66cbe3;
+    color: #fff; }
+  .panel-default .panel-title > a:hover, .panel-default .panel-title > a:active, .panel-default .panel-title > a:focus {
+    text-decoration: none; }
 
-#glance {
-  padding: 30px 0; }
-  #glance h1 {
-    font-size: 36px; }
-  #glance p {
-    font-size: 20px; }
-  #glance .tables {
-    padding-top: 50px; }
-  #glance .tables {
-    padding-left: 40px;
-    padding-right: 40px; }
-  #glance td.right {
-    text-align: right; }
-  #glance td:nth-child(2) {
-    color: #006f51;
-    font-weight: 600;
-    text-align: right; }
-  #glance td:nth-child(3) {
-    text-align: right; }
-  #glance td:nth-child(4) {
-    text-align: right; }
-  #glance td:nth-child(5) {
-    text-align: center; }
+.glance-box {
+  border: 10px solid #66cbe3; }
+
+#glance h1 {
+  font-size: 36px; }
+
+#glance p {
+  font-size: 20px; }
+
+#glance .tables {
+  padding-top: 50px; }
+
+#glance .tables {
+  padding-left: 40px;
+  padding-right: 40px; }
+
+#glance td.right {
+  text-align: right; }
+
+#glance td:nth-child(2) {
+  color: #006f51;
+  font-weight: 600;
+  text-align: right; }
+
+#glance td:nth-child(3) {
+  text-align: right; }
+
+#glance td:nth-child(4) {
+  text-align: right; }
+
+#glance td:nth-child(5) {
+  text-align: center; }
 
 tr.secborder {
   border-bottom: 2px solid #006f51; }
@@ -560,7 +607,8 @@ tr.secborder {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative; }
+  position: relative;
+  height: 660px; }
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -581,7 +629,7 @@ html, body {
 
 .footer {
   background-color: #006f51;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff; }
   .footer a {
     color: #fff; }

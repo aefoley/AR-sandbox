@@ -49,7 +49,7 @@
       <ul class="nav navbar-nav">
         <li><a href="#glance">At-a-glance</a></li>
         <li><a href="#pres">President's letter</a></li>
-        <li><a href="#sustainability">Sustainability</a></li>
+        <li><a href="#connect">Connections</a></li>
         <li><a href="#MGEE">About MGEE</a></li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -77,7 +77,7 @@
       </div>
     </div> <!-- end container-fluid -->
 
-
+<div class="glance-box">
     <div class="container"> <!-- charts container -->
           <div class="row" id="glance">
             <div class=" col-lg-8 col-lg-offset-2 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 tables">
@@ -85,8 +85,8 @@
                 <div class="panel-heading" role="tab" id="headingOne">
                   <div class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <h1 class="green text-center trigger1">Year-at-a-glance <br>
-                        <p class="green text-center">open <i class="fa fa-sort-desc"></i></p>
+                      <h1 class="text-center trigger1">Year-at-a-glance <br>
+                        <p class="text-center">open <i class="fa fa-sort-desc"></i></p>
                         
                       </h1>
                       
@@ -212,34 +212,26 @@
          <hr>
 
 
+
         <!--   ====================== Line chart ===================== -->
 
       <div class="row chart-test chart1t">
-         <div class="col-sm-6" id="canvas-container">
+         <div class="col-sm-5 " id="canvas-container">
             <canvas id="linechart" width="400" height="200"></canvas>
          </div>
-          <div class="col-sm-4 col-sm-offset-1 mtop50">
-              <p class="body-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-         </div> 
+          <div class="col-sm-5 col-sm-offset-2">
+      <canvas id="barChart" width="400" height="320"></canvas>
+    </div>
+          
       </div>
 
      <!--   ====================== Bar chart ===================== -->
 
      <hr>
 
-
-    <div class="row pbottom50 trigger2 chart2t">
-      <div class="col-sm-4 col-sm-offset-1">
-        <p class="body-large  mtop30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  <span class="trigger3"></span>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>  
-      </div>
-    <div class="col-sm-5 col-sm-offset-1">
-      <canvas id="barChart" width="400" height="400"></canvas>
-    </div> 
-
-  </div>
-
-
 </div> <!-- end .container -->
+
+</div>
 
 <div class="container-fluid" ><!-- President container -->
   
@@ -257,7 +249,8 @@
 
       <div class="col-sm-6 col-sm-offset-2">
 
-        <button class="btn btn-lg watch-button" data-fancybox href="https://www.youtube.com/embed/2d7tLL4-7y0">View a message from <br>MGEE's president Jeff Keebler <i class="fa fa-chevron-right"></i></button>
+        <button class="btn btn-lg watch-button" data-fancybox href="https://www.youtube.com/embed/2d7tLL4-7y0">View a message from <br>Jeffrey M. Keebler, Chairman,  <br>President and Chief Executive Officer
+ <i class="fa fa-chevron-right"></i></button>
           <div class="letter-box">
             <p>The energy world is undergoing a transformation. Technology is opening new opportunities to invest in cleaner energy. We are tapping new technology to create products for our customers. We are using technology to inspire new community partnerships to advance sustainability in the world around us.</p> 
             <p>Our regulated subsidiary, Madison Gas and Electric (MGE), is building upon our record of industry leadership by transitioning our generation fleet, deepening our engagement with those we serve and harnessing the power of new technologies for the benefit of all. </p>
@@ -269,14 +262,21 @@
     </div>
     
   </div><!--  end row president -->
-</div><!-- end container fluid -->
+</div><!-- end President container fluid -->
 
 
 <div class="container mbottom50" id="actualLetter">
+
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="orange2">President's Letter</h2>
+    </div>
+  </div>
   
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
-    <h2 class="orange2">President's Letter</h2>
+
+    <div class="col-lg-12" style="column-count:2">
+    
     <p>The energy world is undergoing a transformation. Technology is opening new opportunities to invest in cleaner energy. We are tapping new technology to create products for our customers. We are using technology to inspire new community partnerships to advance sustainability in the world around us.</p> 
     <p>Our regulated subsidiary, Madison Gas and Electric (MGE), is building upon our record of industry leadership by transitioning our generation fleet, deepening our engagement with those we serve and harnessing the power of new technologies for the benefit of all.</p>
     </div><!-- end col6 -->
@@ -292,7 +292,7 @@
   </div>
 
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2">
+    <div class="col-lg-12" style="column-count:2;">
       <p>Our commitment to long-term sustainability drives us to build shareholder and customer value in new and exciting ways while still fulfilling our fundamental responsibility to provide safe, reliable energy every hour of every day to everyone. </p>
       <p>In 2018, we made significant new investments in clean energy generation.We partnered with stakeholders to grow the use of electric vehicles. And, we  worked with customers and communities to build a better, smarter energy future for all of us.</p> 
 
@@ -302,73 +302,207 @@
       <p>Total return is another indicator of your investment’s  performance. It is the combination of stock price and  reinvested dividends. Throughout the last five years,  MGE Energy’s annualized total return was nearly 12%—outperforming the Russell 2000, S&P 500 and EEI Investor-  Owned Electric Utilities. A $1,000 investment in MGE Energy,  with dividends reinvested, would have grown to $1,756 during  the five years ending Dec. 31, 2018. </p>
       <p>We reported earnings of $2.43 per share in 2018 compared to  $2.82 per share in 2017, which includes a 62-cent per share  one-time, non-cash tax benefit due to the Tax Cuts and Jobs  Act. Strong earnings in 2018 resulted from higher gas and  electric retail sales due to weather conditions and customer growth.</p>
       <p>MGE Energy continues to earn recognition nationwide for our  disciplined approach to financial management. MGE maintains  the highest credit ratings of any investor-owned combination  utility in the nation from both Standard & Poor’s (S&P) and  Moody’s. Value Line also gives MGE Energy top marks for  investment safety and its highest grades for financial strength.</p>
+    </div>
+  </div>
+
+  <div class="row mbottom30 mtop30">
+    <div class="col-sm-10 col-sm-offset-1">
+      <img src="assets/img/president/prez-charts.jpg" alt="" class="img-responsive">
+    </div>
+    
+  </div>
+  
+
+  <div class="row">
+    <div class="col-lg-12" style="column-count:2;">
       <h4 class="subtitle">Growth for a cleaner, connected future  </h4>
       <p>MGE Energy is growing our asset base by investing in  new, clean energy generation as well as the systems and  capabilities to deliver new programs, products and services to our customers. These investments will enable MGE to serve  as your community energy company for the future.</p>
       <p>Our $212 million in capital investment in 2018 was driven by  the construction of our $112 million Saratoga Wind Farm in  northeast Iowa and investments in new systems for enterprise  resource planning, work and asset management, and  human capital management. Known as Enterprise Forward,  this multiyear initiative will replace legacy software with  new integrated, digital technology. In 2019, we project an  estimated $145 million in capital expenditures, which include  spending to enhance the customer experience and to enable  MGE to meet customers’ changing needs and expectations  more efficiently and effectively.</p>
-      <p>MGE Energy is making these new investments while  managing costs to customers. A rate case settlement  agreement with intervenors lowers electric rates in 2019 and  raises natural gas rates slightly in 2019 and 2020. These rate  changes reflect the tax-savings impact of the 2017 Tax Cuts  and Jobs Act and the addition of cost-effective renewable.</p>  
+      <p>MGE Energy is making these new investments while  managing costs to customers. A rate case settlement  agreement with intervenors lowers electric rates in 2019 and  raises natural gas rates slightly in 2019 and 2020. These rate  changes reflect the tax-savings impact of the 2017 Tax Cuts  and Jobs Act and the addition of cost-effective renewable.The agreement also allows for the accelerated depreciation of certain fossil fuel-fired generation as MGE continues its transition toward greater use of renewable resources.</p>  
     </div>
   </div>
 
-  <div class="row presidentThumbs">
-    <div class="col-sm-3">
-      <a href="assets/img/president/Guilette-Family-0012.jpg" data-fancybox="images" data-caption="Family: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Guilette-Family-0012-thumb.jpg" alt="" class="img-responsive"></a>
-    </div>
-    <div class="col-sm-3">
-      <a href="assets/img/president/Networking-0010.jpg" data-fancybox="images" data-caption="Construction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Networking-0010-thumb.jpg" alt="" class="img-responsive"></a>
-    </div>
-    <div class="col-sm-3">
-      <a href="assets/img/president/Dane-Co-0059.jpg" data-fancybox="images" data-caption="Podium: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Dane-Co-0059-thumb.jpg" alt="" class="img-responsive"></a>
-    </div>
-    <div class="col-sm-3">
-      <a href="assets/img/president/Garver-charging-001.jpg" data-fancybox="images" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Garver-charging-001-thumb.jpg" alt="" class="img-responsive"></a>
+  <div class="row presidentThumbs ptop30 pbottom80">
+      <div class="col-sm-3 col-xs-3">
+        <a href="assets/img/president/Guilette-Family-0012.jpg" data-fancybox="images" data-caption="Family: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Guilette-Family-0012-thumb.jpg" alt="" class="img-responsive"><img src="assets/img/president/Hand_up_font_awesome.svg" class="icon-hand-up" /></a>
+      </div>
+      <div class="col-sm-3 col-xs-3">
+        <a href="assets/img/president/Networking-0010.jpg" data-fancybox="images" data-caption="Construction: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Networking-0010-thumb.jpg" alt="" class="img-responsive"><img src="assets/img/president/Hand_up_font_awesome.svg" class="icon-hand-up" /></a>
+      </div>
+      <div class="col-sm-3 col-xs-3">
+        <a href="assets/img/president/Dane-Co-0059.jpg" data-fancybox="images" data-caption="Podium: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Dane-Co-0059-thumb.jpg" alt="" class="img-responsive"><img src="assets/img/president/Hand_up_font_awesome.svg" class="icon-hand-up" /></a>
+      </div>
+      <div class="col-sm-3 col-xs-3">
+        <a href="assets/img/president/Garver-charging-001.jpg" data-fancybox="images" data-caption="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "><img src="assets/img/president/Garver-charging-001-thumb.jpg" alt="" class="img-responsive"><img src="assets/img/president/Hand_up_font_awesome.svg" class="icon-hand-up" /> </a>
     </div>
 
   </div>
 
- <!--  <div class="row">
-    <div class="col-lg-10 col-lg-offset-1">
-      <img src="assets/img/president/prez-charts.jpg" class="img-responsive" alt="">
+  <div class="row" style="column-count:2">
+    <div class="col-sm-12">
+
+    <h4 class="subtitle">Renewable energy investments</h4>
+    <p>MGE’s largest and most powerful wind farm, Saratoga, came online in February. Throughout 2018, crews worked to install roads, pour foundations and raise the towers to support Saratoga’s 33 turbines spread throughout 8,300 acres of Iowa farmland. </p>
+    <p>>In May, MGE applied for regulatory approval to build two large-scale solar installations in partnership with another Wisconsin utility. Combined, the utilities will own a total of 300 megawatts (MW). </p>
+    <p>Under the proposal, MGE will own 50 MW of the Badger Hollow Solar Farm in Iowa County in southwestern Wisconsin and 50 MW of Two Creeks Solar in northeastern Wisconsin. If approved by regulators, the Badger Hollow project will be the largest solar array in Wisconsin. MGE’s investment for both projects is expected to be approximately $130 million.
+    <p>These clean energy investments will help the company reach its short- and long-term carbon reduction goals. MGE is committed to reducing carbon dioxide emissions by at least 40% by 2030 from 2005 levels. Longer-term, MGE is targeting carbon reductions of at least 80% by 2050, which is consistent with the U.S. Mid-Century Strategy (MCS) for Deep Decarbonization. If we can go further faster toward our carbon reduction goals, we will. The MCS identifies three key strategies for deep decarbonization—reducing carbon intensity in electricity generation, electrifying the.</p>
+
+    <p>These strategies are the same as strategies identified by MGE in its Energy 2030 framework for a more sustainable future. MGE is pursuing these strategies for the benefit of our investors, customers and broader community. </p>
+    <h4 class="subtitle">Community partnerships</h4>
+    <p>As your community energy company, MGE is committed to working in partnership with those we serve. MGE is seeking to expand its highly successful community solar program, Shared Solar.</p> 
+    <p>MGE’s Shared Solar program began in early 2017 with a 500-kilowatt (kW) array in the city of Middleton. Customers subscribe to the voluntary program to receive a portion of their annual electric use from the community solar project.</p>
+    <p>If approved by regulators, an expansion of the Shared Solar program will feature a 5-MW solar array at the Middleton Municipal Airport. This project will allow more customers to benefit from locally generated clean energy. The program also will be open to business customers for the first time. The partnership with the City of Middleton advances both MGE’s and the City’s clean energy goals.</p>
+    <p>A share of the proposed solar array also will serve the City and the Middleton-Cross Plains Area School District under MGE’s innovative Renewable Energy Rider. Our first-of-its-kind Renewable Energy Rider gives MGE and large energy users the opportunity to partner together to tailor a renewable energy solution to meet a customer’s needs.</p> 
+    <h4 class="subtitle">Reliability for a vibrant community</h4>
+    <p>MGE is a national leader in electric reliability. Our customers 
+    rely on their safe, dependable electric and natural gas service. MGE invests in its infrastructure and its people to fulﬁll this critical responsibility.</p>
+    <p>Our electric service reliability is ranked No. 1 for both the fewest number of outages and shortest duration of outages per customer, according to a 2017 industry survey of more than 80 electric utilities nationwide. MGE has ranked in the top three utilities for the fewest number of outages in each of the last 11 years, according to the annual nationwide survey. </p>
+    <p>In 2018, MGE participated in the statewide cybersecurity and emergency response exercise Dark Sky, in partnership with the Wisconsin National Guard, State of Wisconsin, local governments and other utilities. The three-day exercise served to ensure we are equipped to work together in safeguarding our grid and our state from potential threats. </p> 
+    <p>MGE’s top-ranked reliability helps to fuel the local economy. The city of Madison’s Capitol East District is one of the area’s most active for growth. Redevelopment along the area’s East Washington Avenue corridor continues to bring new residential and commercial building projects, including The Sylvee. The 2,500-person live performance venue is across the street from a new, $18 million public parking garage, designed to meet the needs of this emerging neighborhood.</p>
+    <h4 class="subtitle">Gas operations</h4>
+    <p>MGE continues to expand its natural gas service territory, bringing affordable natural gas to new customers bordering the Madison area. In addition, when notified of a potential natural gas emergency, MGE crews earn high marks, recording the fastest average response time, according to a nationwide industry survey of nearly 90 utilities. Our employees understand what it means to serve as your community energy company.</p>
+    <h4 class="subtitle">Executive leadership </h4>
+    <p>We expanded our officer corps in 2018 with two internal promotions. Jim Lorenz became Assistant Vice President of Electric Operations and Ted Wadzinski became Assistant Vice President of Gas Operations. 
+    Former Chairman Gary Wolter stepped down Oct. 1, 2018. He remains on the Board of Directors. We thank Director Wolter for his distinguished service and guidance throughout this leadership transition and succession. 
+    And, we thank you for your continued investment and confidence as we lead, build and transform your community energy company for the future.</p>
     </div>
-  </div> -->
+  </div>
+    <div class="row"><!--  row for signature -->
+      <div class="col-sm-6 col-sm-offset-6">
+        <img src="assets/img/president/Jeff-Keebler-signature.png" class="img-responsive signature" alt="">
+        <p><strong>Jeffrey M. Keebler</strong><br>
+        Chairman, President and Chief Executive Officer</p>
+      </div> 
+    </div>
 
 </div><!-- /.actualLetter -->
+
+
 <div class="container-fluid">
-  <div class="row sustain" id="sustainability">
+  <div class="row connections" id="connect">
     <div class="col-sm-6 family"> 
     </div>
 
   <div class="col-sm-6" >
-    <div class="sustain-title larger">
-      <h1>Advance energy efficiency.</h1>
+
+  
+
+    <div class="connect-title larger">
+      <h1>Building new connections with <br>our customers</h1>
       <hr>
-      <h3>We are helping our customers conserve and benefit from new programs. </h3>
+      <h3>Our new and emerging customer offerings foster relationships around energy technologies.</h3>
     </div>
-    <!-- 
-    <figcaption>Travelers using Dane County Regional Airport could get a bird’s-eye view of up to 8 MW of solar panels. MGE and Dane County are partnering to build the array on 41 acres next to the airport under MGE’s Renewable Energy Rider option for large customers. </figcaption> -->
-      <div class="bkgmelon sustain-intro">
-        <h3 class="white text-center" >Sustainability is important to our investors, to our customers and to MGE.</h3>
-        <p>Transitioning to greater use of renewable energy is one of our strategies for achieving deep decarbonization. MGE is working toward its carbon reduction goals by investing in new, efficient and cost-effective renewable generation. We are taking advantage of improved wind and solar technologies to serve our customers reliably, affordably and sustainably. Under our Energy 2030 framework, MGE is targeting 30% renewable energy by 2030. Beyond 2030, we are targeting carbon dioxide reductions of at least 80% by 2050. If we can go further faster by working with our customers, we will.</p>
-        <p>Our new Saratoga, Iowa, wind farm is one step in our ongoing transition toward cleaner energy. At 66 MW, Saratoga is our largest wind farm—and our most efficient. It will power about 47,000 households, deliver long-lasting value to our customers and help us reach our goals. When combined with our other wind resources, Saratoga grows MGE-owned wind generation by more than 200%.</p>
-        <a href="sustainability.htm" class="box-link">Read more about MGEE's sustainability efforts <i class="fa fa-chevron-right" style="font-size:14px;"></i>  </a>
+    
+      
+          <div class="bkgmelon connect-intro" style="position:relative; z-index:100;">
+
+        <h3 class="white text-center" >MGE's innovative programs advance our strategies for achieving deep decarbonization.</h3>
+       <p> Home heating and cooling drive a significant part of a household's energy consumption. Smart thermostats make saving energy almost effortless. The Wi-Fi connected devices can automatically adjust the temperature based on routines and preferences.</p>
+       <p>In summer, we launched <span class="white">MGE Connect™</span>, an expansion of our smart thermostat demand response pilot program. With nearly 1,000 customers enrolled using a variety of smart thermostats, MGE tests the use of these smart devices to help manage the grid during summertime periods of peak electricity demand. Working with our partner, EnergyHub, we are able to make minor temperature increases to household air conditioners with minimal, if any, impact on comfort.</p>
+       
+        
+        <a href="sustainability.htm" class="box-link">Read more <i class="fa fa-chevron-right" style="font-size:14px;"></i>  </a>
       </div>
+       <div class="testtab" style="height:200px; width:200px; background-color:#fff; position:relative; margin-top:-200px; z-index:1;">
+            foo
+            
+          </div>
     </div>
   </div>
 </div> <!-- end .container-fluid -->
+
+
+<div class="container mbottom50" id="connectCopy">
+  <div class="row">
+  <div class="col-sm-12">
+    <h3 class="subtitle">MGE Connect</h3>
+  </div>
+</div>
+  <div class="row pbottom30">
+    <div class="col-lg-12" style="column-count:2">
+      <p>Lauren and Kuba Krzyzostaniak signed up for MGE Connect after moving into their home on Madison's near east side. Lauren, who works out of the home they share with their two dogs, says she barely noticed the remote thermostat adjustments, which typically last two-to-three hours. Customers can opt out of the adjustments at any time.</p>    
+      <p>Under our Energy 2030 framework for a more sustainable future, MGE is committed to advancing new technologies to help manage our collective use of energy in partnership with our customers. Energy efficiency has been identified by climate experts as a key strategy for reducing carbon dioxide emissions. By employing new technologies to help customers save—whether through remote management of smart thermostats or electric vehicle home charging stations—we can better manage our grid, our environmental impact and long-term costs for all customers.  </p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12">
+    <h3 class="subtitle">Shared Solar</h3>
+  </div>
+</div>
+
+
+
+
+
+<div class="row ">
+  <div class="col-sm-12" style="column-count:2">
+    <h4 class="subtitle">Shared Solar makes it easier than ever for customers to go solar for their home or business.</h4>
+    <p>MGE's Residential and Community Services team works with our residential customers and community organizations to understand their needs and to share information about energy efficiency, electric and gas safety, and new programs, such as our unique community solar program, Shared Solar.</p>
+    <p>Building on the success of our first Shared Solar project, MGE is expanding the optional program with a 5-megawatt solar array at Middleton Municipal Airport. Seventy percent of the solar project will serve the program. With minimal upfront cost, Shared Solar offers customers who either cannot or choose not to install solar panels themselves the opportunity to power their home or business with locally generated solar from their community energy company.</p> 
+    <p>MGE partnered in summer with the Madison Area Chinese Community Organization to host multiple workshops introducing the expansion of the popular program. Partnerships such as this one enable MGE to better communicate our programs, products and services with our diverse customer base. Dozens of people attended to hear from MGE energy experts about the convenience and affordability of Shared Solar.</p> 
+    <p>The project, known as Morey Field Solar, will feature panels capable of tracking the sun throughout the day, resulting in about 25% more energy harvested compared to fixed panels. It is expected online by the end of 2020. The program's share of the array will serve the equivalent of approximately 1,100 households.  </p>
+    
+
+  </div>
+</div>
+
+<div class="row pullquote mbottom30">
+<div class="col-sm-4">
+<img src="assets/img/spread/shared-0002.png" alt="" class="img-responsive">
+</div>
+<div class="col-sm-7 textcol">
+MGE's Residential and Community Services team works to engage customers directly. In summer, energy experts partnered with the Madison Area Chinese Community Organization to host workshops where attendees could learn about and sign up for our Shared Solar program.
+</div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <h3 class="subtitle">Charge at work</h3>
+  </div>
+</div>
+
+
+<div class="row mbottom30">
+  <div class="col-sm-12" style="column-count:2">
+    <h4 class="subtitle">Our electric vehicle charging program enhances sustainability in the workplace and beyond.</h4>
+    <p>It's fair to say Jay Sandvick is an electric vehicle (EV) enthusiast. He has driven an EV for almost 10 years. He used his background and expertise to work with MGE to launch an EV workplace charging program at Madison-Kipp Corporation (MKC), a Madison-based maker of high-pressure, aluminum die castings and other components used in various manufacturing industries, including transportation.</p>
+    <p>MGE helped Sandvick, a senior automation controls engineer at MKC, to initiate an employee survey, establish a charging program for MKC's employees and determine the optimal charging equipment and location at the 120-year-old business on the city's near east side. The survey revealed high interest in offering workplace charging with 50% of respondents reporting they would consider an EV if they could charge at work. </p>
+    <p>Today, Sandvick keeps his SUV charged at a charging station outside of his office. He says the chargers have generated more awareness of and discussion at the company about the benefits of EVs, with a number of employees considering an EV for their next vehicle.</p>
+    <p>MKC is one of a growing number of local businesses embracing EV charging for both sustainability and employee recruitment and retention. MGE is committed to working with all of our customers to enable the use of new technologies to meet customers' needs and to achieve our long-term goals.</p>
+
+
+    </div><!-- end col 12 -->
+  </div>
+
+<div class="row pullquote mbottom30">
+<div class="col-sm-4">
+<img src="assets/img/spread/Madison-Kipp-0044.png" alt="" class="img-responsive">
+</div>
+<div class="col-sm-7 textcol">
+Jay Sandvick, a senior automation controls engineer at Madison-Kipp Corporation, charges his electric vehicle (EV) at his workplace every day. Sandvick worked with MGE to launch an EV charging program at his Madison employer. 
+</div>
+</div>
+
+
+
+
+
+</div><!-- /.actualLetter -->
 
 </div><!-- end .page-wrap  -->
 
 <footer class="footer ptop30">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+      <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6">
          <div class="" id="MGEE">
       
      <img src="assets/img/global/MGEEnergy-white-170.png" alt="MGE Energy logo" class="mbottom20"/>
-      <p>MGE Energy is an investor-owned public utility holding company headquartered in the state capital of Madison, Wis. MGE Energy is the parent company of Madison Gas and Electric Co. The utility provides natural gas and electric service in south-central and western Wisconsin. Assets total approximately $2 billion. In 2018, revenue was approximately $560 million. See the Corporate Profile on the inside back cover.</p>
+      <p>MGE Energy is an investor-owned public utility holding company headquartered in the state capital of Madison, Wis. MGE Energy is the parent company of Madison Gas and Electric Co. The utility provides natural gas and electric service in south-central and western Wisconsin. Assets total approximately $2 billion. In 2018, revenue was approximately $560 million.</p>
  
    </div>
       </div>
-      <div class="col-lg-7 col-lg-offset-1 col-md-8  col-sm-6 col-xs-6 ">
+      <div class="col-lg-7 col-md-5  col-sm-6 col-xs-6 ">
         <ul class="utility-menu pull-right">
           <li><a href="models.htm">utility menu here</a></li>
         </ul>
