@@ -3,37 +3,6 @@
 @import 'margins.scss';
 
 
-
-.watch-button {
-  display:block;
-  margin:150px auto 50px;
-  background-color:#000;
-  color:#fff;
-  opacity:.5;
-  &:hover {
-    opacity:1;
-    color:#fff;
-  }
-  -webkit-box-shadow: 0px 0px 6px 0px #FFFFFA; 
-  box-shadow: 0px 0px 6px 0px #FFFFFA;
-}
-
-.letter {
-  background-color: #F58456;
-  color: #000;
-  margin: 50px;
-  padding: 50px;
-  font-size: larger;
-}
-
-.subtitle {
-  color:#F58456;
-  text-decoration:underline;
-}
-#canvas-container {
-  position:relative;
-height:400px;
-}
 //variables
 $white: #fff;
 $lightgray:  #EBEBEB;
@@ -41,14 +10,23 @@ $medgray: #ADADAD;
 $darkgray: #6B6B6B;
 $vdarkgray: #333;
 $orange: #FFA500;
+$orange2:#F58456;
 $yellowgreen: #dee21e;
 $green:rgb(0,111,81);
+$melon: #e66567;
+$blue: rgb(102,203,227);
+$paleblue: #66cbe1;
 
 .orange {color:$orange}
+.orange2 {color:$orange2}
 .white { color: $white;}
 .yellowgreen {color:$yellowgreen;}
 .green {color:$green;}
+.melon {color:$melon;}
+.paleblue {color:$paleblue;}
 .bkggreen {background-color:$green;}
+.bkgmelon {background-color:$melon;}
+
 body {
   font-size:16px;
   font-weight:300;
@@ -61,10 +39,21 @@ body {
 }
 .navbar-default {
   background-color:rgba(2, 2, 2, .7);
+  .navbar-nav>.open>a {
+    background-color:transparent;
+    color:$white;
+    &:hover {
+      color:$white;
+      background-color:transparent;
+    }
+  }
    .navbar-nav>li>a {
    color:#ebebeb;
    &:hover {
     color:$white;
+   }
+   &:focus {
+    color:#ebebeb;
    }
   }
   a.navbar-brand {
@@ -87,10 +76,185 @@ body {
 	border:none;
 }
 
+
+#return-to-top {
+    background:url('../img/global/round-up.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display:none;
+    -webkit-transition: all 0.8s linear;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+}
+
+#connect { //intro box for this section
+     background: url('../img/spread/K&L-17-rev.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position:relative;
+  height:800px;
+
+}
+
+
+
+#connectCopy {
+   .subtitle {
+      color:$melon;
+      line-height:1.2em;
+    }
+    h3.subtitle {
+      text-decoration: underline;
+
+    }
+    h2 {
+      color:$melon;
+      @extend .mbottom30;
+    }
+
+    // .pullquote {
+    //   @extend .mtop30;
+    //   @extend .mbottom30;
+    // }
+    .textcol {
+      font-size:20px;
+      border-left:2px solid $melon;
+      color:$melon;
+      @extend .mleft20;
+  }
+
+  img.border{
+    border: 2px solid $melon;
+  }
+
+}
+
+
+#actualLetter {
+  .subtitle {
+      color:$orange2;
+    }
+    h2 {
+      color:$orange2;
+      @extend .mbottom30;
+      @extend .mtop50;
+    }
+
+    .pullquote {
+      @extend .mtop30;
+      @extend .mbottom30;
+    }
+    .textcol {
+      font-size:20px;
+      border-left:2px solid $orange2;
+      color:$orange2;
+      @extend .mleft20;
+  }
+
+}
+
+
+
+figcaption {
+    background: url('../img/global/trans-gray.png');
+    color: white;
+    max-width: 400px;
+    font-size: .8em;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+  div.connect-title {
+    h1 {
+      font-size:3vw;
+      color:$melon;
+      font-weight:400;
+    }
+    h3 {
+      font-size:2vw;
+      color:$paleblue;
+       font-weight:400;
+    }
+    hr {
+      opacity:.5;
+    }
+  }
+.connect-intro {
+  color:$vdarkgray;
+  margin-top:50px;
+  padding: 20px 50px;
+
+  h3 {margin-top:0;}
+
+}
+.watch-button {
+  display:block;
+  background: url('../img/global/trans-gray.png');
+  margin:110px auto 50px;
+  background-repeat:repeat;
+  color:$orange2;
+  &:hover {
+    opacity:1;
+    color:$orange;
+  }
+  &:focus {
+    color:$orange;
+  }
+
+
+}
+
+.box-link {
+  color:maroon;
+  text-decoration:underline;
+  &:hover {
+    color: darken( maroon, 10% )}
+}
+
+.letter {
+  p {
+    font-size:18px;
+  }
+  h2{
+    color:$orange2;
+  }
+}
+.letter-box{
+  background-color: $orange2;
+  color: #000;
+  margin-bottom:50px;
+  padding: 20px 50px;
+}
+
+
+#canvas-container {
+  position:relative;
+height:400px;
+}
+
 .introtext {
   margin-left:3vw;
   margin-right:3vw;
-  margin-top:15vw;
+  margin-top:12vw;
   hr {
   	opacity:.5;
   }
@@ -115,7 +279,8 @@ body {
 .presidentText{
   margin-left:3vw;
   margin-right:3vw;
-  margin-top:5vw;
+  margin-top:110px;
+
   hr {
     opacity:.5;
   }
@@ -133,15 +298,72 @@ body {
     color:$white;
     font-weight:400;
   }
-  opacity:0;
 }
+
+.presidentThumbs img {
+  border:2px solid $orange2;
+  display:block;
+  margin:0 auto 30px;
+  @extend .mbottom20;
+ 
+}
+
+img.icon-hand-up {
+  border:none;
+  display:block;
+  margin: -80px auto 0;
+  max-width:30px;
+  &:hover {
+      -moz-animation: move .5s 1;
+      -webkit-animation: move .5s 1;
+      animation: move .5s 1;
+  }
+}
+
+
+
+@keyframes move {
+  0% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+    100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+}
+
+
+
+
+
+
+
+
+
+.fancybox-caption__body {
+    max-width: 600px;
+    margin: 0 auto;
+    }
 
 .introtwo {
 
   margin-left:3vw;
   margin-right:3vw;
   margin-top:5vw;
-  margin-bottom:7vw;
+  margin-bottom:0;
   
   hr {
   	opacity:.5;
@@ -180,14 +402,27 @@ body {
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // */
  
+.panel-default {
+    border:none;
+    .panel-heading {
+      border:none;
+      background-color:$blue;
+      color: $white;
+    }
+      .panel-title>a:hover, .panel-title>a:active, .panel-title>a:focus {
+      text-decoration: none;
+      }
 
 
-.panel-title>a:hover, .panel-title>a:active, .panel-title>a:focus {
-  text-decoration: none;
+
 }
 
+
+.glance-box {
+  border: 10px solid $blue;
+}
 #glance {
-  padding:60px 0;
+  // padding:30px 0;
 
 
 
@@ -235,29 +470,49 @@ tr.secborder {
  
 }
 
-/* Charts
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// */
+/* Relaxing page load effects
+-------------------------------------------------- */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
 
-.chart1t {
-  // transform: translateY(50px);
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-// .chart1{
-//     /*starting positions*/
-//   opacity:0;
-//   transform: translateY(150px);
-//   transition: all 1s ease-out;
-// }
+.m-scene {
+  /** Basic styles for an animated element */
+  .scene_element {
+    animation-duration: .5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
 
-// .chart1.fade-in{
-//   opacity:1;
-//   transform:translateY(5px);
-// }
+  }
 
-/* President section
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-// */
+  /** An element that fades in */
+  .scene_element--fadein {
+    animation-name: fadeIn;
+  }
+
+  /** An element that fades in and slides up */
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+  }
+}
 
 
 
@@ -271,10 +526,16 @@ tr.secborder {
   -o-background-size: cover;
   background-size: cover;
   position:relative;
+  height:660px;
  
-
 }
 
+
+#actualLetter {
+
+
+
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -297,7 +558,7 @@ html, body {
 }
 .footer {
     background-color: $green;
-    font-size:12px;
+    font-size:14px;
     color:$white;
     a {color:$white;}
  }
@@ -314,102 +575,42 @@ ul.utility-menu {
 
 
 
-
-
-
-
-
-.gnomerow {
-	background-image: url('../img/footer_lodyas.png');
-	height:600px;
+/* ========================================= Large devices (large desktops, 1200px and up)  col-lg */
+@media (min-width: 1200px) {
 
 }
 
-.gnomes{
-		/*starting positions*/
-	opacity:0;
-	transform: translateY(150px);
-	transition: all 1s ease-out;
+/* ========================================= Landscape tablets and medium desktops col-md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+.spread-col-2 {
+  margin-top: 30px;
+  margin-left:-150px;
+  font-size:15px;
 }
-
-.gnomes.fade-in{
-	opacity:1;
-	transform:translateY(5px);
-}
-
-
-.looprow>img{
-	transform: translateX(0);
-	transition: all 1s ease-out;
-}
-
-.looprow.scoot>img {
-	transform:translateX(100%);
 
 }
 
 
-.symphony .col-sm-12 img {
-	display:block;
-	margin:100px auto;
-}
+/* ========================================= Portrait tablets and small desktops col-sm */
+@media (min-width: 768px) and (max-width: 991px) {
 
-.pink {
-	height:450px;
-	background-color:pink;
-	}
-
-
-.pink	h1 {
-  font-size: 5.9vw;
-  z-index: 10;
-}
-.pink h2 {
-  font-size: 3.0vw;
-}
-
-.pink h3 {
-  font-size: 2.0vw;
-}
-
-.pink p {
-  font-size: 1vw;
-}
-
-.looprow {
-	padding:30px 50px;
-}
-
-.bcg-parallax {
-	padding: 140px 0;
-	color:#fff;
-	background-color:#000;
-	text-align:center;
-	position:relative;
-	overflow:hidden;
-	}
-
-.bcg {
-	background: url('../img/starry2.jpg') no-repeat;
-	background-size: cover;
-	position: absolute;
-	width:100%;
-	height:240%;//set the starting offset to the same size as the height of the element
-	top:0;
-	z-index:1;
-	opacity:.7;
-}
-.content-wrapper {
-	width: 90%;
-	margin: 0 auto;
-	max-width: 1140px;
-	position:relative;
-	z-index: 2;
 }
 
 
 
+/* ========================================= Landscape phones and portrait tablets col-xs */
+@media (min-width: 481px) and (max-width: 767px){
 
+
+
+}
+
+/* =========================================  Portrait phones and smaller */
+@media (max-width: 480px) { 
+
+
+}
 
 
 
