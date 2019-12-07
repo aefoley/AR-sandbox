@@ -64,7 +64,7 @@
 .mtop20 {
   margin-top: 20px; }
 
-.mtop30, #actualLetter .pullquote {
+.mtop30, #connectCopy .row.connectThumbs {
   margin-top: 30px; }
 
 .mtop40 {
@@ -100,10 +100,10 @@
 .mbottom10 {
   margin-bottom: 10px; }
 
-.mbottom20, .presidentThumbs img {
+.mbottom20 {
   margin-bottom: 20px; }
 
-.mbottom30, #connectCopy h2, #actualLetter h2, #actualLetter .pullquote {
+.mbottom30, #connectCopy h2, #connectCopy .row.connectThumbs, #actualLetter h2, #actualLetter .row {
   margin-bottom: 30px; }
 
 .mbottom40 {
@@ -329,8 +329,12 @@ body {
   color: #e66567;
   line-height: 1.2em; }
 
-#connectCopy h3.subtitle {
-  text-decoration: underline; }
+#connectCopy hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 0;
+  border-top: 1px solid #e66567;
+  opacity: .5; }
 
 #connectCopy h2 {
   color: #e66567; }
@@ -342,6 +346,9 @@ body {
 
 #connectCopy img.border {
   border: 2px solid #e66567; }
+
+#connectCopy figcaption {
+  color: #e66567; }
 
 #actualLetter .subtitle {
   color: #F58456; }
@@ -355,15 +362,9 @@ body {
   color: #F58456; }
 
 figcaption {
-  background: url("../img/global/trans-gray.png");
-  color: white;
-  max-width: 400px;
-  font-size: .8em;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  margin: 10px;
-  padding: 10px; }
+  font-size: 14px;
+  line-height: 1.3em;
+  padding-top: 5px; }
 
 div.connect-title h1 {
   font-size: 3vw;
@@ -460,7 +461,10 @@ div.connect-title hr {
 .presidentThumbs img {
   border: 2px solid #F58456;
   display: block;
-  margin: 0 auto 30px; }
+  margin: 0 auto; }
+
+.presidentThumbs figcaption {
+  color: #e66567; }
 
 img.icon-hand-up {
   border: none;
@@ -609,6 +613,9 @@ tr.secborder {
   background-size: cover;
   position: relative;
   height: 660px; }
+
+#actualLetter .row.presidentThumbs {
+  margin-bottom: 90px; }
 
 /* Sticky footer styles
 -------------------------------------------------- */

@@ -117,10 +117,14 @@ body {
       color:$melon;
       line-height:1.2em;
     }
-    h3.subtitle {
-      text-decoration: underline;
-
+    hr {
+      margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    border-top: 1px solid $melon;
+    opacity:.5;
     }
+
     h2 {
       color:$melon;
       @extend .mbottom30;
@@ -141,6 +145,14 @@ body {
     border: 2px solid $melon;
   }
 
+  figcaption {
+    color:$melon;
+  }
+  .row.connectThumbs {
+    @extend .mbottom30;
+    @extend .mtop30;
+  }
+
 }
 
 
@@ -154,10 +166,10 @@ body {
       @extend .mtop50;
     }
 
-    .pullquote {
-      @extend .mtop30;
-      @extend .mbottom30;
-    }
+    // .pullquote {
+    //   @extend .mtop30;
+    //   @extend .mbottom30;
+    // }
     .textcol {
       font-size:20px;
       border-left:2px solid $orange2;
@@ -170,16 +182,10 @@ body {
 
 
 figcaption {
-    background: url('../img/global/trans-gray.png');
-    color: white;
-    max-width: 400px;
-    font-size: .8em;
-    display: block;
-    position: absolute;
-    bottom: 0;
-    margin: 10px;
-    padding: 10px;
-}
+    font-size: 14px;
+    line-height:1.3em;
+    padding-top:5px;
+  }
 
 
 
@@ -300,12 +306,15 @@ height:400px;
   }
 }
 
-.presidentThumbs img {
-  border:2px solid $orange2;
-  display:block;
-  margin:0 auto 30px;
-  @extend .mbottom20;
- 
+.presidentThumbs {
+  img {
+    border:2px solid $orange2;
+    display:block;
+    margin:0 auto;
+  }
+  figcaption {
+    color:$melon;
+  }
 }
 
 img.icon-hand-up {
@@ -531,11 +540,14 @@ tr.secborder {
 }
 
 
-#actualLetter {
-
-
+#actualLetter .row {
+  @extend .mbottom30;
 
 }
+
+  #actualLetter .row.presidentThumbs {
+    margin-bottom:90px;
+  }
 
 /* Sticky footer styles
 -------------------------------------------------- */
