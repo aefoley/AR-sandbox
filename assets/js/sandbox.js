@@ -89,9 +89,9 @@ $('a[href^="#"]').on('click', function(event) {
 
   var charttab = $('.charttab');
   if (charttab.hasClass('visible')){
-      charttab.animate({"left":"-460px"}, "slow").removeClass('visible');
+      charttab.animate({"left":"-490px"}, "fast").removeClass('visible');
   } else {
-      charttab.animate({"left":"-50px"}, "slow").addClass('visible');
+      charttab.animate({"left":"-20px"}, "fast").addClass('visible');
   }
   });
 

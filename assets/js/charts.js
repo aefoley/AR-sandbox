@@ -210,31 +210,42 @@ $(window).scroll(function() {
 });
 
 
-new Chart(document.getElementById("pieChart"), {
-    type: 'pie',
-    data: {
-      labels: ["Africa", "Asia", "Europe", "Latin America", "North America"],
-      datasets: [{
-        label: "Population (millions)",
-        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
-        data: [2478,5267,734,784,433]
-      }]
-    },
-    options: {
-      title: {
-        display: true,
-        text: 'Predicted world population (millions) in 2050'
-      }
-    }
-});
 
-(function() { // self calling function replaces document.ready()
+
+(function(){ // self calling function replaces document.ready()
 
 //adding event listenr to button
-    document.querySelector('#pop-in-test').addEventListener('click',function(){
+    document.querySelector('#chart-click').addEventListener('click',function(){
+      setTimeout(function(){
+        var ctx = document.getElementById("pieChart");
 
-    chart.destroy();
-    chart = new Chart(ctx, config);
-});
+          var config = {
+            type: 'pie',
+            data: {
+                labels: ["Coal", "Natural Gas", "Nuclear", "Other Renewables", "Hydroelectric", "Petroleum (only 2 GWh)"],
+                datasets: [{
+                  label: "Wisconsin power sources, 2015",
+                  backgroundColor: ["#F2C311", "#E94D3B","#18BD9C","#3598DC","#9D57B5", "#333"],
+                  data: [2503,897,865,285,170,2]
+                }]
+              },
+              options: {
+                title: {
+                  display: true,
+                  text: "Wisconsin power sources, 2015"
+                },
+                legend: {
+                  position:'bottom'
+                  }
+              }
+          };
+
+          var chart = new Chart(ctx, config);
+      }, 800);
+
+      });
+})();
+
+
 
 
