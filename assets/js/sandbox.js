@@ -85,19 +85,19 @@ $('a[href^="#"]').on('click', function(event) {
   $('.year').text(currentYear);
 
 
+   $('a#chart-click').click(function(){
+
+  var charttab = $('.charttab');
+  if (charttab.hasClass('visible')){
+      charttab.animate({"left":"-460px"}, "slow").removeClass('visible');
+  } else {
+      charttab.animate({"left":"-50px"}, "slow").addClass('visible');
+  }
+  });
 
 
-
-     $('a#chart-click').click(function(){
-
-    var charttab = $('.charttab');
-    if (charttab.hasClass('visible')){
-        charttab.animate({"left":"-460px"}, "slow").removeClass('visible');
-    } else {
-        charttab.animate({"left":"-50px"}, "slow").addClass('visible');
-    }
-    });
-
-
+  $('[data-fancybox="gallery"]').fancybox({
+   loop: true,
+  });
 
 })($);
