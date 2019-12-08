@@ -189,21 +189,26 @@ figcaption {
 
 
 
-  div.connect-title {
-    h1 {
-      font-size:3vw;
-      color:$melon;
-      font-weight:400;
-    }
-    h3 {
-      font-size:2vw;
-      color:$paleblue;
-       font-weight:400;
-    }
-    hr {
-      opacity:.5;
-    }
+div.connect-title {
+    background:url('../img/global/trans-gray.png');
+    padding:10px 20px;
+    margin-top:20px;
+
+  h1 {
+    font-size:3vw;
+    color:$melon;
+    font-weight:400;
+    margin-top:0;
   }
+  h3 {
+    font-size:2vw;
+    color:$paleblue;
+     font-weight:400;
+  }
+  hr {
+    opacity:.5;
+  }
+}
 .connect-intro {
   color:$vdarkgray;
   margin-top:50px;
@@ -212,6 +217,32 @@ figcaption {
   h3 {margin-top:0;}
 
 }
+
+.family >.caption {
+  margin-top:600px;
+}
+
+#chart-click {
+ float:right;
+ margin-top:10px;
+ margin-right:10px;
+}
+
+.charttab {
+  height:350px; 
+  width:500px;
+  border-radius: 15px 15px 15px 15px;
+  -moz-border-radius: 15px 15px 15px 15px;
+  -webkit-border-radius: 15px 15px 15px 15px;
+  border: 0px solid #000000; 
+  background-color:#fff; 
+  position:absolute; 
+  z-index:250;
+  top:50px;
+  left:-460px;
+}
+
+
 .watch-button {
   display:block;
   background: url('../img/global/trans-gray.png');
@@ -234,6 +265,8 @@ figcaption {
   text-decoration:underline;
   &:hover {
     color: darken( maroon, 10% )}
+  &:focus {
+    color: maroon; }
 }
 
 .letter {
@@ -317,44 +350,28 @@ height:400px;
   }
 }
 
-img.icon-hand-up {
-  border:none;
-  display:block;
-  margin: -80px auto 0;
-  max-width:30px;
-  &:hover {
-      -moz-animation: move .5s 1;
-      -webkit-animation: move .5s 1;
-      animation: move .5s 1;
-  }
+div.icon-hand-up {
+
+border: none;
+display: block;
+background: url(../img/global/trans-gray.png) !important;
+padding: 5px;
+color: #fff;
+font-size: 12px;
+font-weight: 400;
+position: absolute;
+top: 220px;
+width: 70%;
 }
-
-
-
-@keyframes move {
-  0% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-
-  50% {
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -webkit-transform: translateY(-10px);
-    transform: translateY(-10px);
-  }
-    100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
+.caption { 
+  background-image:url('../img/global/trans-gray.png'); 
+  color:#fff;
+  font-size:13px; 
+  padding:20px; 
+  width:40vw;
+  margin-top:600px;
 
 }
-
-
 
 
 
@@ -601,11 +618,18 @@ ul.utility-menu {
   font-size:15px;
 }
 
+div.icon-hand-up{
+  top: 160px;
+  }
+
 }
 
 
 /* ========================================= Portrait tablets and small desktops col-sm */
 @media (min-width: 768px) and (max-width: 991px) {
+  div.icon-hand-up{
+  top: 100px;
+  }
 
 }
 
@@ -614,6 +638,11 @@ ul.utility-menu {
 /* ========================================= Landscape phones and portrait tablets col-xs */
 @media (min-width: 481px) and (max-width: 767px){
 
+.connect-intro {margin-top:200px;}
+
+  div.icon-hand-up{
+  top: 80px;
+  }
 
 
 }
