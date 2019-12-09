@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <title>Test</title>
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&display=swap" rel="stylesheet">
+    <link  href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- chart css -->
+    <link href="assets/chart/Chart.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/2019-AR.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"><img src="assets/img/global/MGEEnergy-white-170.png" class="img-responsive" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#glance">At-a-glance</a></li>
+            <li><a href="#">Presidential letter</a></li>
+            <li><a href="#">Lorem</a></li>
+            <li><a href="#MGEE">About MGEE</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+     
+<div class="container">
+<div style="height:1000px; border:1px solid pink;" id="testdiv"></div>
+
+ <div class="row chart-test mtop50 ptop50" >
+     
+     <div class="col-sm-6">
+             
+       <canvas id="myChart" width="400" height="450"></canvas>
+     </div>
+      
+  </div>
+  <div style="height:1000px; border:1px solid aqua;" id="testdiv2"></div>
+
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="assets/js/chartjs-plugin-deferred.js"></script>
+
+    <script type="text/javascript" src="assets/js/sandbox-test.js"></script>
+    <script>
+      
+var ctx = document.getElementById("myChart");
+
+var config = {
+  type: 'line',
+  data: {
+    labels: ["2013", "2014", "2015", "2016", "2017", "2018"],
+    datasets: [
+      {
+        label: 'MGEE',
+        data: [1000, 1230, 1280, 1890, 1860, 1750],
+        backgroundColor:"green", //fill color of bars
+        borderColor:"green",
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1     
+      },{
+        label: 'S&P 500',
+        data: [1000, 1140, 1160, 1305, 1610,1540],
+        backgroundColor:'maroon',
+        borderColor:'maroon',
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1 
+      },{
+        label: 'EEI Investor-Owned Electrics',
+        data: [1000, 1305, 1240, 1480, 1660, 1730],
+        backgroundColor:"#fcc201", //fill color of bars
+        borderColor:"#fcc201",
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1
+      },{
+        label: 'Russel 2000',
+        data: [1000, 1040, 1010, 1220, 1410, 1250],
+        backgroundColor:"#545F9E", //fill color of bars
+        borderColor:"#545F9E",
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1
+      }
+    ]//datasets
+  },
+  
+  options: {
+    legend: {
+        position: 'bottom',
+    },
+    maintainAspectRatio: false,  //you can set container height, to make it shorter
+
+    scales: {
+      yAxes: [{
+          ticks: {
+              max: 2200,
+              min: 1000,
+          }
+      }]
+    },//end scales
+    
+    title: {
+      display: true,
+      text: ['Cumulative Total Return Comparison', '(Assumes $1,000 investment on 12/31/13 with dividends reinvested)', ' '],
+      fontSize: 16,
+      fontStyle: 'normal'
+    },
+    
+    tooltips: {
+        callbacks: {
+            label: function(tooltipItem, data) {
+              var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
+                return lbl + ": $" + Number(tooltipItem.yLabel).toFixed(0).replace(/./g, function(c, i, a) {
+                    return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+                });
+            }
+        }
+    },
+    plugins: {
+      deferred: {
+        yOffset: 400 // defer until 50% of the canvas height are inside the viewport
+      }
+    }//plugins
+  }
+
+
+};
+
+var chart = new Chart(ctx, config);
+
+
+
+
+
+
+    </script>
+  </body>
+</html>

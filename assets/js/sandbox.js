@@ -12,8 +12,9 @@
 var introtext = $('div.introtext');
 var introtwo = $('div.introtwo');
 var presidentText = $('div.presidentText');
-  TweenLite.to(introtext, 1, {opacity:1, y:-50});
-  TweenLite.to(introtwo, 1, {opacity:1, y:-50, delay: 0.8});
+
+TweenLite.to(introtext, 1, {opacity:1, y:-50});
+TweenLite.to(introtwo, 1, {opacity:1, y:-50, delay: 0.8});
 
 
   
@@ -22,7 +23,7 @@ var presidentText = $('div.presidentText');
 var controller = new ScrollMagic.Controller();
 
 
-var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:1}, {y:0, opacity:1}, 0.8);
+var twChart1 = TweenMax.staggerFromTo(".chart1t", 2, {y:80, opacity:0}, {y:0, opacity:1}, 0.8);
 
 // build scene
 var scene = new ScrollMagic.Scene({triggerElement: ".trigger1", duration: 400})
@@ -44,6 +45,22 @@ var twChart3 = TweenMax.staggerFromTo(".chart3t", 2, {y:50, opacity:0}, {y:0, op
 var scene = new ScrollMagic.Scene({triggerElement: ".trigger3", duration: 400})
       .setTween(twChart3)
       .addTo(controller);
+
+var twChart4 = TweenMax.staggerFromTo(".chart4t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".trigger4", duration: 400})
+      .setTween(twChart4)
+      .addTo(controller);
+
+var twChart5 = TweenMax.staggerFromTo(".chart5t", 2, {y:50, opacity:0}, {y:0, opacity:1}, 0.8);
+
+// build scene
+var scene = new ScrollMagic.Scene({triggerElement: ".trigger5", duration: 400})
+      .setTween(twChart5)
+      .addTo(controller);
+
+
 
 
 
@@ -89,9 +106,9 @@ $('a[href^="#"]').on('click', function(event) {
 
   var charttab = $('.charttab');
   if (charttab.hasClass('visible')){
-      charttab.animate({"left":"-490px"}, "fast").removeClass('visible');
+      charttab.animate({"left":"-490px"}, "slow").removeClass('visible');
   } else {
-      charttab.animate({"left":"-20px"}, "fast").addClass('visible');
+      charttab.animate({"left":"-20px"}, "slow").addClass('visible');
   }
   });
 

@@ -1,13 +1,4 @@
 
-/* ========================================= LINE CHART======================================== */
-
-let labels = ["2013", "2014", "2015", "2016", "2017", "2018"];
-
-let valuesMGEE = [1000, 1230, 1280, 1890, 1860, 1750];
-let valuesSP = [1000, 1140, 1160, 1305, 1610,1540];
-let valuesEEI = [1000, 1305, 1240, 1480, 1660, 1730];
-let valuesRUS = [1000, 1040, 1010, 1220, 1410, 1250];
-
 Chart.defaults.global.elements.line.fill = false;
 
 
@@ -18,57 +9,57 @@ Chart.scaleService.updateScaleDefaults('linear', {
         }
     }
 });
+/* ========================================= LINE CHART ======================================== */
 
-const dataObj = {
-  labels: labels,
-  datasets: [
-    {
-      label: "MGEE",
-      data: valuesMGEE,
-      backgroundColor:"green", //fill color of bars
-      borderColor:"green",
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
-    }, 
-    {
-      label: "S&P 500",
-      data: valuesSP,
-      backgroundColor:'maroon',
-      borderColor:'maroon',
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
-    },
-    {
-      label: "EEI Investor-Owned Electrics",
-      data: valuesEEI,
-      backgroundColor:"#fcc201", //fill color of bars
-      borderColor:"#fcc201",
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
 
-    },
-    {
-      label: "Russell 2000",
-      data: valuesRUS,
-      backgroundColor:"#545F9E", //fill color of bars
-      borderColor:"#545F9E",
-      borderWidth: 3,
-      lineTension: 0,
-      pointRadius: 1,
+var ctx = document.getElementById("linechart");
 
-    },
-  ]
-}
-
-//const canvasObj = document.getElementById("linechart");
-
-const chartObj = {
-  type: "line",
-  data: dataObj,
-  options:{
+var config = {
+  type: 'line',
+  data: {
+    labels: ["2013", "2014", "2015", "2016", "2017", "2018"],
+    datasets: [
+      {
+        label: 'MGEE',
+        data: [1000, 1230, 1280, 1890, 1860, 1750],
+        fill:false,
+        backgroundColor:"green", //fill color of bars
+        borderColor:"green",
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1     
+      },{
+        label: 'S&P 500',
+        data: [1000, 1140, 1160, 1305, 1610,1540],
+        fill:false,
+        backgroundColor:'maroon',
+        borderColor:'maroon',
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1 
+      },{
+        label: 'EEI Investor-Owned Electrics',
+        data: [1000, 1305, 1240, 1480, 1660, 1730],
+        fill:false,
+        backgroundColor:"#fcc201", //fill color of bars
+        borderColor:"#fcc201",
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1
+      },{
+        label: 'Russel 2000',
+        data: [1000, 1040, 1010, 1220, 1410, 1250],
+        fill:false,
+        backgroundColor:"#545F9E", //fill color of bars
+        borderColor:"#545F9E",
+        borderWidth: 3,
+        lineTension: 0,
+        pointRadius: 1
+      }
+    ]//datasets
+  },
+  
+  options: {
     legend: {
         position: 'bottom',
     },
@@ -99,122 +90,96 @@ const chartObj = {
                 });
             }
         }
-    }
-
+    },
+    plugins: {
+      deferred: {
+        yOffset: 350 // defer until 50% of the canvas height are inside the viewport
+      }
+    }//plugins
   }
 
 
 };
 
-//calls the line chart on scroll
-var inView = false;
-
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-
-    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-}
-
-$(window).scroll(function() {
-    if (isScrolledIntoView('#linechart')) {
-        if (inView) { return; }
-        inView = true;
-        new Chart("linechart", chartObj);
-    } else {
-        inView = false;  
-    }
-});
-
-
+var chart = new Chart(ctx, config);
 
 
 /* ========================================= BAR CHART ======================================== */
 
-var inView2 = false;
 
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
+var ctx2 = document.getElementById("barChart");
 
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
+var config2 = {
+  type: 'bar',
+  data: {
+    labels: ['2014', '2015', '2016', '2017', '2018'],
+    datasets: [{
+        data: [2.32, 2.06, 2.18, 2.82, 2.43],
+        backgroundColor: [
+          'rgba(105, 158, 115, 1)',
+          'rgba(105, 158, 115, 1)',
+          'rgba(105, 158, 115, 1)',
+          'rgba(105, 158, 115, 1)',
+          'rgba(0, 111, 81, 1)'
+        ],
+     }
+    ]//datasets
+  }, 
+  
+  options: {
+    showAllTooltips: true,
 
-    return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
-}
+    legend: {
+        display: false,
+               
+    },
+    maintainAspectRatio: false,  //you can set container height, to make it shorter
 
-$(window).scroll(function() {
-    if (isScrolledIntoView('#barChart')) {
-        if (inView2) { return; }
-        inView2 = true;
-        new Chart('barChart', {
-            type: 'bar',
-            data: {
-                labels: ['2014', '2015', '2016', '2017', '2018'],
-                datasets: [{
-                     data: [2.32, 2.06, 2.18, 2.82, 2.43],
-                    backgroundColor: [
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)',
-                        'rgba(0, 111, 81, 1)'
-                    ],
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        ticks: {
-                            beginAtZero: true,
-                            stepSize: 1
-                        }
-                    }]
-                },
-                legend: {
-                    position: 'bottom',
-                },
-                title: {
-                    display: true,
-                    text: ['Earnings Per Share', '(2014 - 2018)', ' '],
-                    fontSize: 16,
-                    fontStyle: 'normal'
-                },
-                legend: {
-                    display: false
-                },
-                tooltips: {
-                   
-                    displayColors: false,
-            
-                    callbacks: {
-                        label: function(tooltipItem, data) {
-                          var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
-                            return lbl + " $" + Number(tooltipItem.yLabel).toFixed(2).replace(/./g, function(c, i, a) {
-                                return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
-                            });
-                        }
-                    }
-                }
+    scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true,
+                stepSize: 1
             }
-        });
+        }]
+    },
+    
+    title: {
+        display: true,
+        text: ['Earnings Per Share', '(2014 - 2018)', ' '],
+        fontSize: 16,
+        fontStyle: 'normal'
+    },
+    tooltips: {
+       
+        displayColors: false,
 
-    } else {
-        inView2 = false;  
-    }
-});
+        callbacks: {
+            label: function(tooltipItem, data) {
+              var lbl = data.datasets[tooltipItem.datasetIndex].label || '';
+                return lbl + " $" + Number(tooltipItem.yLabel).toFixed(2).replace(/./g, function(c, i, a) {
+                    return i > 0 && c !== "." && (a.length - i) % 3 === 0 ? "," + c : c;
+                });
+            }
+        },
+    },
+
+    plugins: {
+      deferred: {
+        yOffset: 350 // defer until 50% of the canvas height are inside the viewport
+      }
+    }//plugins
+  },
+};
 
 
 
+var chart2 = new Chart(ctx2, config2);
 
+
+
+//Animate pullout chart in connections on click
 (function(){ // self calling function replaces document.ready()
-
-//adding event listenr to button
     document.querySelector('#chart-click').addEventListener('click',function(){
       setTimeout(function(){
         var ctx = document.getElementById("pieChart");

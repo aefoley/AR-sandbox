@@ -408,7 +408,7 @@ div.connect-title {
   position: absolute;
   z-index: 250;
   top: 50px;
-  left: -460px; }
+  left: -490px; }
 
 .watch-button {
   display: block;
@@ -546,8 +546,11 @@ div.icon-hand-up {
 /* At-a-glance section 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // */
+.panel {
+  margin-bottom: 50px; }
+
 .panel-default {
-  border: none; }
+  border-top: none; }
   .panel-default .panel-heading {
     border: none;
     background-color: #66cbe3;
@@ -556,16 +559,14 @@ div.icon-hand-up {
     text-decoration: none; }
 
 .glance-box {
-  border: 10px solid #66cbe3; }
+  border: 10px solid #66cbe3;
+  padding-bottom: 50px; }
 
 #glance h1 {
   font-size: 36px; }
 
 #glance p {
   font-size: 20px; }
-
-#glance .tables {
-  padding-top: 50px; }
 
 #glance .tables {
   padding-left: 40px;

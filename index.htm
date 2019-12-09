@@ -67,7 +67,7 @@
             <hr>
             <h3 >Together we build a <br> strong energy future.</h3>
         </div>
-        <div class="introtwo ">
+        <div class="introtwo trigger1">
          
           <img src="assets/img/global/MGEEnergy-white-150.png" alt="MGE Energy logo">
           <h3 class="yellowgreen font-weight-normal">MGE Energy 2019 Annual Report</h3>
@@ -85,7 +85,7 @@
                 <div class="panel-heading" role="tab" id="headingOne">
                   <div class="panel-title">
                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      <h1 class="text-center trigger1">Year-at-a-glance <br>
+                      <h1 class="text-center">Year-at-a-glance <br>
                         <p class="text-center">open <i class="fa fa-sort-desc"></i></p>
                         
                       </h1>
@@ -203,40 +203,49 @@
                         </tbody>
                        </table>
                   </div><!--  end panel-body div -->
-                 <div class="trigger1"></div>
+                
                   </div>
                 </div>
               </div>
             </div> <!-- end tables -->
          </div> <!-- end #glance -->
-         <hr>
+   
 
 
 
         <!--   ====================== Line chart ===================== -->
 
-      <div class="row chart-test chart1t">
-         <div class="col-sm-5 " id="canvas-container">
-            <canvas id="linechart" width="400" height="200"></canvas>
-         </div>
-          <div class="col-sm-5 col-sm-offset-2">
-      <canvas id="barChart" width="400" height="320"></canvas>
-    </div>
+        <hr>
+        <div class="chart1t">
           
-      </div>
+          <div class="row mtop50">
+          <div class="col-sm-12"> 
+          <div class="text-center" style="font-weight:500;font-size:12px; color:#66cbe3; padding:5px; display:block; margin:0 auto; width:25%;">Hover over chart data for details &nbsp;</div>
+          </div>
+          </div>
+          <div class="row chart-test">
+           <div class="col-sm-5 " id="canvas-container">
+              <canvas id="linechart" width="400" height="400"></canvas>
 
-     <!--   ====================== Bar chart ===================== -->
+           </div>
+            <div class="col-sm-5 col-sm-offset-2">
+              <canvas id="barChart" width="400" height="350"></canvas>
+            </div>         
+          </div>
+        <hr>
+<div class="trigger2"></div>
+        </div>
 
-     <hr>
+   
 
 </div> <!-- end .container -->
 
-</div>
+</div> <!-- end .glance-box -->
 
 <div class="container-fluid" ><!-- President container -->
   
   <div class="row president" id="pres">
-    <div class="chart3t"> <!-- this makes the fadeinup animation work -->
+    <div class="chart2t"> <!-- this makes the fadeinup animation work -->
       <div class="col-sm-4">
         <div class="presidentText">
           <h1>Letter to our <br> shareholders.</h1>
@@ -250,12 +259,12 @@
       <div class="col-sm-5 col-sm-offset-2">
 
         <button class="btn btn-lg watch-button" data-fancybox href="https://www.youtube.com/embed/2d7tLL4-7y0">View a message from <br>Jeffrey M. Keebler, Chairman,  <br>President and Chief Executive Officer
- <i class="fa fa-chevron-right"></i></button>
+        <i class="fa fa-chevron-right"></i></button>
           <div class="letter-box">
             <p>The energy world is undergoing a transformation. Technology is opening new opportunities to invest in cleaner energy. We are tapping new technology to create products for our customers. We are using technology to inspire new community partnerships to advance sustainability in the world around us.</p> 
             <p>Our regulated subsidiary, Madison Gas and Electric (MGE), is building upon our record of industry leadership by transitioning our generation fleet, deepening our engagement with those we serve and harnessing the power of new technologies for the benefit of all. </p>
 
-          <p><a href="#actualLetter" class="box-link"> Read the full letter &nbsp;<i class="fa fa-chevron-down" style="font-size:14px;"></i></a></p>
+          <p><a href="#actualLetter" class="box-link trigger3"> Read the full letter &nbsp;<i class="fa fa-chevron-down" style="font-size:14px;"></i></a></p>
 
           </div> <!-- end letterbox -->
       </div><!--  end col6 -->
@@ -265,7 +274,7 @@
 </div><!-- end President container fluid -->
 
 
-<div class="container mbottom50" id="actualLetter">
+<div class="container mbottom50 chart3t" id="actualLetter">
 
   <div class="row">
     <div class="col-sm-12">
@@ -378,7 +387,7 @@
   </div>
 
     <div class="row"><!--  row for signature -->
-      <div class="col-sm-6 col-sm-offset-6">
+      <div class="col-sm-6 col-sm-offset-6 trigger4">
         <img src="assets/img/president/Jeff-Keebler-signature.png" class="img-responsive signature" alt="">
         <p><strong>Jeffrey M. Keebler</strong><br>
         Chairman, President and Chief Executive Officer</p>
@@ -398,10 +407,10 @@
     </div>
 
 
-      <div class="caption hidden-xs " >Lauren and Kuba Krzyzostaniak participate in MGE's smart thermostat program, MGE Connect, which enables MGE to make minor temperature adjustments to household thermostats during summertime periods of peak energy use. The program tests the potential for using smart devices to help manage the grid. 
+      <div class="caption hidden-xs" >Lauren and Kuba Krzyzostaniak participate in MGE's smart thermostat program, MGE Connect, which enables MGE to make minor temperature adjustments to household thermostats during summertime periods of peak energy use. The program tests the potential for using smart devices to help manage the grid. 
       </div>
     </div>
-    <div class="col-xs-12 col-sm-7 col-md-6 col-lg-5" >
+    <div class="col-xs-12 col-sm-7 col-md-6 col-lg-5 chart4t" >
       <div class="connect-title larger">
         <h1>Building new connections with <br class="hidden-lg">our customers</h1>
         <hr>
@@ -411,13 +420,13 @@
         <h3 class="white text-center" >MGE's innovative programs advance our strategies for achieving deep decarbonization.</h3>
         <p> Home heating and cooling drive a significant part of a household's energy consumption. Smart thermostats make saving energy almost effortless. The Wi-Fi connected devices can automatically adjust the temperature based on routines and preferences.</p>
         <p>In summer, we launched <span class="white">MGE Connect™</span>, an expansion of our smart thermostat demand response pilot program. With nearly 1,000 customers enrolled using a variety of smart thermostats, MGE tests the use of these smart devices to help manage the grid during summertime periods of peak electricity demand. Working with our partner, EnergyHub, we are able to make minor temperature increases to household air conditioners with minimal, if any, impact on comfort.</p>
-        <a href="#connectCopy" class="box-link">Read more <i class="fa fa-chevron-down" style="font-size:14px;"></i>  </a>
+        <a href="#connectCopy" class="box-link trigger5">Read more <i class="fa fa-chevron-down" style="font-size:14px;"></i>  </a>
       </div>
     </div>
   </div>
 </div> <!-- end .container-fluid -->
 
-<div class="container mbottom50" id="connectCopy">
+<div class="container mbottom50 chart5t" id="connectCopy">
   <div class="row">
     <div class="col-sm-12 mbottom20">
       <h3 class="subtitle">MGE Connect</h3>
@@ -427,7 +436,7 @@
 
   <div class="row">
     <div class="col-sm-5">
-      <img src="https://via.placeholder.com/450x345.png?text=Placeholder+image" alt="" class="img-responsive border">
+      <img src="assets/img/spread/istockphoto-1135019692-612x612.jpg" alt="" class="img-responsive border">
       
     </div>
     <div class="col-sm-7">    
@@ -534,6 +543,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script src="assets/js/fancybox/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+    <script src="assets/js/chartjs-plugin-deferred.js"></script>
 
     <script src="assets/js/sandbox.js"></script>
     <script src="assets/js/charts.js"></script>

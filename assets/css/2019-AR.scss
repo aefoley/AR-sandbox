@@ -239,7 +239,7 @@ div.connect-title {
   position:absolute; 
   z-index:250;
   top:50px;
-  left:-460px;
+  left:-490px;
 }
 
 
@@ -427,9 +427,11 @@ width: 70%;
 /* At-a-glance section 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // */
- 
+ .panel {
+  margin-bottom:50px;
+ }
 .panel-default {
-    border:none;
+   border-top:none;
     .panel-heading {
       border:none;
       background-color:$blue;
@@ -446,11 +448,9 @@ width: 70%;
 
 .glance-box {
   border: 10px solid $blue;
+  padding-bottom:50px;
 }
 #glance {
-  // padding:30px 0;
-
-
 
   h1 {
     font-size:36px;
@@ -458,10 +458,6 @@ width: 70%;
   p {
     font-size:20px;
   }
-  .tables {
-    padding-top:50px;
-  }
-
   .tables {
     padding-left:40px;
     padding-right:40px;
