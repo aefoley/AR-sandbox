@@ -100,10 +100,10 @@
 .mbottom10 {
   margin-bottom: 10px; }
 
-.mbottom20 {
+.mbottom20, #actualLetter .row {
   margin-bottom: 20px; }
 
-.mbottom30, #connectCopy h2, #connectCopy .row.connectThumbs, #actualLetter h2, #actualLetter .row {
+.mbottom30, #connectCopy h2, #connectCopy .row.connectThumbs, #actualLetter h2 {
   margin-bottom: 30px; }
 
 .mbottom40 {
@@ -264,7 +264,7 @@ body {
   font-weight: 300;
   color: #6B6B6B;
   line-height: 1.55;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Lato', sans-serif; }
 
 .body-large {
   font-size: 1.5em; }
@@ -347,7 +347,7 @@ body {
   color: #e66567; }
 
 #connectCopy img.border {
-  border: 2px solid #e66567; }
+  border: 4px solid #e66567; }
 
 #connectCopy figcaption {
   color: #e66567; }
@@ -371,7 +371,7 @@ figcaption {
 div.connect-title {
   background: url("../img/global/trans-gray.png");
   padding: 10px 20px;
-  margin-top: 20px; }
+  margin-top: 60px; }
   div.connect-title h1 {
     color: #e66567;
     font-weight: 500;
@@ -384,12 +384,14 @@ div.connect-title {
     opacity: .5; }
 
 .connect-intro {
+  font-size: 15px;
   color: #333;
   margin-top: 50px;
   padding: 20px 50px; }
   .connect-intro h3 {
     margin-top: 0;
-    font-size: 20px; }
+    font-size: 20px;
+    font-weight: 300; }
 
 .family > .caption {
   margin-top: 600px; }
@@ -502,7 +504,7 @@ p.cap {
     font-weight: 400; }
 
 .presidentThumbs img {
-  border: 2px solid #F58456;
+  border: 4px solid #F58456;
   display: block;
   margin: 0 auto; }
 
@@ -652,7 +654,7 @@ tr.secborder {
   height: 660px; }
 
 #actualLetter .row.presidentThumbs {
-  margin-bottom: 90px; }
+  margin-bottom: 20px; }
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -713,7 +715,7 @@ ul.utility-menu {
     .connect-intro h3 {
       font-size: 14px; }
     .connect-intro p {
-      font-size: 14px; } }
+      font-size: 13px; } }
 
 /* ========================================= Landscape phones and portrait tablets col-xs */
 @media (min-width: 481px) and (max-width: 767px) {
@@ -723,6 +725,8 @@ ul.utility-menu {
       font-size: 24px; }
     .presidentText h2 {
       font-size: 18px; }
+  #actualLetter .textcol {
+    margin-top: 30px; }
   div.main-title {
     background: url(../img/global/trans-gray.png);
     padding-top: 80px; }
