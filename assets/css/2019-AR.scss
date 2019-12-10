@@ -32,6 +32,7 @@ body {
   font-weight:300;
   color:$darkgray;
   line-height:1.55;
+  font-family:'Montserrat', sans-serif;
 }
 
 .body-large {
@@ -334,19 +335,19 @@ height:400px;
 }
 
 .presidentText{
-  margin-left:3vw;
-  margin-right:3vw;
+  margin-left:2vw;
+  margin-right:2vw;
   margin-top:50px;
 
   hr {
     opacity:.5;
   }
   h1 {
-    font-size:3vw;
+    font-size:36px;
     color:#F58456;
   }
   h2 {
-    font-size:2vw;
+    font-size:22px;
     color:#54A8D8;
     font-weight:400;
     margin-top:10px;
@@ -626,6 +627,8 @@ ul.utility-menu {
 /* ========================================= Landscape tablets and medium desktops col-md */
 @media (min-width: 992px) and (max-width: 1199px) {
 
+
+
 .spread-col-2 {
   margin-top: 30px;
   margin-left:-150px;
@@ -643,6 +646,11 @@ div.icon-hand-up{
 
 /* ========================================= Portrait tablets and small desktops col-sm */
 @media (min-width: 768px) and (max-width: 991px) {
+  
+
+
+
+
   div.icon-hand-up{
   top: 100px;
   }
@@ -683,23 +691,33 @@ div.icon-hand-up{
 /* ========================================= Landscape phones and portrait tablets col-xs */
 @media (min-width: 481px) and (max-width: 767px){
 
-.connect-intro {margin-top:200px;}
+  .presidentText {
+    margin-top:-15px;
+    h1 {
+      font-size:24px;
+    }
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+  div.main-title {
+    background: url(../img/global/trans-gray.png);
+    padding-top:80px;
+
+  }
 
   div.icon-hand-up{
     top: 80px;
   }
-  .presidentText {
-    margin-top: 40px;
-  }
-
    .letter-box p {
-    font-size:14px;
+    font-size:13px;
   }
 
   .watch-button {
     font-size:14px;
-    margin-left:50%;
-    margin-top:18vw;
+    margin-left:43%;
+    margin-top:21vw;
     margin-bottom:2vw;
   }
 
@@ -720,8 +738,8 @@ div.connect-title {
 
 .connect-intro {
     padding:10px;
-    margin-left:15vw;
-    margin-top:285px;
+    display: block;
+    margin: 285px 20px 20px;
   h1 {
     font-size:24px;
   }
@@ -729,8 +747,16 @@ div.connect-title {
     font-size:16px;
   }
   p {
-    font-size:14px;
+    font-size:13px;
   }
+}
+
+.page-wrap {
+  margin-bottom: -40px;
+ }
+
+.footer, .page-wrap:after {
+  height: 400px;
 }
 
 
