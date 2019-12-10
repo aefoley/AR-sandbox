@@ -322,6 +322,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: top left;
   position: relative;
   height: 800px; }
 
@@ -371,14 +372,13 @@ div.connect-title {
   padding: 10px 20px;
   margin-top: 20px; }
   div.connect-title h1 {
-    font-size: 3vw;
     color: #e66567;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 0; }
   div.connect-title h3 {
-    font-size: 2vw;
     color: #66cbe1;
-    font-weight: 400; }
+    font-weight: 400;
+    font-size: 20px; }
   div.connect-title hr {
     opacity: .5; }
 
@@ -387,14 +387,21 @@ div.connect-title {
   margin-top: 50px;
   padding: 20px 50px; }
   .connect-intro h3 {
-    margin-top: 0; }
+    margin-top: 0;
+    font-size: 20px; }
 
 .family > .caption {
   margin-top: 600px; }
 
+p.cap {
+  font-size: 12px;
+  margin-left: 15px;
+  margin-top: 5px;
+  width: 60vw; }
+
 #chart-click {
   float: right;
-  margin-top: 10px;
+  margin-top: 22px;
   margin-right: 10px; }
 
 .charttab {
@@ -407,13 +414,22 @@ div.connect-title {
   background-color: #fff;
   position: absolute;
   z-index: 250;
-  top: 50px;
-  left: -490px; }
+  top: 350px;
+  left: -515px; }
+
+#pieChart {
+  margin-top: -20px; }
+
+.arrowCircle {
+  height: 70px;
+  border-radius: 13px;
+  margin-right: -41px;
+  background-color: #fff; }
 
 .watch-button {
   display: block;
   background: url("../img/global/trans-gray.png");
-  margin: 110px auto 50px;
+  margin: 80px auto 50px;
   background-repeat: repeat;
   color: #F58456; }
   .watch-button:hover {
@@ -469,7 +485,7 @@ div.connect-title {
 .presidentText {
   margin-left: 3vw;
   margin-right: 3vw;
-  margin-top: 110px; }
+  margin-top: 50px; }
   .presidentText hr {
     opacity: .5; }
   .presidentText h1 {
@@ -682,13 +698,54 @@ ul.utility-menu {
 /* ========================================= Portrait tablets and small desktops col-sm */
 @media (min-width: 768px) and (max-width: 991px) {
   div.icon-hand-up {
-    top: 100px; } }
+    top: 100px; }
+  .letter-box p {
+    font-size: 14px; }
+  div.connect-title h1 {
+    font-size: 24px; }
+  div.connect-title h3 {
+    font-size: 14px; }
+  .connect-intro {
+    padding: 10px; }
+    .connect-intro h1 {
+      font-size: 24px; }
+    .connect-intro h3 {
+      font-size: 14px; }
+    .connect-intro p {
+      font-size: 14px; } }
 
 /* ========================================= Landscape phones and portrait tablets col-xs */
 @media (min-width: 481px) and (max-width: 767px) {
   .connect-intro {
     margin-top: 200px; }
   div.icon-hand-up {
-    top: 80px; } }
+    top: 80px; }
+  .presidentText {
+    margin-top: 40px; }
+  .letter-box p {
+    font-size: 14px; }
+  .watch-button {
+    font-size: 14px;
+    margin-left: 50%;
+    margin-top: 18vw;
+    margin-bottom: 2vw; }
+  div.icon-hand-up {
+    top: 50px;
+    font-size: 10px;
+    line-height: 10px; }
+  div.connect-title h1 {
+    font-size: 24px; }
+  div.connect-title h3 {
+    font-size: 14px; }
+  .connect-intro {
+    padding: 10px;
+    margin-left: 15vw;
+    margin-top: 285px; }
+    .connect-intro h1 {
+      font-size: 24px; }
+    .connect-intro h3 {
+      font-size: 16px; }
+    .connect-intro p {
+      font-size: 14px; } }
 
 /* =========================================  Portrait phones and smaller */
