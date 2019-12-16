@@ -43,6 +43,7 @@
   height: 40px;
   background-image: url("../img/global/round-down.svg");
   background-size: contain;
+  background-repeat: no-repeat;
   position: absolute;
   bottom: 20px;
   margin-left: 49vw; }
@@ -408,8 +409,8 @@ p.cap {
   margin-right: 10px; }
 
 .charttab {
-  height: 400px;
-  width: 530px;
+  height: 300px;
+  width: 350px;
   border-radius: 15px 15px 15px 15px;
   -moz-border-radius: 15px 15px 15px 15px;
   -webkit-border-radius: 15px 15px 15px 15px;
@@ -418,7 +419,7 @@ p.cap {
   position: absolute;
   z-index: 250;
   top: 350px;
-  left: -515px; }
+  left: -350px; }
 
 #pieChart {
   margin-top: -20px; }
@@ -650,6 +651,7 @@ tr.secborder {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: top left;
   position: relative;
   height: 660px; }
 
@@ -765,4 +767,64 @@ ul.utility-menu {
 /* =========================================  Portrait phones and smaller */
 @media (max-width: 480px) {
   .main-title {
-    margin-top: 85px; } }
+    margin-top: 55px;
+    padding-top: 20px;
+    background-image: url("../img/global/trans-gray.png"); }
+    .main-title h1 {
+      font-size: 42px; }
+    .main-title h2, .main-title h3 {
+      font-size: 18px; }
+    .main-title .introtwo img {
+      width: 80px; }
+  .arrow {
+    width: 30px;
+    bottom: 0; }
+  div.arrow.bounce {
+    margin-left: 45vw; }
+  #glance table {
+    font-size: 10px; }
+    #glance table td {
+      padding: 3px; }
+  #glance .tables {
+    padding: 0; }
+  #glance .panel {
+    margin-bottom: 0; }
+  .presidentText {
+    margin-top: 20px; }
+    .presidentText h1 {
+      font-size: 30px; }
+    .presidentText h2 {
+      font-size: 18px; }
+  .watch-button {
+    font-size: 14px;
+    margin-top: 170px;
+    margin-bottom: 10px; }
+  .letter-box {
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px; }
+  div.icon-hand-up {
+    top: 0; }
+  div.connect-title {
+    margin-top: 10px; }
+    div.connect-title h1 {
+      font-size: 24px; }
+    div.connect-title h3 {
+      font-size: 14px; }
+  .connect-intro {
+    padding: 10px;
+    margin-top: 280px; }
+    .connect-intro p {
+      font-size: 12px; }
+  p.cap {
+    width: 90vw; }
+  .page-wrap {
+    margin-bottom: -450px; }
+  .footer, .page-wrap:after {
+    height: 450px; }
+  footer .text-right {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px; }
+  figcaption.melon {
+    margin-bottom: 20px; } }

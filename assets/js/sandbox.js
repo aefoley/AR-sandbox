@@ -106,7 +106,7 @@ $('a[href^="#"]').on('click', function(event) {
 
   var charttab = $('.charttab');
   if (charttab.hasClass('visible')){
-      charttab.animate({"left":"-515px"}, "slow").removeClass('visible');
+      charttab.animate({"left":"-350px"}, "slow").removeClass('visible');
   } else {
       charttab.animate({"left":"-20px"}, "slow").addClass('visible');
   }
