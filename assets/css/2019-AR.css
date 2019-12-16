@@ -272,6 +272,8 @@ body {
 
 .navbar-default {
   background-color: rgba(2, 2, 2, 0.7); }
+  .navbar-default .navbar-toggle {
+    border: transparent; }
   .navbar-default .navbar-nav > .open > a {
     background-color: transparent;
     color: #fff; }

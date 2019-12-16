@@ -40,6 +40,9 @@ body {
 }
 .navbar-default {
   background-color:rgba(2, 2, 2, .7);
+  .navbar-toggle {
+    border:transparent;
+  }
   .navbar-nav>.open>a {
     background-color:transparent;
     color:$white;
