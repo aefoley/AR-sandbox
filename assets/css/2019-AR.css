@@ -477,16 +477,18 @@ p.cap {
     opacity: .5; }
   .introtext h1 {
     font-size: 5vw;
-    color: #FFA500;
+    color: #F58456;
+    font-weight: 700;
     line-height: .8; }
   .introtext h2 {
-    font-size: 2.5vw;
-    color: #fff;
-    font-weight: 400;
+    font-size: 3.5vw;
+    color: #f7f7d1;
+    font-weight: 200;
     margin-top: 10px; }
   .introtext h3 {
+    font-size: 2vw;
     color: #fff;
-    font-weight: 400; }
+    font-weight: 200; }
 
 .presidentText {
   margin-left: 2vw;
@@ -575,13 +577,13 @@ div.icon-hand-up {
   border-top: none; }
   .panel-default .panel-heading {
     border: none;
-    background-color: #66cbe3;
+    background-color: #006f51;
     color: #fff; }
   .panel-default .panel-title > a:hover, .panel-default .panel-title > a:active, .panel-default .panel-title > a:focus {
     text-decoration: none; }
 
 .glance-box {
-  border: 10px solid #66cbe3;
+  border: 10px solid #006f51;
   padding-bottom: 50px; }
 
 #glance h1 {
@@ -734,6 +736,8 @@ ul.utility-menu {
   div.main-title {
     background: url(../img/global/trans-gray.png);
     padding-top: 80px; }
+    div.main-title img {
+      width: 120px; }
   div.icon-hand-up {
     top: 80px; }
   .letter-box p {

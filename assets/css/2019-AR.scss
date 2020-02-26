@@ -16,6 +16,7 @@ $green:rgb(0,111,81);
 $melon: #e66567;
 $blue: rgb(102,203,227);
 $paleblue: #66cbe1;
+$ltyellow: #f7f7d1;
 
 .orange {color:$orange}
 .orange2 {color:$orange2}
@@ -324,20 +325,24 @@ height:400px;
   }
   h1 {
   	font-size:5vw;
-  	color:$orange;
+  	color:$orange2;
+    font-weight:700;
   	line-height:.8;
 	}
   h2 {
-  	font-size:2.5vw;
-  	color:$white;
-  	font-weight:400;
+  	font-size:3.5vw;
+  	color:$ltyellow;
+  	font-weight:200;
     margin-top:10px;
   }
   h3 {
+    font-size:2vw;
   	color:$white;
-  	font-weight:400;
+  	font-weight:200;
   }
 	opacity:0;
+
+
 }
 
 .presidentText{
@@ -459,7 +464,7 @@ width: 70%;
    border-top:none;
     .panel-heading {
       border:none;
-      background-color:$blue;
+      background-color:$green;
       color: $white;
     }
       .panel-title>a:hover, .panel-title>a:active, .panel-title>a:focus {
@@ -472,7 +477,7 @@ width: 70%;
 
 
 .glance-box {
-  border: 10px solid $blue;
+  border: 10px solid $green;
   padding-bottom:50px;
 }
 #glance {
@@ -713,6 +718,7 @@ div.icon-hand-up{
   div.main-title {
     background: url(../img/global/trans-gray.png);
     padding-top:80px;
+    img { width:120px; }
   }
 
   div.icon-hand-up{
